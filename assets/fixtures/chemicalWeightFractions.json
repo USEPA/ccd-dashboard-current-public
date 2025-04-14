@@ -1,0 +1,41 @@
+{
+  "dtxsid": "DTXSID9022528", 
+  "data" : [
+    {
+      "productName": "Lil’ Bratz Shampoo",
+      "productUrl" : "hyperlink to the (external) product URL",
+      "displayPuc": "make-up and related: lip gloss ",
+      "genenralCategory": "make-up and related",
+      "productType": "lip gloss ",
+      "productFamily": "",
+      "pucDescription": "gloss lib products",
+      "subtype" : "Cat subtype value here",
+      "minimumWeightFraction": null,
+      "maximumWeightFraction" : null,
+      "dataType": "MSDS",
+      "source" : "CPCPdb",
+      "sourceDescription": "Sample source description",
+      "souceDownloadDate" : "1999-03-31",
+      "sourceURL": "https://example.org",
+      "productCount": 33
+    },
+    {
+      "productName": "skin_lotion_4",
+      "productUrl" : null,
+      "displayPuc": "make-up and related: lip gloss ",
+      "genenralCategory": "make-up and related",
+      "productType": "lip gloss ",
+      "productFamily": "",
+      "pucDescription": "gloss lib products",
+      "subtype" : "Cat subtype value here",
+      "minimumWeightFraction": 5.08e-4,
+      "maximumWeightFraction" : 5.08e-4,
+      "dataType": "EPA_SSA: tentative chemical identification",
+      "source" : "EPA Suspect Screening Research",
+      "sourceDescription": "Turtles are green",
+      "souceDownloadDate" : "2020-01-01",
+      "sourceURL": null,
+      "productCount": 333
+    }
+  ]
+}

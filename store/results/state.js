@@ -1,0 +1,22 @@
+export default () => ({
+  chemicals: [],
+  originalChemicals: [],
+  filteredChemicals: [],
+  filterOptions: [],
+  sortOptions: [],
+  tileInfoOptions: [],
+  sortModel: null,
+  chemicalImageInfo: {
+    visible: false,
+    name: 'temp',
+    gsid: '1',
+    imageBy: 'by-dtxsid',
+  },
+  filterModel: [],
+  gridToggle: 'th',
+  tileInfo: ['dtxsid', 'casrn', 'toxcast', 'similarity'],
+  activeChemical: [],
+  leftNavReady: false,
+  headerReady: false,
+  tooManyResults: false,
+});

@@ -1,0 +1,22 @@
+[
+    {"label":"rat repro NOAEL","min":0.5740312677277188,"max":1.5740312677277188},
+    {"label":"rat rpt:dose NOEL","min":0.5740312677277188,"max":0.5740312677277188},
+    {"label":"mouse rpt:dose NOEL","min":0.6532125137753437,"max":0.6532125137753437},
+    {"label":"rat subchr LOAEL","min":1.3979400086720377,"max":1.3979400086720377},
+    {"label":"rat subchr NOAEL","min":1.3979400086720377,"max":1.5740312677277188},
+    {"label":"rat rpt:dose NOAEL","min":1.5740312677277188,"max":1.5740312677277188},
+    {"label":"rat reprodev NOAEL","min":1.5740312677277188,"max":1.5740312677277188},
+    {"label":"rat chr NOEL","min":1.6020599913279625,"max":1.6020599913279625},
+    {"label":"mouse rpt:dose NOAEL","min":1.6532125137753437,"max":1.6532125137753437},
+    {"label":"mouse reprodev NOAEL","min":1.6532125137753437,"max":1.6532125137753437},
+    {"label":"- chr LOAEL","min":1.6989700043360187,"max":1.6989700043360187},
+    {"label":"rat chr LOAEL","min":1.6989700043360187,"max":2.6989700043360187},
+    {"label":"rat dev LOAEL","min":2.204119982655925,"max":2.204119982655925},
+    {"label":"rat chr LOEL","min":2.3010299956639813,"max":2.3010299956639813},
+    {"label":"rat chr NOAEL","min":2.6989700043360187,"max":2.6989700043360187},
+    {"label":"rat subace LOAEL","min":2.7781512503836434,"max":2.7781512503836434},
+    {"label":"rat dev NOAEL","min":2.806179973983887,"max":2.806179973983887},
+    {"label":"mouse chr LOAEL","min":2.8750589471482866,"max":2.8750589471482866},
+    {"label":"mouse chr NOAEL","min":2.8750589471482866,"max":2.8750589471482866},
+    {"label":"RfD","min":-1.3010299956639813,"max":-0.22184874961635637}
+]

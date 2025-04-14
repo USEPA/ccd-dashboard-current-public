@@ -1,0 +1,59 @@
+{
+    "inputTypes": [
+        {
+            "value": "synonym",
+            "label": "Substance Identifiers",
+            "subinputs": [
+                {
+                    "model": "synonymTypes",
+                    "value": "chemical_name",
+                    "label": "Chemical Name",
+                    "help": "BATCH Input chemname"
+                },
+                {
+                    "model": "synonymTypes",
+                    "value": "CASRN",
+                    "label": "CASRN",
+                    "help": "BATCH Input casrn"
+                },
+                {
+                    "model": "synonymTypes",
+                    "value": "INCHIKEY",
+                    "label": "InChIKey",
+                    "help": "BATCH Input inchikey"
+                },
+                {
+                    "model": "synonymTypes",
+                    "value": "dtxsid",
+                    "label": "DSSTox Substance ID",
+                    "help": "BATCH Input dsstoxid"
+                }
+            ]
+        },
+        {
+            "value": "DTXCID",
+            "label": "DSSTox Compound ID",
+            "help": "BATCH Input dtxcid"
+        },
+        {
+            "value": "INCHIKEY_SKELETON",
+            "label": "InChIKey Skeleton",
+            "help": "BATCH Input inchikey skeleton"
+        },
+        {
+            "value": "MSREADY_FORMULA",
+            "label": "MS-Ready Formula(e)",
+            "help": "BATCH MS Ready Formula Search"
+        },
+        {
+            "value": "EXACT_FORMULA",
+            "label": "Exact Formula(e)",
+            "help": "BATCH Exact Formula Search"
+        },
+        {
+            "value": "MASS",
+            "label": "Monoisotopic Mass",
+            "help": "BATCH Monoisotopic Mass Search"
+        }
+    ]
+}

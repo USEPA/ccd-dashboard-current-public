@@ -1,0 +1,72 @@
+[
+  {
+    "label": "Ages 6-11",
+    "median": 0.0000433221030318452,
+    "lower95th": 0.0000379805909678219,
+    "upper95th": 0.0000491922361489609,
+    "hover": ""
+  },
+  {
+    "label": "Ages 12-19",
+    "median": 0.0000293185521693972,
+    "lower95th": 0.0000254820616127531,
+    "upper95th": 0.000033754367445215,
+    "hover": ""
+  },
+  {
+    "label": "Ages 20-65",
+    "median": 0.0000302415304459476,
+    "lower95th": 0.0000279111423197088,
+    "upper95th": 0.0000327167189808738,
+    "hover": ""
+  },
+  {
+    "label": "Ages 65+",
+    "median": 0.0000209737011787702,
+    "lower95th": 0.0000190855545772088,
+    "upper95th": 0.0000230607188191529,
+    "hover": ""
+  },
+  {
+    "label": "BMI > 30",
+    "median": 0.0000254888119548116,
+    "lower95th": 0.0000237591690805932,
+    "upper95th": 0.0000274038040784852,
+    "hover": "The body mass index (BMI) is a value derived from the mass (weight) and height of an individual.\n\tThe BMI is defined as the body mass divided by the square of the body height, and is universally expressed in\n\tunits of kg/m², resulting from mass in kilograms and height in metres"
+  },
+  {
+    "label": "BMI < 30",
+    "median": 0.0000315994348688785,
+    "lower95th": 0.000030240859108559,
+    "upper95th": 0.0000330463701923375,
+    "hover": "The body mass index (BMI) is a value derived from the mass (weight) and height of an individual.\n\tThe BMI is defined as the body mass divided by the square of the body height, and is universally expressed in\n\tunits of kg/m², resulting from mass in kilograms and height in metres"
+  },
+  {
+    "label": "Repro. Age Females",
+    "median": 0.0000306382773608095,
+    "lower95th": 0.0000283449085229728,
+    "upper95th": 0.0000331222648948001,
+    "hover": "Here, women of \"reproductive age\" are defined as any woman aged 16-49 years."
+  },
+  {
+    "label": "Females",
+    "median": 0.000027954147830261,
+    "lower95th": 0.0000257924535665069,
+    "upper95th": 0.0000302825732175878,
+    "hover": ""
+  },
+  {
+    "label": "Males",
+    "median": 0.0000314521169539631,
+    "lower95th": 0.0000293787659045113,
+    "upper95th": 0.0000336786986254646,
+    "hover": ""
+  },
+  {
+    "label": "Total",
+    "median": 0.0000296618149922253,
+    "lower95th": 0.0000286005070546901,
+    "upper95th": 0.0000308144966778762,
+    "hover": ""
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "dtxsid": "DTXSID9022528",
+  "data":[
+    {
+      "keywordSearch" : "printer ink",
+      "keywords":[
+        {
+          "keyword": "printer ink",
+          "description": "ink for inkjet printers"
+        }
+      ],
+      "categorizationSubtype":"CPCat Cassette",      
+      "sourceCount": 1
+    },
+    {
+      "keywordSearch" : "active_ingredient, Pesticides, Turtles",
+      "keywords":[
+        {
+          "keyword": "active_ingredient",
+          "description": "active ingredients in a product"
+        },
+        {
+          "keyword": "Pesticides",
+          "description": "Relating to pesticides or pesticide usage. Includes specific types of pesticides, e.g. insecticides,  herbicides, fungicides, and fumigants"
+        },
+        {
+          "keyword": "Turtles",
+          "description": "Reptiles with hard shells that protect them from predators"
+        }        
+      ],
+      "categorizationSubtype":"CPCat Cassette test",      
+      "sourceCount": 8
+    }    
+  ]
+}

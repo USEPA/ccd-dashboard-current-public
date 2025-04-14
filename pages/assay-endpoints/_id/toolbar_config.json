@@ -1,0 +1,75 @@
+{
+  "tileInfoOptions": [
+    {"label": "DTXSID", "id": "dtxsid"},
+    {"label": "CASRN", "id": "casrn"},
+    {"label": "ToxCast", "id": "toxcast"},
+    {"label": "Mono. Mass.", "id": "monoisotopicMass"},
+    {"label": "Mol. Formula", "id": "molFormula"}
+  ],
+  "filterOptions": [{
+    "value": "unselected",
+    "text": "Unselected"
+  }, {
+    "value": "isotope",
+    "text": "Isotopes"
+
+  }, {
+    "value": "multicomponent",
+    "text": "Multicomponent Chemicals"
+
+  }, {
+    "value": "noStructure",
+    "text": "No Structures"
+
+  }, 
+  {
+    "value": "structure",
+    "text": "Are Structures"
+  },
+  {
+    "value": "inactive",
+    "text": "Inactive"
+
+  }, {
+    "value": "active",
+    "text": "Active"
+
+  }],
+  "sortOptions": [{
+    "text": "Default",
+    "value": "default"
+  }, {
+    "text": "DTXSID",
+    "value": "dtxsid"
+  }, {
+    "text": "Name",
+    "value": "preferredName"
+  }, {
+    "text": "CASRN",
+    "value": "casrn"
+  }, {
+    "text": "QC Level",
+    "value": "qcLevel"
+  }, {
+    "text": "Mono.Mass",
+    "value": "monoisotopicMass"
+  }, {
+    "text": "ToxCast",
+    "value": "activeAssays"
+  }, {
+    "text": "Hit Call",
+    "value": "hitCall"
+  }, {
+    "text": "Top",
+    "value": "top"
+  }, {
+    "text": "Scaled Top",
+    "value": "scaledTop"
+  }, {
+    "text": "AC50",
+    "value": "ac50"
+  }, {
+    "text": "log AC50",
+    "value": "logAc50"
+  }]
+}

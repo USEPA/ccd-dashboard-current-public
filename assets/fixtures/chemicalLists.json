@@ -1,0 +1,25 @@
+{
+  "chemicalLists": [
+    {
+      "createdDate": "2018-01-05T16:40:04.000+0000",
+      "lastModifiedDate": "2018-01-05T05:00:00.000+0000",
+      "createdBy": "awilli04",
+      "name": "Chemical List Error",
+      "label": "Error connecting to live data for chemical lists",
+      "type": "federal",
+      "visibility": "PUBLIC",
+      "isVisible": true,
+      "shortDescription": "Extremely Hazardous Substance List and Threshold Planning Quantities; Emergency Planning and Release Notification Requirements; Final Rule. (52 FR 13378)",
+      "longDescription": "Error connecting to live data for chemical lists Please try again later. If problem persists please contact us",
+      "chemicalCount": 0,
+      "_links": {
+        "self": {
+          "href": "http://ho.epa.gov:8064/api/chemical-lists/5e41c619d322b73498cf4daa"
+        },
+        "chemical-list": {
+          "href": "http://ho.epa.gov:8064/api/chemical-lists/5e41c619d322b73498cf4daa"
+        }
+      }
+    }
+  ]
+}

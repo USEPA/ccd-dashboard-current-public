@@ -1,0 +1,403 @@
+[{
+	"synonym": "Bisphenol A",
+	"quality": "valid"
+}, {
+	"synonym": "4,4'-(Propane-2,2-diyl)diphenol",
+	"quality": "valid"
+}, {
+	"synonym": "Phenol, 4,4'-(1-methylethylidene)bis-",
+	"quality": "valid"
+}, {
+	"synonym": "80-05-7",
+	"quality": "valid"
+}, {
+	"synonym": "BPA",
+	"quality": "valid"
+}, {
+	"synonym": "4,4’-Propane-2,2-diyldiphenol",
+	"quality": "valid"
+}, {
+	"synonym": "Phenol, 4,4'-(1-methylethylidene)bis-",
+	"quality": "valid"
+}, {
+	"synonym": "4-06-00-06717",
+	"quality": "beilstein"
+}, {
+	"synonym": "(4,4'-Dihydroxydiphenyl)dimethylmethane",
+	"quality": "good"
+}, {
+	"synonym": "2,2-Bis(4'-hydroxyphenyl) propane",
+	"quality": "good"
+}, {
+	"synonym": "2,2'-Bis(4-hydroxyphenyl)propane",
+	"quality": "good"
+}, {
+	"synonym": "2,2-BIS-(4-HYDROXY-PHENYL)-PROPANE",
+	"quality": "good"
+}, {
+	"synonym": "2,2-Bis(4-hydroxyphenyl)propane",
+	"quality": "good"
+}, {
+	"synonym": "2,2-Bis(p-hydroxyphenyl)propane",
+	"quality": "good"
+}, {
+	"synonym": "2,2-Di(4-Hydroxyphenyl) Propane",
+	"quality": "good"
+}, {
+	"synonym": "2,2-DI(4-HYDROXYPHENYL)PROPANE",
+	"quality": "good"
+}, {
+	"synonym": "2,2-Di(4-phenylol)propane",
+	"quality": "good"
+}, {
+	"synonym": "4,4'-(1-Methylethylidene)bisphenol",
+	"quality": "good"
+}, {
+	"synonym": "4,4'-Bisphenol A",
+	"quality": "good"
+}, {
+	"synonym": "4,4'-DIHYDROXYPHENYL-2,2-PROPANE",
+	"quality": "good"
+}, {
+	"synonym": "4,4'-isopropilidendifenol",
+	"quality": "good"
+}, {
+	"synonym": "4,4'-Isopropylidendiphenol",
+	"quality": "good"
+}, {
+	"synonym": "4,4'-Isopropylidene bisphenol",
+	"quality": "good"
+}, {
+	"synonym": "4,4-ISOPROPYLIDENE DIPHENYL",
+	"quality": "good"
+}, {
+	"synonym": "4,4'-Isopropylidenebis[phenol]",
+	"quality": "good"
+}, {
+	"synonym": "4,4'-isopropylidenediphenol",
+	"quality": "good"
+}, {
+	"synonym": "4,4'-Methylethylidenebisphenol",
+	"quality": "good"
+}, {
+	"synonym": "Bis(4-hydroxyphenyl)dimethylmethane",
+	"quality": "good"
+}, {
+	"synonym": "Bis(p-hydroxyphenyl)propane",
+	"quality": "good"
+}, {
+	"synonym": "BIS[PHENOL], 4,4'-(1-METHYLETHYLIDENE)-",
+	"quality": "good"
+}, {
+	"synonym": "BISPHENOL, 4,4'-(1-METHYLETHYLIDENE)-",
+	"quality": "good"
+}, {
+	"synonym": "Bisphenol-A",
+	"quality": "good"
+}, {
+	"synonym": "Diphenol methylethylidene",
+	"quality": "good"
+}, {
+	"synonym": "Diphenylolpropane",
+	"quality": "good"
+}, {
+	"synonym": "Hidorin F 285",
+	"quality": "good"
+}, {
+	"synonym": "Isopropylidenebis(4-hydroxybenzene)",
+	"quality": "good"
+}, {
+	"synonym": "NSC 1767",
+	"quality": "good"
+}, {
+	"synonym": "NSC 17959",
+	"quality": "good"
+}, {
+	"synonym": "p,p'-Bisphenol A",
+	"quality": "good"
+}, {
+	"synonym": "p,p'-Dihydroxydiphenylpropane",
+	"quality": "good"
+}, {
+	"synonym": "P,P'-ISOPROPYLIDENE DIPHENOL",
+	"quality": "good"
+}, {
+	"synonym": "p,p'-Isopropylidenebisphenol",
+	"quality": "good"
+}, {
+	"synonym": "p,p'-Isopropylidenediphenol",
+	"quality": "good"
+}, {
+	"synonym": "Parabis",
+	"quality": "good"
+}, {
+	"synonym": "Parabis A",
+	"quality": "good"
+}, {
+	"synonym": "Phenol, 4,4'-isopropylidenedi-",
+	"quality": "good"
+}, {
+	"synonym": "Pluracol 245",
+	"quality": "good"
+}, {
+	"synonym": "Rikabanol",
+	"quality": "good"
+}, {
+	"synonym": "β,β'-Bis(p-hydroxyphenyl)propane",
+	"quality": "good"
+}, {
+	"synonym": "2,2-Bis(hydroxyphenyl)propane",
+	"quality": "other"
+}, {
+	"synonym": "BRN 1107700",
+	"quality": "other"
+}, {
+	"synonym": "beta-Di-p-hydroxyphenylpropane",
+	"quality": "other"
+}, {
+	"synonym": "EINECS 201-245-8",
+	"quality": "other"
+}, {
+	"synonym": "NCI-C50635",
+	"quality": "other"
+}, {
+	"synonym": "Phenol, 4,4'-dimethylmethylenedi-",
+	"quality": "other"
+}, {
+	"synonym": "Phenol, (1-methylethylidene)bis-",
+	"quality": "other"
+}, {
+	"synonym": "Propane, 2,2-bis(p-hydroxyphenyl)-",
+	"quality": "other"
+}, {
+	"synonym": "UNII-MLT3645I99",
+	"quality": "other"
+}, {
+	"synonym": "(1-methylethylidene)bis-Phenol",
+	"quality": "other"
+}, {
+	"synonym": "1,1'-(1-Methylethylidene)bisphenylol, 9CI",
+	"quality": "other"
+}, {
+	"synonym": "2, 2-Bis(4-hydroxyphenyl)propane",
+	"quality": "other"
+}, {
+	"synonym": "2, 2-Bis(hydroxyphenyl)propane",
+	"quality": "other"
+}, {
+	"synonym": "2, 2-Di(4-phenylol)propane",
+	"quality": "other"
+}, {
+	"synonym": "2,2'-Bis(4-hydroxyphenyl)propane",
+	"quality": "other"
+}, {
+	"synonym": "2,2-(4,4'-Dihydroxydiphenyl)propane",
+	"quality": "other"
+}, {
+	"synonym": "2,2-(4,4-Dihydroxydiphenyl)propane",
+	"quality": "other"
+}, {
+	"synonym": "2,2-Bis (4-hydroxyphenol) propane",
+	"quality": "other"
+}, {
+	"synonym": "2,2-Bis(4'-hydroxyphenyl)propane",
+	"quality": "other"
+}, {
+	"synonym": "2,2-Bis(4,4'-hydroxyphenyl)propane",
+	"quality": "other"
+}, {
+	"synonym": "2,2-Bis(hydroxyphenyl)propane",
+	"quality": "other"
+}, {
+	"synonym": "2,2-Bis(p-hydroxyphenyl)-Propane",
+	"quality": "other"
+}, {
+	"synonym": "2,2-Bis-4'-hydroxyfenylpropan",
+	"quality": "other"
+}, {
+	"synonym": "2,2-Bis[4-Hydroxyphenyl]propane",
+	"quality": "other"
+}, {
+	"synonym": "2,2-Di-(4'-Hydroxyphenyl)-propane",
+	"quality": "other"
+}, {
+	"synonym": "4, 4'-Bisphenol A",
+	"quality": "other"
+}, {
+	"synonym": "4, 4'-Dihydroxydiphenyl-2,2-propane",
+	"quality": "other"
+}, {
+	"synonym": "4, 4'-Dihydroxydiphenyldimethylmethane",
+	"quality": "other"
+}, {
+	"synonym": "4, 4'-Dihydroxydiphenylpropane",
+	"quality": "other"
+}, {
+	"synonym": "4,4' Isopropylidinediphenol",
+	"quality": "other"
+}, {
+	"synonym": "4,4'-(1-Methylethane-1,1-diyl)diphenol",
+	"quality": "other"
+}, {
+	"synonym": "4,4'-(1-Methylethylidene)bis-Phenol",
+	"quality": "other"
+}, {
+	"synonym": "4,4'-(1-Methylethylidene)bisphenol, 9CI",
+	"quality": "other"
+}, {
+	"synonym": "4,4'-(Propane-2,2-diyl)diphenol",
+	"quality": "other"
+}, {
+	"synonym": "4,4'-Dihydroxdiphenylpropane",
+	"quality": "other"
+}, {
+	"synonym": "4,4'-Dihydroxy-2,2-diphenylpropane",
+	"quality": "other"
+}, {
+	"synonym": "4,4'-Dihydroxydiphenyl-2,2-propane",
+	"quality": "other"
+}, {
+	"synonym": "4,4'-Dihydroxydiphenyldimethylmethane",
+	"quality": "other"
+}, {
+	"synonym": "4,4'-Dihydroxydiphenylpropane",
+	"quality": "other"
+}, {
+	"synonym": "4,4'-Dimethylmethylenedi-Phenol",
+	"quality": "other"
+}, {
+	"synonym": "4,4'-Dimethylmethylenediphenol",
+	"quality": "other"
+}, {
+	"synonym": "4,4'-ISOPROPYLIDENE-DIPHENOL",
+	"quality": "other"
+}, {
+	"synonym": "4,4'-ISOPROPYLIDENEDIPHENOL (BISPHENOL A)",
+	"quality": "other"
+}, {
+	"synonym": "4,4'-Isopropylidene diphenol",
+	"quality": "other"
+}, {
+	"synonym": "4,4'-Isopropylidenebisphenol",
+	"quality": "other"
+}, {
+	"synonym": "4,4'-Isopropylidenedi-Phenol",
+	"quality": "other"
+}, {
+	"synonym": "4,4'-Isopropylidenediphenol B",
+	"quality": "other"
+}, {
+	"synonym": "4,4'-Isopropylidenediphenol",
+	"quality": "other"
+}, {
+	"synonym": "4,4'-Propane-2,2-diyldiphenol",
+	"quality": "other"
+}, {
+	"synonym": "4,4-Isopropylidenediphenol",
+	"quality": "other"
+}, {
+	"synonym": "4,4[-Isopropylidenediphenol",
+	"quality": "other"
+}, {
+	"synonym": "4-[1-(4-Hydroxyphenyl)-1-methylethyl]phenol",
+	"quality": "other"
+}, {
+	"synonym": "4-[2-(4-hydroxyphenyl)propan-2-yl]phenol",
+	"quality": "other"
+}, {
+	"synonym": "Biphenol a",
+	"quality": "other"
+}, {
+	"synonym": "Bis(4-hyd roxyphenyl) dimethylmethane",
+	"quality": "other"
+}, {
+	"synonym": "Bis(4-hydroxyphenyl) dimethylmethane",
+	"quality": "other"
+}, {
+	"synonym": "Bis(4-hydroxyphenyl) propane",
+	"quality": "other"
+}, {
+	"synonym": "Bis(4-hydroxyphenyl)propane",
+	"quality": "other"
+}, {
+	"synonym": "Bisferol a",
+	"quality": "other"
+}, {
+	"synonym": "Di-2,2-(4-Hydroxyphenyl)propane",
+	"quality": "other"
+}, {
+	"synonym": "Dian",
+	"quality": "other"
+}, {
+	"synonym": "Diano",
+	"quality": "other"
+}, {
+	"synonym": "Dimethyl bis(p-hydroxyphenyl)methane",
+	"quality": "other"
+}, {
+	"synonym": "Dimethylbis(p-hydroxyphenyl)methane",
+	"quality": "other"
+}, {
+	"synonym": "Dimethylmethylene-p,p'-diphenol",
+	"quality": "other"
+}, {
+	"synonym": "Hydrogenated bisphenol a",
+	"quality": "other"
+}, {
+	"synonym": "Ipognox 88",
+	"quality": "other"
+}, {
+	"synonym": "Millad hbpa",
+	"quality": "other"
+}, {
+	"synonym": "P, p'-Dihydroxydiphenyldimethylmethane",
+	"quality": "other"
+}, {
+	"synonym": "P, p'-Dihydroxydiphenylpropane",
+	"quality": "other"
+}, {
+	"synonym": "P, p'-Isopropylidenediphenol",
+	"quality": "other"
+}, {
+	"synonym": "P,p'-Dihydroxydiphenyldimethylmethane",
+	"quality": "other"
+}, {
+	"synonym": "Rikabanol",
+	"quality": "other"
+}, {
+	"synonym": "Ucar bisphenol HP",
+	"quality": "other"
+}, {
+	"synonym": "Ucar bisphenol a",
+	"quality": "other"
+}, {
+	"synonym": "beta, beta'-Bis(p-hydroxyphenyl)propane",
+	"quality": "other"
+}, {
+	"synonym": "beta,beta'-Bis(p-hydroxyphenyl)propane",
+	"quality": "other"
+}, {
+	"synonym": "beta,beta-Di-(p-hydroxyphenyl)propane",
+	"quality": "other"
+}, {
+	"synonym": "beta-Di-(p-hydroxyphenyl)propane",
+	"quality": "other"
+}, {
+	"synonym": "beta-Di-p-hydroxyphenylpropane",
+	"quality": "other"
+}, {
+	"synonym": "137885-53-1",
+	"quality": "deleted"
+}, {
+	"synonym": "146479-75-6",
+	"quality": "deleted"
+}, {
+	"synonym": "27360-89-0",
+	"quality": "deleted"
+}, {
+	"synonym": "28106-82-3",
+	"quality": "deleted"
+}, {
+	"synonym": "37808-08-5",
+	"quality": "deleted"
+}]

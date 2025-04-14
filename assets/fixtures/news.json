@@ -1,0 +1,10 @@
+[
+	{
+	"id": 10000,
+	"title": "Error Loading News",
+	"body": "An error has occurred while trying to load the news items please try again later.",
+	"admin": "Antony Williams",
+	"created_at": "2022-10-26T00:54:47.000Z",
+	"updated_at": "2022-10-26T01:32:35.000Z"
+	}
+]

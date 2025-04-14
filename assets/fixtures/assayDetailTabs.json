@@ -1,0 +1,108 @@
+{
+	"annotation": {
+		"aeid": 2,
+		"assayComponentEndpointName": "ACEA_ER_80hr",
+		"assayComponentEndpointDesc": "Data from the assay component ACEA_ER_80hr was analyzed into 2 assay endpoints. This assay endpoint, ACEA_ER_80hr_Positive, was analyzed in the positive fitting direction relative to DMSO as the negative control and baseline of activity. Using a type of growth reporter, measures of the cells for gain - of -signal activity can be used to understand the signaling at the pathway - level as they relate to the gene ESR1.",
+		"assayFunctionType": "signaling",
+		"normalizedDataType": "percent_activity",
+		"analysisDirection": "positive",
+		"burstAssay": "-",
+		"keyPositiveControl": "17b-estradiol",
+		"signalDirection": "gain",
+		"intendedTargetType": "pathway",
+		"intendedTargetTypeSub": "pathway-specified",
+		"intendedTargetFamily": "nuclear receptor",
+		"intendedTargetFamilySub": "steroidal",
+		"assayComponentName": "ACEA_ER_80hr",
+		"assayComponentDesc": "ACEA_ER_80hr, is one of two assay component(s) measured or calculated from the ACEA_ER assay. It is designed to make measurements of real-time cell-growth kinetics, a form of growth reporter, as detected with electrical impedance signals by Real-Time Cell Electrode Sensor (RT-CES) technology.",
+		"assayComponentTargetDesc": "Electrical impedance is used to quantify changes to the growth of the cells where increase impedance is positively correlated with increased cell growth",
+		"parameterReadoutType": "single",
+		"assayDesignType": "growth reporter",
+		"assayDesignTypeSub": "real-time cell-growth kinetics",
+		"biologicalProcessTarget": "cell proliferation",
+		"detectionTechnologyType": "Label Free Technology",
+		"detectionTechnologyTypeSub": "Electrical Sensor: Impedance",
+		"detectionTechnology": "RT-CES",
+		"signalDirectionType": "both",
+		"keyAssayReagentType": "NA",
+		"keyAssayReagent": "NA",
+		"technologicalTargetType": "cellular",
+		"technologicalTargetTypeSub": "cellular",
+		"assayName": "ACEA_ER",
+		"assayDesc": "ACEA_ER is a cell-based, single-readout assay that uses T47D, a human breast cell line, with measurements taken at 80 hours after chemical dosing in a 96-well or 384-well plate.",
+		"timepointHr": "80",
+		"organism": "human",
+		"tissue": "breast",
+		"cellFormat": "cell line",
+		"cellFreeComponentSource": "NA",
+		"cellShortName": "T47D",
+		"cellGrowthMode": "adherent",
+		"assayFootprint": "microplate: 384-well plate",
+		"assayFormatType": "cell-based",
+		"assayFormatTypeSub": "cell-based format",
+		"contentReadoutType": "single",
+		"dilutionSolvent": "DMSO",
+		"dilutionSolventPercentMax": "0.5",
+		"assaySourceName": "ACEA",
+		"assaySourceDesc": "ACEA Biosciences, Inc. (ACEA) is a privately owned biotechnology company that developed a real-time, label-free, cell-based assay system based on a microelectronic readout called xCELLigence.",
+		"entrezGeneId": "2099",
+		"geneName": "estrogen receptor 1",
+		"geneSymbol": "ESR1"
+	},
+	"citations": [
+		{
+			"pmid": 16481145,
+			"author": "Xing JZ, Zhu L, Gabos S, Xie L",
+			"title": "Microelectronic cell sensor assay for detection of cytotoxicity and prediction of acute toxicity",
+			"citation": "Xing JZ, Zhu L, Gabos S, Xie L. Microelectronic cell sensor assay for detection of cytotoxicity and prediction of acute toxicity. Toxicol In Vitro. 2006 Sep;20(6):995-1004. Epub 2006 Feb 14. PubMed PMID: 16481145.",
+			"doi": null,
+			"otherId": "0",
+			"otherSource": null,
+			"url": "http://www.ncbi.nlm.nih.gov/pubmed/16481145"
+		},
+		{
+			"pmid": 23682706,
+			"author": "Rotroff DM, Dix DJ, Houck KA, Kavlock RJ, Knudsen TB, Martin MT, Reif DM, Richard AM, Sipes NS, Abassi YA, Jin C, Stampfl M, Judson RS",
+			"title": "Real-time growth kinetics measuring hormone mimicry for ToxCast chemicals in T-47D human ductal carcinoma cells",
+			"citation": "Rotroff DM, Dix DJ, Houck KA, Kavlock RJ, Knudsen TB, Martin MT, Reif DM, Richard AM, Sipes NS, Abassi YA, Jin C, Stampfl M, Judson RS. Real-time growth kinetics measuring hormone mimicry for ToxCast chemicals in T-47D human ductal carcinoma cells. Chem Res Toxicol. 2013 Jul 15;26(7):1097-107. doi:10.1021/tx400117y. Epub 2013 Jun 10. PubMed PMID: 23682706.",
+			"doi": "doi: 10.1021/tx400117y",
+			"otherId": "0",
+			"otherSource": null,
+			"url": "http://www.ncbi.nlm.nih.gov/pubmed/23682706"
+		}
+	],
+	"tcplProcessing": [
+		{
+			"assayRunType": "multi",
+			"levelApplied": 2,
+			"methodName": "none",
+			"description": "Apply no level 2 method"
+		},
+		{
+			"assayRunType": "multi",
+			"levelApplied": 3,
+			"methodName": "pval.apid.medpcbyconc.max",
+			"description": "plate-wise median response of positive control (max)"
+		}
+	],
+	"reagents": [
+		{
+			"reagentType": "media_base",
+			"reagentValue": "RPMI-1640",
+			"cultureOrAssay": "culture"
+		},
+		{
+			"reagentType": "media_base",
+			"reagentValue": "10% FBS",
+			"cultureOrAssay": "culture"
+		}
+	],
+	"aops": [
+		{
+			"aopId": 200,
+			"aopTitle": "Estrogen receptor activation leading to breast cancer"
+		}
+	],
+	"createdDate": "2016-08-23T17:35:22",
+	"lastModifiedDate": "2016-08-23T17:35:22"
+}

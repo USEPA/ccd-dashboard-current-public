@@ -1,0 +1,1538 @@
+[
+	{ 
+        "unit": null,
+        "code": "baf",
+		"name": "Bioaccumulation Factor",
+		"predicted": {
+			"raw_data": [{
+				"value": 172.8,
+				"min_value": null,
+				"max_value": null,
+				"source": "EPISUITE",
+				"description": "Model to estimate upper trophic BAF in EPI Suite.",
+				"model_name": "EPISUITE_BAF_upper_trophic_v3.01",
+				"model_id": 101,
+				"has_opera": false,
+				"global_applicability": null,
+				"has_qmrf_pdf": false
+			}],
+			"count": 1,
+			"mean": 172.8,
+			"min": 172.8,
+			"max": 172.8,
+			"range": [172.8]
+		}
+	},
+	{
+        "unit": null,
+        "code": "bcf",
+		"name": "Bioconcentration Factor",
+		"predicted": {
+			"raw_data": [{
+				"value": 172.7,
+				"min_value": null,
+				"max_value": null,
+				"source": "EPISUITE",
+				"description": "<a href='https://www.epa.gov/tsca-screening-tools/epi-suitetm-estimation-program-interface' target='_blank'>EPISUITE Estimation Programs Interface Suite™</a> is a Windows®-based suite of physical/chemical property and environmental fate estimation programs developed by EPA’s and Syracuse Research Corp.  This prediction is from the Upper Trophic BCF Model.",
+				"model_name": "EPISUITE_BCF_upper_trophic_v3.01",
+				"model_id": 102,
+				"has_opera": false,
+				"global_applicability": null,
+				"has_qmrf_pdf": false
+			}, {
+				"value": 72.03,
+				"min_value": null,
+				"max_value": null,
+				"source": "EPISUITE",
+				"description": "<a href='https://www.epa.gov/tsca-screening-tools/epi-suitetm-estimation-program-interface' target='_blank'>EPISUITE Estimation Programs Interface Suite™</a> is a Windows®-based suite of physical/chemical property and environmental fate estimation programs developed by EPA’s and Syracuse Research Corp.  This prediction is from the BCF Model.",
+				"model_name": "EPISUITE_BCF_v3.03",
+				"model_id": 103,
+				"has_opera": false,
+				"global_applicability": null,
+				"has_qmrf_pdf": false
+			}, {
+				"value": 61.7886,
+				"min_value": null,
+				"max_value": null,
+				"source": "NICEATM",
+				"description": "The NICEATM workflow is a program which provides QSAR/QSPR model predictions and assessment of applicability domains. The models are built on curated data from the public domain as described in our publication (<a href='http://pubs.acs.org/doi/abs/10.1021/acs.jcim.6b00625' target='_blank'>http://pubs.acs.org/doi/abs/10.1021/acs.jcim.6b00625</a>). Molecular descriptors were calculated using PaDEL software and a variety of machine learning algorithms were used to model the data. Winning models were chosen based on accuracy against external test sets.",
+				"model_name": "NICEATM_BCF",
+				"model_id": 112,
+				"has_opera": false,
+				"global_applicability": null,
+				"has_qmrf_pdf": true
+			}, {
+				"value": 117.22,
+				"min_value": null,
+				"max_value": null,
+				"source": "TEST",
+				"description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+				"model_name": "TEST_BCF",
+				"model_id": 2,
+				"test_report_extension": "DTXCID30182-TEST_BCF.html",
+				"has_opera": false,
+				"global_applicability": null,
+				"has_qmrf_pdf": false
+			}, {
+				"value": 43.7046,
+				"min_value": null,
+				"max_value": null,
+				"source": "OPERA",
+				"description": "OPERA is a free and open source/open data suite of QSAR Models providing predictions and additional information including applicability domain and accuracy assessment, as described in the publication <a href='http://dx.doi.org/10.1186/s13321-018-0263-1'target='_blank'>OPERA models for predicting physicochemical properties and environmental fate endpoints</a>. All models were built on curated data and standardized chemical structures as described in the publication <a href='http://dx.doi.org/10.1080/1062936X.2016.1253611'target='_blank'>An automated curation procedure for addressing chemical errors and inconsistencies in public datasets used in QSAR modelling</a>. All OPERA properties are predicted under ambient conditions of 760mm of Hg at 25 degrees Celsius.",
+				"model_name": "OPERA_BCF",
+				"model_id": 23,
+				"has_opera": true,
+				"global_applicability": 1,
+				"has_qmrf_pdf": true
+			}, {
+				"value": 43.6523,
+				"min_value": null,
+				"max_value": null,
+				"source": "OPERA2",
+				"description": "OPERA is a free and open source/open data suite of QSAR Models providing predictions and additional information including applicability domain and accuracy assessment, as described in the publication <a href='http://dx.doi.org/10.1186/s13321-018-0263-1'target='_blank'>OPERA models for predicting physicochemical properties and environmental fate endpoints</a>. All models were built on curated data and standardized chemical structures as described in the publication <a href='http://dx.doi.org/10.1080/1062936X.2016.1253611'target='_blank'>An automated curation procedure for addressing chemical errors and inconsistencies in public datasets used in QSAR modelling</a>. All OPERA properties are predicted under ambient conditions of 760mm of Hg at 25 degrees Celsius.",
+				"model_name": "OPERA_BCF2",
+				"model_id": 146,
+				"has_opera": false,
+				"global_applicability": 1,
+				"has_qmrf_pdf": false
+			}, {
+				"value": 117.266,
+				"min_value": null,
+				"max_value": null,
+				"source": "TEST",
+				"description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+				"model_name": "TEST_BCF",
+				"model_id": 2,
+				"test_report_extension": "DTXCID30182-TEST_BCF.html",
+				"has_opera": false,
+				"global_applicability": null,
+				"has_qmrf_pdf": false
+			}, {
+				"value": 117.266,
+				"min_value": null,
+				"max_value": null,
+				"source": "TEST",
+				"description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+				"model_name": "TEST_BCF",
+				"model_id": 2,
+				"test_report_extension": "DTXCID30182-TEST_BCF.html",
+				"has_opera": false,
+				"global_applicability": null,
+				"has_qmrf_pdf": false
+			}, {
+				"value": 117.266,
+				"min_value": null,
+				"max_value": null,
+				"source": "TEST",
+				"description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+				"model_name": "TEST_BCF",
+				"model_id": 2,
+				"test_report_extension": "DTXCID30182-TEST_BCF.html",
+				"has_opera": false,
+				"global_applicability": null,
+				"has_qmrf_pdf": false
+			}, {
+				"value": 117.266,
+				"min_value": null,
+				"max_value": null,
+				"source": "TEST",
+				"description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+				"model_name": "TEST_BCF",
+				"model_id": 2,
+				"test_report_extension": "DTXCID30182-TEST_BCF.html",
+				"has_opera": false,
+				"global_applicability": null,
+				"has_qmrf_pdf": false
+			}],
+			"count": 10,
+			"mean": 98.01595,
+			"min": 43.6523,
+			"max": 172.7,
+			"range": [43.6523, 172.7],
+			"median": 117.243
+		},
+		"experimental": {
+			"raw_data": [{
+				"value": 43.6516,
+				"min_value": null,
+				"max_value": null,
+				"source": "PhysPropNCCT",
+				"description": "The PHYSPROP data sets are the publicly available data files underpinning the EPISuiteTM prediction models.  The data were curated by NCCT using a combination of manual and automated processing routines with only the highest quality data reported.",
+				"experimental_details": []
+			}, {
+				"value": null,
+				"min_value": 0,
+				"max_value": 100,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 0,
+				"max_value": 100,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 0,
+				"max_value": 100,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 0,
+				"max_value": 100,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 0,
+				"max_value": 100,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 0,
+				"max_value": 100,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 0,
+				"max_value": 100,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 0,
+				"max_value": 100,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 0,
+				"max_value": 100,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 0,
+				"max_value": 100,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 0,
+				"max_value": 100,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 0,
+				"max_value": 100,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 0,
+				"max_value": 100,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 0,
+				"max_value": 100,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 0,
+				"max_value": 100,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 0,
+				"max_value": 100,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 0,
+				"max_value": 100,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 0,
+				"max_value": 100,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 0,
+				"max_value": 100,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 0,
+				"max_value": 100,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 0,
+				"max_value": 100,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 100,
+				"max_value": 200,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 100,
+				"max_value": 200,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 200,
+				"max_value": 300,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 200,
+				"max_value": 300,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 200,
+				"max_value": 300,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 300,
+				"max_value": 400,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 400,
+				"max_value": 500,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Stephanodiscus hantzschii"
+				}, {
+					"name": "Response Site",
+					"value": "Whole organism"
+				}]
+			}, {
+				"value": null,
+				"min_value": 50,
+				"max_value": 100,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 50,
+				"max_value": 100,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 50,
+				"max_value": 100,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 50,
+				"max_value": 100,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 50,
+				"max_value": 100,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 50,
+				"max_value": 100,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 100,
+				"max_value": 150,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": 100,
+				"min_value": null,
+				"max_value": null,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": 100,
+				"min_value": null,
+				"max_value": null,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 100,
+				"max_value": 150,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 100,
+				"max_value": 150,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 100,
+				"max_value": 150,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": 150,
+				"min_value": null,
+				"max_value": null,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": 150,
+				"min_value": null,
+				"max_value": null,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": 150,
+				"min_value": null,
+				"max_value": null,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 150,
+				"max_value": 200,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 200,
+				"max_value": 250,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 200,
+				"max_value": 250,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 200,
+				"max_value": 250,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 200,
+				"max_value": 250,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 200,
+				"max_value": 250,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 200,
+				"max_value": 250,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 200,
+				"max_value": 250,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 200,
+				"max_value": 250,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 200,
+				"max_value": 250,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 200,
+				"max_value": 250,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 200,
+				"max_value": 250,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 200,
+				"max_value": 250,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 200,
+				"max_value": 250,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 200,
+				"max_value": 250,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": 250,
+				"min_value": null,
+				"max_value": null,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": 250,
+				"min_value": null,
+				"max_value": null,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 250,
+				"max_value": 300,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 250,
+				"max_value": 300,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 250,
+				"max_value": 300,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": 250,
+				"min_value": null,
+				"max_value": null,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 250,
+				"max_value": 300,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 250,
+				"max_value": 300,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": 250,
+				"min_value": null,
+				"max_value": null,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 250,
+				"max_value": 300,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": 250,
+				"min_value": null,
+				"max_value": null,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 250,
+				"max_value": 300,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 250,
+				"max_value": 300,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 250,
+				"max_value": 300,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": 250,
+				"min_value": null,
+				"max_value": null,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 250,
+				"max_value": 300,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 250,
+				"max_value": 300,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 250,
+				"max_value": 300,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": 250,
+				"min_value": null,
+				"max_value": null,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 250,
+				"max_value": 300,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 250,
+				"max_value": 300,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": 250,
+				"min_value": null,
+				"max_value": null,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": 250,
+				"min_value": null,
+				"max_value": null,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 250,
+				"max_value": 300,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 250,
+				"max_value": 300,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": null,
+				"min_value": 250,
+				"max_value": 300,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Navicula incerta"
+				}, {
+					"name": "Response Site",
+					"value": "Not reported"
+				}]
+			}, {
+				"value": 1.7,
+				"min_value": null,
+				"max_value": null,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Oncorhynchus mykiss"
+				}, {
+					"name": "Response Site",
+					"value": "Muscle"
+				}]
+			}, {
+				"value": 2.2,
+				"min_value": null,
+				"max_value": null,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Oncorhynchus mykiss"
+				}, {
+					"name": "Response Site",
+					"value": "Muscle"
+				}]
+			}, {
+				"value": 3.6,
+				"min_value": null,
+				"max_value": null,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Oncorhynchus mykiss"
+				}, {
+					"name": "Response Site",
+					"value": "Muscle"
+				}]
+			}, {
+				"value": 8.7,
+				"min_value": null,
+				"max_value": null,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Oncorhynchus mykiss"
+				}, {
+					"name": "Response Site",
+					"value": "Liver"
+				}]
+			}, {
+				"value": 10.8,
+				"min_value": null,
+				"max_value": null,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Oncorhynchus mykiss"
+				}, {
+					"name": "Response Site",
+					"value": "Liver"
+				}]
+			}, {
+				"value": 22,
+				"min_value": null,
+				"max_value": null,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Oncorhynchus mykiss"
+				}, {
+					"name": "Response Site",
+					"value": "Liver"
+				}]
+			}, {
+				"value": 25,
+				"min_value": null,
+				"max_value": null,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Oncorhynchus mykiss"
+				}, {
+					"name": "Response Site",
+					"value": "Liver"
+				}]
+			}, {
+				"value": 38.4,
+				"min_value": null,
+				"max_value": null,
+				"source": "ECOTOX: aquatic",
+				"description": "placeholder",
+				"experimental_details": [{
+					"name": "Species",
+					"value": "Oncorhynchus mykiss"
+				}, {
+					"name": "Response Site",
+					"value": "Liver"
+				}]
+			}],
+			"count": 93,
+			"mean": 132.87180869565216,
+			"min": 1.7,
+			"max": 250,
+			"range": [1.7, 250],
+			"median": 150
+		}
+	},
+	{
+        "unit": "L/kg",
+        "code": "koc",
+		"name": "Soil Adsorp. Coeff. (Koc)",
+		"predicted": {
+			"raw_data": [
+				{
+				"value": 1244.51,
+				"min_value": null,
+				"max_value": null,
+				"source": "EPISUITE",
+				"description": "Model to estimate log Koc in EPI Suite.",
+				"model_name": "EPISUITE_KOCWIN_v2.00_log_Koc",
+				"model_id": 107,
+				"has_opera": false,
+				"global_applicability": null,
+				"has_qmrf_pdf": false
+			}, {
+				"value": 1438.09,
+				"min_value": null,
+				"max_value": null,
+				"source": "OPERA",
+				"description": "OPERA is a free and open source/open data suite of QSAR Models providing predictions and additional information including applicability domain and accuracy assessment, as described in the publication <a href='http://dx.doi.org/10.1186/s13321-018-0263-1'target='_blank'>OPERA models for predicting physicochemical properties and environmental fate endpoints</a>. All models were built on curated data and standardized chemical structures as described in the publication <a href='http://dx.doi.org/10.1080/1062936X.2016.1253611'target='_blank'>An automated curation procedure for addressing chemical errors and inconsistencies in public datasets used in QSAR modelling</a>. All OPERA properties are predicted under ambient conditions of 760mm of Hg at 25 degrees Celsius.",
+				"model_name": "OPERA_KOC",
+				"model_id": 25,
+				"has_opera": true,
+				"global_applicability": 1,
+				"has_qmrf_pdf": true
+			}, {
+				"value": 1436.23,
+				"min_value": null,
+				"max_value": null,
+				"source": "OPERA2",
+				"description": "OPERA is a free and open source/open data suite of QSAR Models providing predictions and additional information including applicability domain and accuracy assessment, as described in the publication <a href='http://dx.doi.org/10.1186/s13321-018-0263-1'target='_blank'>OPERA models for predicting physicochemical properties and environmental fate endpoints</a>. All models were built on curated data and standardized chemical structures as described in the publication <a href='http://dx.doi.org/10.1080/1062936X.2016.1253611'target='_blank'>An automated curation procedure for addressing chemical errors and inconsistencies in public datasets used in QSAR modelling</a>. All OPERA properties are predicted under ambient conditions of 760mm of Hg at 25 degrees Celsius.",
+				"model_name": "OPERA_KOC2",
+				"model_id": 148,
+				"has_opera": false,
+				"global_applicability": 1,
+				"has_qmrf_pdf": false
+			}],
+			"count": 3,
+			"mean": 1372.9433333333334,
+			"min": 1244.51,
+			"max": 1438.09,
+			"range": [1244.51, 1438.09],
+			"median": 1436.23
+		}
+	},
+	{
+        "unit": "cm3/molecule*sec",
+        "code": "aop",
+		"name": "Atmos. Hydroxylation Rate",
+		"predicted": {
+			"raw_data": [{
+				"value": 1.64102e-11,
+				"min_value": null,
+				"max_value": null,
+				"source": "OPERA",
+				"description": "OPERA is a free and open source/open data suite of QSAR Models providing predictions and additional information including applicability domain and accuracy assessment, as described in the publication <a href='http://dx.doi.org/10.1186/s13321-018-0263-1'target='_blank'>OPERA models for predicting physicochemical properties and environmental fate endpoints</a>. All models were built on curated data and standardized chemical structures as described in the publication <a href='http://dx.doi.org/10.1080/1062936X.2016.1253611'target='_blank'>An automated curation procedure for addressing chemical errors and inconsistencies in public datasets used in QSAR modelling</a>. All OPERA properties are predicted under ambient conditions of 760mm of Hg at 25 degrees Celsius.",
+				"model_name": "OPERA_AOH",
+				"model_id": 29,
+				"has_opera": true,
+				"global_applicability": 1,
+				"has_qmrf_pdf": true
+			}, {
+				"value": 1.63978e-11,
+				"min_value": null,
+				"max_value": null,
+				"source": "OPERA2",
+				"description": "OPERA is a free and open source/open data suite of QSAR Models providing predictions and additional information including applicability domain and accuracy assessment, as described in the publication <a href='http://dx.doi.org/10.1186/s13321-018-0263-1'target='_blank'>OPERA models for predicting physicochemical properties and environmental fate endpoints</a>. All models were built on curated data and standardized chemical structures as described in the publication <a href='http://dx.doi.org/10.1080/1062936X.2016.1253611'target='_blank'>An automated curation procedure for addressing chemical errors and inconsistencies in public datasets used in QSAR modelling</a>. All OPERA properties are predicted under ambient conditions of 760mm of Hg at 25 degrees Celsius.",
+				"model_name": "OPERA_AOH2",
+				"model_id": 152,
+				"has_opera": false,
+				"global_applicability": 1,
+				"has_qmrf_pdf": false
+			}],
+			"count": 2,
+			"mean": 1.6403999999999998e-11,
+			"min": 1.63978e-11,
+			"max": 1.64102e-11,
+			"range": [1.63978e-11, 1.64102e-11],
+			"median": 1.6403999999999998e-11
+		}
+	},
+	{
+        "unit": "days",
+        "code": "biodeg_hl",
+		"name": "Biodeg. Half-Life",
+		"predicted": {
+			"raw_data": [{
+				"value": 15.1318,
+				"min_value": null,
+				"max_value": null,
+				"source": "OPERA",
+				"description": "OPERA is a free and open source/open data suite of QSAR Models providing predictions and additional information including applicability domain and accuracy assessment, as described in the publication <a href='http://dx.doi.org/10.1186/s13321-018-0263-1'target='_blank'>OPERA models for predicting physicochemical properties and environmental fate endpoints</a>. All models were built on curated data and standardized chemical structures as described in the publication <a href='http://dx.doi.org/10.1080/1062936X.2016.1253611'target='_blank'>An automated curation procedure for addressing chemical errors and inconsistencies in public datasets used in QSAR modelling</a>. All OPERA properties are predicted under ambient conditions of 760mm of Hg at 25 degrees Celsius.",
+				"model_name": "OPERA_BIODEG",
+				"model_id": 17,
+				"has_opera": true,
+				"global_applicability": 0,
+				"has_qmrf_pdf": true
+			}, {
+				"value": 15.145,
+				"min_value": null,
+				"max_value": null,
+				"source": "OPERA2",
+				"description": "OPERA is a free and open source/open data suite of QSAR Models providing predictions and additional information including applicability domain and accuracy assessment, as described in the publication <a href='http://dx.doi.org/10.1186/s13321-018-0263-1'target='_blank'>OPERA models for predicting physicochemical properties and environmental fate endpoints</a>. All models were built on curated data and standardized chemical structures as described in the publication <a href='http://dx.doi.org/10.1080/1062936X.2016.1253611'target='_blank'>An automated curation procedure for addressing chemical errors and inconsistencies in public datasets used in QSAR modelling</a>. All OPERA properties are predicted under ambient conditions of 760mm of Hg at 25 degrees Celsius.",
+				"model_name": "OPERA_BIODEG2",
+				"model_id": 141,
+				"has_opera": false,
+				"global_applicability": 0,
+				"has_qmrf_pdf": false
+			}],
+			"count": 2,
+			"mean": 15.1384,
+			"min": 15.1318,
+			"max": 15.145,
+			"range": [15.1318, 15.145],
+			"median": 15.1384
+		}
+	},
+	{
+        "unit": "days",
+        "code": "fishbiotranskm",
+		"name": "Fish Biotrans. Half-Life (Km)",
+		"predicted": {
+			"raw_data": [{
+				"value": 1.45703,
+				"min_value": null,
+				"max_value": null,
+				"source": "OPERA",
+				"description": "OPERA is a free and open source/open data suite of QSAR Models providing predictions and additional information including applicability domain and accuracy assessment, as described in the publication <a href='http://dx.doi.org/10.1186/s13321-018-0263-1'target='_blank'>OPERA models for predicting physicochemical properties and environmental fate endpoints</a>. All models were built on curated data and standardized chemical structures as described in the publication <a href='http://dx.doi.org/10.1080/1062936X.2016.1253611'target='_blank'>An automated curation procedure for addressing chemical errors and inconsistencies in public datasets used in QSAR modelling</a>. All OPERA properties are predicted under ambient conditions of 760mm of Hg at 25 degrees Celsius.",
+				"model_name": "OPERA_KM",
+				"model_id": 28,
+				"has_opera": true,
+				"global_applicability": 1,
+				"has_qmrf_pdf": true
+			}, {
+				"value": 1.85933,
+				"min_value": null,
+				"max_value": null,
+				"source": "OPERA2",
+				"description": "OPERA is a free and open source/open data suite of QSAR Models providing predictions and additional information including applicability domain and accuracy assessment, as described in the publication <a href='http://dx.doi.org/10.1186/s13321-018-0263-1'target='_blank'>OPERA models for predicting physicochemical properties and environmental fate endpoints</a>. All models were built on curated data and standardized chemical structures as described in the publication <a href='http://dx.doi.org/10.1080/1062936X.2016.1253611'target='_blank'>An automated curation procedure for addressing chemical errors and inconsistencies in public datasets used in QSAR modelling</a>. All OPERA properties are predicted under ambient conditions of 760mm of Hg at 25 degrees Celsius.",
+				"model_name": "OPERA_KM2",
+				"model_id": 151,
+				"has_opera": false,
+				"global_applicability": 1,
+				"has_qmrf_pdf": false
+			}],
+			"count": 2,
+			"mean": 1.65818,
+			"min": 1.45703,
+			"max": 1.85933,
+			"range": [1.45703, 1.85933],
+			"median": 1.65818
+		},
+		"experimental": {
+			"raw_data": [{
+				"value": 1.86209,
+				"min_value": null,
+				"max_value": null,
+				"source": "PhysPropNCCT",
+				"description": "The PHYSPROP data sets are the publicly available data files underpinning the EPISuiteTM prediction models.  The data were curated by NCCT using a combination of manual and automated processing routines with only the highest quality data reported.",
+				"experimental_details": []
+			}],
+			"count": 1,
+			"mean": 1.86209,
+			"min": 1.86209,
+			"max": 1.86209,
+			"range": [1.86209]
+		}
+	}
+]

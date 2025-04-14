@@ -1,0 +1,179 @@
+{ 
+    "0":{ 
+      "aeid":2,
+      "assayComponentEndpointName":"ACEA_ER_80hr",
+      "assayComponentEndpointDesc":"Data from the assay component ACEA_ER_80hr was analyzed into 2 assay endpoints. \nThis assay endpoint, ACEA_ER_80hr_Positive, was analyzed in the positive fitting direction relative to DMSO as the negative control and baseline of activity. \nUsing a type of growth reporter, measures of the cells for gain-of-signal activity can be used to understand the signaling at the pathway-level as they relate to the gene ESR1. \nFurthermore, this assay endpoint can be referred to as a primary readout, because this assay has produced multiple assay endpoints where this one serves a signaling function. \nTo generalize the intended target to other relatable targets, this assay endpoint is annotated to the \"nuclear receptor\" intended target family, where the subfamily is \"steroidal\".",
+      "assayFunctionType":"signaling",
+      "normalizedDataType":"percent_activity",
+      "analysisDirection":"positive",
+      "burstAssay":false,
+      "keyPositiveControl":"17b-estradiol",
+      "signalDirection":"gain",
+      "intendedTargetType":"pathway",
+      "intendedTargetTypeSub":"pathway-specified",
+      "intendedTargetFamily":"nuclear receptor",
+      "intendedTargetFamilySub":"steroidal",
+      "methods":[ 
+        { 
+        "methodName":"none",
+        "description":"apply no level 2 method",
+        "execOrder":1,
+        "levelAppl":2,
+        "assayRunType":"MULTI"
+        },
+        { 
+            "methodName":"pval.apid.medpcbyconc.max",
+            "description":"plate-wise median response of positive control (max)",
+            "execOrder":2,
+            "levelAppl":3,
+            "assayRunType":"MULTI"
+        },
+        { 
+            "methodName":"resp.pc",
+            "description":"response percent activity",
+            "execOrder":3,
+            "levelAppl":3,
+            "assayRunType":"MULTI"
+        },
+        { 
+            "methodName":"bval.apid.nwllslowconc.med",
+            "description":"Take the median cval of the n wells and the first two concentrations, by apid",
+            "execOrder":1,
+            "levelAppl":3,
+            "assayRunType":"MULTI"
+        },
+        { 
+            "methodName":"resp.shiftneg.3bmad",
+            "description":"Make values below baseline zero.",
+            "execOrder":4,
+            "levelAppl":3,
+            "assayRunType":"MULTI"
+        },
+        { 
+            "methodName":"bmad.aeid.lowconc.twells",
+            "description":"bmad based on two lowest concentration of treatment wells",
+            "execOrder":1,
+            "levelAppl":4,
+            "assayRunType":"MULTI"
+        },
+        { 
+            "methodName":"bmad3",
+            "description":"Add a cutoff value of 3*bmad.",
+            "execOrder":0,
+            "levelAppl":5,
+            "assayRunType":"MULTI"
+        },
+        { 
+            "methodName":"pc20",
+            "description":"Add a cutoff value of 20.",
+            "execOrder":0,
+            "levelAppl":5,
+            "assayRunType":"MULTI"
+        },
+        { 
+            "methodName":"singlept.hit.high",
+            "description":"Look for single point hits with activity only at the highest conc tested",
+            "execOrder":0,
+            "levelAppl":6,
+            "assayRunType":"MULTI"
+        },
+        { 
+            "methodName":"singlept.hit.mid",
+            "description":"Look for single point hits with activity not at highest conc tested",
+            "execOrder":0,
+            "levelAppl":6,
+            "assayRunType":"MULTI"
+        },
+        { 
+            "methodName":"multipoint.neg",
+            "description":"Look for inactives with multiple medians above baseline",
+            "execOrder":0,
+            "levelAppl":6,
+            "assayRunType":"MULTI"
+        },
+        { 
+            "methodName":"noise",
+            "description":"Look for noisy curves, relative to the assay",
+            "execOrder":0,
+            "levelAppl":6,
+            "assayRunType":"MULTI"
+        },
+        { 
+            "methodName":"border.hit",
+            "description":"Look for actives with borderline activity",
+            "execOrder":0,
+            "levelAppl":6,
+            "assayRunType":"MULTI"
+        },
+        { 
+            "methodName":"border.miss",
+            "description":"Look for inactives with borderline activity",
+            "execOrder":0,
+            "levelAppl":6,
+            "assayRunType":"MULTI"
+        },
+        { 
+            "methodName":"modlga.lowconc",
+            "description":"AC50 less than lowest concentration tested",
+            "execOrder":0,
+            "levelAppl":6,
+            "assayRunType":"MULTI"
+        },
+        { 
+            "methodName":"gnls.lowconc",
+            "description":"Look for low concentration gnls winners",
+            "execOrder":0,
+            "levelAppl":6,
+            "assayRunType":"MULTI"
+        },
+        { 
+            "methodName":"overfit.hit",
+            "description":"Flag hit-calls that would get changed after doing the small N correction to the aic values.",
+            "execOrder":0,
+            "levelAppl":6,
+            "assayRunType":"MULTI"
+        },
+        { 
+            "methodName":"efficacy.50",
+            "description":"Flag hit-calls with efficacy values less than 50% -- intended for biochemical assays.",
+            "execOrder":0,
+            "levelAppl":6,
+            "assayRunType":"MULTI"
+        }
+    ],
+        "citations":[ 
+        { 
+            "pmid":16481145,
+            "author":"Xing JZ, Zhu L, Gabos S, Xie L",
+            "citation":"Xing JZ, Zhu L, Gabos S, Xie L. Microelectronic cell sensor assay for  detection of cytotoxicity and prediction of acute toxicity. Toxicol In Vitro. 2006  Sep;20(6):995-1004. Epub 2006 Feb 14. PubMed PMID: 16481145.",
+            "doi":null,
+            "otherId":"0",
+            "otherSource":null,
+            "title":"Microelectronic cell sensor assay for detection of cytotoxicity and prediction of  acute toxicity",
+            "url":"http://www.ncbi.nlm.nih.gov/pubmed/16481145"
+        },
+        { 
+            "pmid":23682706,
+            "author":"Rotroff DM, Dix DJ, Houck KA, Kavlock RJ, Knudsen TB, Martin MT, Reif  DM, Richard AM, Sipes NS, Abassi YA, Jin C, Stampfl M, Judson RS",
+            "citation":"Rotroff DM, Dix DJ, Houck KA, Kavlock RJ, Knudsen TB, Martin MT, Reif  DM, Richard AM, Sipes NS, Abassi YA, Jin C, Stampfl M, Judson RS. Real-time  growth kinetics measuring hormone mimicry for ToxCast chemicals in T-47D human  ductal carcinoma cells. Chem Res Toxicol. 2013 Jul 15;26(7):1097-107.  doi:10.1021/tx400117y. Epub 2013 Jun 10. PubMed PMID: 23682706.",
+            "doi":"doi: 10.1021/tx400117y",
+            "otherId":"0",
+            "otherSource":null,
+            "title":"Real-time growth kinetics measuring hormone mimicry for ToxCast chemicals in  T-47D human ductal carcinoma cells",
+            "url":"http://www.ncbi.nlm.nih.gov/pubmed/23682706"
+        }
+        ],
+        "reagents":[ 
+        { 
+            "reagentNameValue":"RPMI-1640",
+            "reagentNameValueType":"media_base",
+            "cultureOrAssay":"culture"
+        },
+        { 
+            "reagentNameValue":"10% FBS",
+            "reagentNameValueType":"media_serum",
+            "cultureOrAssay":"culture"
+        }
+        ]
+    }
+  }

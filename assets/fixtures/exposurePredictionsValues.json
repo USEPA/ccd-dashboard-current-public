@@ -1,0 +1,56 @@
+[
+  {
+    "label": "Age_12_19",
+    "median": "2.68e-05",
+    "percentile9th": "0.002",
+    "hoverMsg": null
+  },
+  {
+    "label": "Age_20_65",
+    "median": "2.05e-05",
+    "percentile9th": "0.00161",
+    "hoverMsg": null
+  },
+  {
+    "label": "Age_6_11",
+    "median": "6.3e-05",
+    "percentile9th": "0.00582",
+    "hoverMsg": null
+  },
+  {
+    "label": "Age_GT65",
+    "median": "1.61e-05",
+    "percentile9th": "0.00218",
+    "hoverMsg": null
+  },
+  {
+    "label": "BMIgt30",
+    "median": "1.69e-05",
+    "percentile9th": "0.00145",
+    "hoverMsg": "bmiInfo"
+  },
+  {
+    "label": "BMIle30",
+    "median": "2.67e-05",
+    "percentile9th": "0.00226",
+    "hoverMsg": "bmiInfo"
+  },
+  {
+    "label": "Females",
+    "median": "1.11e-05",
+    "percentile9th": "0.000909",
+    "hoverMsg": null
+  },
+  {
+    "label": "Males",
+    "median": "3.89e-05",
+    "percentile9th": "0.00334",
+    "hoverMsg": null
+  },
+  {
+    "label": "ReproAgeFemale",
+    "median": "1.11e-05",
+    "percentile9th": "0.00157",
+    "hoverMsg": "reproInfo"
+  }
+]

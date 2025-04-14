@@ -1,0 +1,20 @@
+{
+  "filterOptions": [
+    {
+      "value": "unselected",
+      "text": "Unselected"
+    },
+    {
+      "value": "isotope",
+      "text": "Isotopes"
+    },
+    {
+      "value": "multicomponent",
+      "text": "Multicomponent Chemicals"
+    },
+    {
+      "value": "structureless",
+      "text": "No Structures"
+    }
+  ]
+}

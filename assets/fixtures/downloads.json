@@ -1,0 +1,28 @@
+{
+	"data": [
+		{
+		"id": 1,
+		"name": "PubChem_DTXSID_mapping_file.txt",
+		"label": "DSSTox Identifier to PubChem Identifier Mapping File",
+		"title": "DSSTox Identifier to PubChem Identifier Mapping File",
+		"url": "ftp://newftp.epa.gov/COMPTOX/Sustainable_Chemistry_Data/Chemistry_Dashboard/PubChem_DTXSID_mapping_file.txt",
+		"shortDescription": "",
+		"longDescription": "The DSSTox to PubChem Identifiers mapping file is in TXT format and includes the PubChem SID, PubChem CID and DSSTox substance identifier (DTXSID). <br><img src='/dashboard/uploads/uploaded_image/image/52/Pubchem.png' alt='image'>",
+		"userId": "awilli04",
+		"createdDate": "2016-11-14 14:14:15",
+		"lastModifiedDate": "2017-11-08 16:49:29"
+		},
+		{
+		"id": 2,
+		"name": "Dsstox_CAS_number_name.xlsx",
+		"label": "DSSTox identifiers mapped to CAS Numbers and Names File",
+		"title": "DSSTox identifiers mapped to CAS Numbers and Names File",
+		"url": "ftp://newftp.epa.gov/COMPTOX/Sustainable_Chemistry_Data/Chemistry_Dashboard/2019/April/DSSTox_Identifiers_and_CASRN.xlsx",
+		"shortDescription": "",
+		"longDescription": "The DSSTox Identifiers file is in Excel format and includes the CAS Number, DSSTox substance identifier (DTXSID), Preferred Name, DTXCID. Standard InChI String and Standard InChIKey (UPDATED APRIL 2019). ",
+		"userId": "awilli04",
+		"createdDate": "2016-11-14 14:42:51",
+		"lastModifiedDate": "2019-04-16 11:08:23"
+		}
+		]
+}

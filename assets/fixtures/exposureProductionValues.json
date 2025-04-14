@@ -1,0 +1,34 @@
+[
+  {
+    "id": null,
+    "abbreviation": "DOM_MFG_LB",
+    "name": "Domestic Manufacturing Production",
+    "standard_unit": null,
+    "amount": 187836000,
+    "cnt": 6
+  },
+  {
+    "id": null,
+    "abbreviation": "IMPORTED_LB",
+    "name": "Imported Volume",
+    "standard_unit": null,
+    "amount": 16973090,
+    "cnt": 6
+  },
+  {
+    "id": null,
+    "abbreviation": "VOLUME_USED",
+    "name": "Volume Used",
+    "standard_unit": null,
+    "amount": 0,
+    "cnt": 5
+  },
+  {
+    "id": null,
+    "abbreviation": "VOLUME_EXPORTED",
+    "name": "Volume Exported",
+    "standard_unit": null,
+    "amount": 43815500,
+    "cnt": 3
+  }
+]

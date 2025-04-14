@@ -1,0 +1,46 @@
+{
+  "ivive": [
+    {
+    "label": "Days to Steady State",
+    "measured": null,
+    "predicted": null,
+    "computed": 8,
+    "unit": "Days"
+    },
+    {
+    "label": "Human Steady-State Plasma Concentration",
+    "measured": null,
+    "predicted": null,
+    "computed": 1.9835,
+    "unit": "mg/L"
+    },
+    {
+    "label": "In Vitro Intrinsic Hepatic Clearance",
+    "measured": "19.29",
+    "predicted": null,
+    "computed": null,
+    "unit": "uL/min/million hepatocytes"
+    },
+    {
+    "label": "PK Half Life",
+    "measured": null,
+    "predicted": null,
+    "computed": 29.8316,
+    "unit": "hours"
+    },
+    {
+    "label": "Volume of Distribution",
+    "measured": null,
+    "predicted": null,
+    "computed": 6.69227,
+    "unit": "L/kg"
+    },
+    {
+    "label": "Fraction Unbound in Human Plasma",
+    "measured": "0.07",
+    "predicted": null,
+    "computed": null,
+    "unit": null
+    }
+  ]
+}

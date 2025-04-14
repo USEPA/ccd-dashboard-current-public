@@ -1,0 +1,50 @@
+{
+  "filterOptions": [
+    {
+      "value": "unselected",
+      "text": "Unselected"
+    },
+    {
+      "value": "isotope",
+      "text": "Isotopes"
+    },
+    {
+      "value": "multicomponent",
+      "text": "Multicomponent Chemicals"
+    },
+    {
+      "value": "structureless",
+      "text": "No Structures"
+    }
+  ],
+  "sortOptions": [
+    {
+      "text": "Default",
+      "value": "default"
+    },
+    {
+      "text": "DTXSID",
+      "value": "dtxsid"
+    },
+    {
+      "text": "Name",
+      "value": "name"
+    },
+    {
+      "text": "CASRN",
+      "value": "casrn"
+    },
+    {
+      "text": "QC Level",
+      "value": "qc"
+    },
+    {
+      "text": "Mono.Mass",
+      "value": "mass"
+    },
+    {
+      "text": "TOXCAST",
+      "value": "activeAssays"
+    }
+  ]
+}

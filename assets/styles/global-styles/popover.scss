@@ -1,0 +1,25 @@
+.popover {
+  width: auto;
+  background-color: white;
+  color: #97999b;
+  text-align: left !important;
+  display: inline-block;
+  border-radius: 3px;
+  position: absolute;
+  font-size: 0.83rem !important;
+  font-weight: normal;
+  border: 1px rgb(0, 0, 0) solid;
+  z-index: 200000;
+  max-width: 700px !important;
+  text-align: start;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: .3rem;
+  opacity: 0;
+  transition: opacity 0.3s, visibility 0.3s;
+  visibility: hidden;
+  box-shadow:  2px 4px 8px#97999b !important;
+}
+.popover-header {
+  font-size: 0.93rem !important;
+}

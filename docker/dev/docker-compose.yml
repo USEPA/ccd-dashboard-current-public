@@ -1,0 +1,14 @@
+version: '3'
+services:
+  dashboard-ui-docker-dev:
+    container_name: dashboard-ui-${DOCKER_DEV_USERNAME}-docker-dev
+    command: yarn docker-dev
+    build:
+      context: ../../
+      dockerfile: docker/dev/Dockerfile.dev
+    ports:
+      - '${DOCKER_DEV_PORT}:3000'
+    volumes:
+      - ../../:/dashboard-ui-docker-dev
+      - /dashboard-ui-docker-dev/node_modules/
+      - ~/.cache:/root/.cache

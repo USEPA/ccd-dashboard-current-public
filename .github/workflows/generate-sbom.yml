@@ -1,0 +1,81 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Generate SBOM
+
+on:
+  push:
+    branches: [ "dev" ]
+    tags: [ 'v*.*.*' ]
+
+env:
+  BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup Nodejs and npm
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+
+      - name: Setup yarn
+        run: npm install -g yarn
+
+      #- name: Install dependencies
+       # run: yarn install
+
+      - name: Setup Nodejs with yarn caching
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+          cache: yarn
+          
+      - name: Install packages
+        run: yarn install --ignore-scripts
+  
+      - name: mkdir
+        run: mkdir bom
+
+      - name: Create SBOM with CycloneDX
+        uses: CycloneDX/gh-node-module-generatebom@v1
+        with: 
+          output: './bom/bom.xml'
+
+      - name: Upload bom.xml artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: bom-artifact
+          path: bom/bom.xml
+          
+  upload:
+    needs: build
+    runs-on: th878
+    steps:
+    
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Download bom.xml artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: bom-artifact
+          
+      - name: LS -LA
+        run: ls -la
+        
+      - name: Upload BOM to Dependency Track
+        uses: DependencyTrack/gh-upload-sbom@v2.1.0
+        with:
+          serverHostname: 'ccte-api-dependency-track.epa.gov'
+          apiKey: ${{ secrets.SECRET_OWASP_DT_KEY }}
+          protocol: https
+          projectName: 'ccd-dashboard-UI'
+          projectVersion: ${{ env.BRANCH_NAME }}
+          bomFilename: "./bom.xml"
+          autoCreate: true       
+ 

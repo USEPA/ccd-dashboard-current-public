@@ -1,0 +1,597 @@
+[
+  {
+    "id": 1,
+    "helpPosition": "right",
+    "helpText": "The Centers for Disease Control (CDC) National Health and Nutrition Examination Survey (NHANES) is a program of studies designed to assess the health and nutritional status of adults and children in the United States (<a href=' http://www.cdc.gov/nchs/nhanes/'target='_blank'>link</a>). As part of the NHANES, the CDC monitors biomarkers of chemical exposure (chiefly metabolites) in the blood and urine to quantify the levels of chemical compounds present in U.S. residents (<a href=' https://www.cdc.gov/exposurereport/' target='_blank'>link</a>). Each two-year study cycle comprises approximately 10,000 individuals, with exposure biomarker data for any given chemical available from only a subset of roughly 1/3 of the individuals in the study. In the 2014 publication “High Throughput Heuristics for Prioritizing Human Exposure to Environmental Chemicals” (<a href=' http://dx.doi.org/10.1021/es503583j' target='_blank'>link</a>) EPA scientists inferred steady state exposure rates (mg/kg bodyweight) for 106 chemicals from the NHANES urine samples. This is one of those 106 chemicals.",
+    "iconType": "Information",
+    "helpTextId": "SR NHANES Table"
+  },
+  {
+    "id": 2,
+    "helpPosition": "right",
+    "helpText": "In Figure 4 of the 2014 publication “High Throughput Heuristics for Prioritizing Human Exposure to Environmental Chemicals” (<a href=' http://dx.doi.org/10.1021/es503583j ' target='_blank'>link</a>) EPA scientists ranked 7968 chemicals based on the upper (highest) 95th percentile limit on the predicted average (geometric mean) exposure rate for the total U.S. population. This is one of those 7968 chemicals. The 1st highest would have the highest predicted possible rate, while the 7968th highest would have the lowest predicted possible rate. Note that because of limited information available on exposure to most chemicals (<a href='http://dx.doi.org/10.1016/j.scitotenv.2011.10.046' target='_blank'>link</a>) the uncertainties are large and we are only 95% confident that the exposure rate is equal to or lower than the upper 95th percentile limit.",
+    "iconType": "Information",
+    "helpTextId": "SR Exposure Rank"
+  },
+  {
+    "id": 3,
+    "helpPosition": "right",
+    "helpText": "These are estimates of the average (geometric mean) exposure rate (mg/kg bodyweight/day) for the U.S. population. We are 50% confident that the exposure for the chemical is below the median estimate, and we are 95% confident that the average exposure rate is below the upper 95th percent estimate. Total population predictions are based upon consensus exposure model predictions and the similarity of the compound to those chemicals monitored by NHANES. The method for the total U.S. population was described in a 2018 publication, <a href='https://doi.org/10.1021/acs.est.8b04056' target='_blank'>\"Consensus Modeling of Median Chemical Intake for the U.S. Population Based on Predictions of Exposure Pathways\"</a>. When available, demographic-specific predictions are based upon a simpler, heuristic model described in the 2014 publication <a href='https://doi.org/10.1021/es503583j' target='_blank'>\"High Throughput Heuristics for Prioritizing Human Exposure to Environmental Chemicals\"</a>.\r\n\r\n\r\n",
+    "iconType": "Information",
+    "helpTextId": "SR Expo Pred. Table"
+  },
+  {
+    "id": 4,
+    "helpPosition": "bottom",
+    "helpText": "Here, women of “reproductive age” are defined as any woman aged 16-49 years.",
+    "iconType": "Information",
+    "helpTextId": "SR Exposure Reproductive Age Females"
+  },
+  {
+    "id": 6,
+    "helpPosition": "right",
+    "helpText": "The following papers are recommended reading in regards to the Product Use Categories table: <a href ='http://pubs.acs.org/doi/abs/10.1021/es502513w' target='_blank'>K Isaacs et al, 2014, Environmental Science and Technology</a> and <a href='http://www.sciencedirect.com/science/article/pii/S027869151300851X' target='_blank'>M-R Goldsmith et al 2014, Food and Chemical Toxicology</a>\r\n",
+    "iconType": "Information",
+    "helpTextId": "SR Product Categories"
+  },
+  {
+    "id": 7,
+    "helpPosition": "right",
+    "helpText": "The following paper is recommended reading in regards to the CPCat Product Categories table: <a href='http://www.sciencedirect.com/science/article/pii/S2214750014001632' target='_blank'>K Dionisio et al 2015, Toxicology Reports</a>\r\n",
+    "iconType": "Information",
+    "helpTextId": "SR CPCat Product Categories"
+  },
+  {
+    "id": 8,
+    "helpPosition": "right",
+    "helpText": "The following papers are recommended reading in regards to the Collected Data on Functional Use table: <a href='http://www.sciencedirect.com/science/article/pii/S2214750016300671' target='_blank'>K Isaacs et al, 2016, Toxicology Reports</a> and <a href='http://pubs.rsc.org/en/content/articlelanding/2016/gc/c6gc02744j#!divAbstract' target='_blank'>K Phillips et al 2017, Green Chemistry</a>\r\n\r\n\r\n",
+    "iconType": "Information",
+    "helpTextId": "SR Collected Data on Functional Use"
+  },
+  {
+    "id": 9,
+    "helpPosition": "right",
+    "helpText": "The following paper is recommended reading in regards to the Predicted Probability of Associated Functional Use Table: <a href='http://pubs.rsc.org/en/content/articlelanding/2016/gc/c6gc02744j#!divAbstract' target='_blank'>K Phillips et al 2017, Green Chemistry</a>\r\n\r\n\r\n\r\n\r\n\r\n",
+    "iconType": "Information",
+    "helpTextId": "SR Predicted Probability of Associated Functional Use"
+  },
+  {
+    "id": 10,
+    "helpPosition": "right",
+    "helpText": "The following papers are recommended reading. Regarding the construction of the data set, <a href='https://www.nature.com/articles/sdata2018125' target='_blank'>K Dionisio et al 2018, Scientific Data</a>. Regarding the Product Use Categories, <a href='https://www.nature.com/articles/s41370-019-0187-5' target='_blank'>K. Isaacs et al, 2019, Journal of Exposure Science & Environmental Epidemiology</a>. The harmonized function use reported here is a nominal category identified in Phillips et al. 2017 using hierarchical cluster analysis and used for modeling",
+    "iconType": "Information",
+    "helpTextId": "SR Chemical Weight Fraction"
+  },
+  {
+    "id": 12,
+    "helpPosition": "right",
+    "helpText": "Search Help",
+    "iconType": "Help",
+    "helpTextId": "AS List Search"
+  },
+  {
+    "id": 13,
+    "helpPosition": "right",
+    "helpText": "Search Help",
+    "iconType": "Help",
+    "helpTextId": "AS Header Search"
+  },
+  {
+    "id": 14,
+    "helpPosition": "bottom",
+    "helpText": "The following papers are recommended reading. In regards to the categorization 'PUC' read <a href ='https://www.nature.com/articles/s41370-019-0187-5' target='_blank'>K. Isaacs et al, 2019, Journal of Exposure Science & Environmental Epidemiology</a>.  In regards to the CPCat cassette category read <a href='https://www.sciencedirect.com/science/article/pii/S2214750014001632' target='_blank'>K Dionisio et al 2015, Toxicology Reports</a>. Please note the CPCat cassettes presented here are an updated version of those in the paper however application and interpretation of cassettes remains the same.\r\n\r\n\r\n",
+    "iconType": "Information",
+    "helpTextId": "SR Product Use Categories"
+  },
+  {
+    "id": 15,
+    "helpPosition": "right",
+    "helpText": "The bioassay data displayed in this panel includes modeled AC50 values from multi-concentration data only. Single concentration data may also be available for some assay technologies.  Single concentration data are included in the list of ‘tested’ assays endpoints if multi-concentration data are unavailable; this can be visualized by searching for a chemical, and clicking “All Tested” in the <a href='https://actorstage.rtpnc.epa.gov/dashboard2/' target='_blank'>Assay pane in the Toxcast Dashboard</a>. Raw, normalized, and interpreted single concentration data from level 0 to level 2 are fully available from the <a href='https://www.epa.gov/chemical-research/toxicity-forecaster-toxcasttm-data' target='_blank'>freely downloadable MySQL database, invitrodb</a>. Internet Explorer may enable the best functionality to view the Toxcast Dashboard.\r\nThe scaled response shown on the graph below is calculated by dividing the response values by the activity cutoff thereby enabling response comparisons across assay endpoints.",
+    "iconType": "Information",
+    "helpTextId": "SR ToxCast Graph"
+  },
+  {
+    "id": 17,
+    "helpPosition": "right",
+    "helpText": "Batch Search Information popup",
+    "iconType": "Help",
+    "helpTextId": "BATCH Batch Search Title"
+  },
+  {
+    "id": 18,
+    "helpPosition": "bottom",
+    "helpText": "ScrubChem info ",
+    "iconType": "Information",
+    "helpTextId": "SR ScrubChem"
+  },
+  {
+    "id": 19,
+    "helpPosition": "right",
+    "helpText": "Advanced Search capabilities presently support mass spectrometry at this point with mass and formula searching. For an overview of capabilities we recommend you watch <a href='https://youtu.be/lZcDgF4gILw' target='_blank'>this short video</a>.",
+    "iconType": "Help",
+    "helpTextId": "AS Advanced Search Title"
+  },
+  {
+    "id": 20,
+    "helpPosition": "right",
+    "helpText": "US Environmental Protection Agency Sequence Alignment to Predict Across Species Susceptibility (SeqAPASS) output corresponding to the assay protein target. Data provides initial predictions of chemical susceptibility across species based on default settings in evaluating protein sequence/structural similarity compared to the  assay’s protein target and model organism. Corresponding NCBI protein accession links to folders for Level 1  (primary amino acid sequence comparisons) and Level 2 (functional domain comparisons) data. Each level of the SeqAPASS evaluation provides an additional line of evidence for predicting cross species susceptibility. Data is presented using default SeqAPASS settings and may require further evaluation within the SeqAPASS tool (visit <a href='https://seqapass.epa.gov/seqapass' target='_blank'>https://seqapass.epa.gov/seqapass</a> for more detail). ",
+    "iconType": "Information",
+    "helpTextId": "SR ToxCast SeqAPASS"
+  },
+  {
+    "id": 21,
+    "helpPosition": "right",
+    "helpText": "ACToR is the EPA's Aggregated Computational Toxicology Resource, This BETA functionality produces a PDF report regarding all ACToR related data.",
+    "iconType": "Information",
+    "helpTextId": "BATCH Metadata ACTOR"
+  },
+  {
+    "id": 22,
+    "helpPosition": "right",
+    "helpText": "The first part of an InChIKey represents the atom-bond connectivity for a chemical and ignores stereochemistry, isotope labels.and charge states. Searching on the InChIKey will find all chemicals based on the molecular skeleton.",
+    "iconType": "Information",
+    "helpTextId": "BATCH Input inchikey skeleton"
+  },
+  {
+    "id": 23,
+    "helpPosition": "right",
+    "helpText": "The DTXSID corresponds to the DSSTox Substance Identifier. This unique identifier includes a check digit .",
+    "iconType": "Information",
+    "helpTextId": "BATCH Input dsstoxid"
+  },
+  {
+    "id": 24,
+    "helpPosition": "right",
+    "helpText": "The Exact Formula Search is the formula associated with single component chemicals as well as multicomponent mixtures and salts. ",
+    "iconType": "Information",
+    "helpTextId": "BATCH Exact Formula Search"
+  },
+  {
+    "id": 25,
+    "helpPosition": "right",
+    "helpText": "This search is based on what we refer to as \"Mass Spec (MS) Ready\" structures. All chemicals within the database are treated in a manner such that all are desalted, mixtures are separated, and stereochemistry is removed as Mass Spectrometry detects the major components of a salt or mixture and is insensitive to stereochemistry. As an example, a search for the monoisotopic mass of phenol will return phenol, sodium phenolate and calcium phenoxide.  See the publication for more details: <a href='https://doi.org/10.1186/s13321-018-0299-2' target='_blank'>https://doi.org/10.1186/s13321-018-0299-2</a>.",
+    "iconType": "Information",
+    "helpTextId": "BATCH MS Ready Formula Search"
+  },
+  {
+    "id": 26,
+    "helpPosition": "right",
+    "helpText": "The CASRN is the Chemical Abstracts Service Registry Number. The search includes validation based on a checksum calculation and includes other input error handling.",
+    "iconType": "Information",
+    "helpTextId": "BATCH Input casrn"
+  },
+  {
+    "id": 27,
+    "helpPosition": "right",
+    "helpText": "The monoisotopic mass is the mass of the isotopic peak whose elemental composition is composed of the most abundant isotopes of those elements.",
+    "iconType": "Information",
+    "helpTextId": "BATCH IntrinsicProp monoisotopicmass"
+  },
+  {
+    "id": 28,
+    "helpPosition": "right",
+    "helpText": "The Similar Molecules tab contains the result of a chemical search based on a Tanimoto Similarity Search and values of equal or greater than 0.8",
+    "iconType": "Information",
+    "helpTextId": "SR Similar Molecules Tab"
+  },
+  {
+    "id": 29,
+    "helpPosition": "right",
+    "helpText": "The mass search searches the monoisotopic masses listed in the intrinsic properties field for each chemical. The search is based on the neutral molecule. It is possible to select various adducts and losses.",
+    "iconType": "Information",
+    "helpTextId": "AS Mass Search"
+  },
+  {
+    "id": 30,
+    "helpPosition": "right",
+    "helpText": "The searches are based on inputting the elements according to Hill Formula convention. A list of formulae in Hill system order is arranged alphabeticall with single-letter elements coming before two-letter symbols when the symbols begin with the same letter (so &quot;B&quot; comes before &quot;Be&quot;, which comes before &quot;Br&quot;). The following formulae are written using the Hill system, and listed in Hill order:\r\n\r\n1) BrI\r\n2) CCl4\r\n3) CH3I\r\n4) C2H5Br\r\n5) H2O4S\r\n",
+    "iconType": "Information",
+    "helpTextId": "AS Mol Formula Search"
+  },
+  {
+    "id": 31,
+    "helpPosition": "right",
+    "helpText": "The Exact Formula search is the formula summed across all elements in a substance thereby retrieving salts and other multi-component chemicals.",
+    "iconType": "Information",
+    "helpTextId": "AS Exact Formula Search"
+  },
+  {
+    "id": 32,
+    "helpPosition": "right",
+    "helpText": "This search is based on what we refer to as \"Mass Spec (MS) Ready\" structures. All chemicals within the database are treated in a manner such that all are desalted, mixtures are separated, and stereochemistry is removed as Mass Spectrometry detects the major components of a salt or mixture and is insensitive to stereochemistry. As an example, a search for the formula of phenol will return phenol, sodium phenolate and calcium phenoxide.  See the publication for more details: <a href=\"https://doi.org/10.1186/s13321-018-0299-2\" target=\"_blank\">https://doi.org/10.1186/s13321-018-0299-2<\\a>\r\n\r\n ",
+    "iconType": "Information",
+    "helpTextId": "AS MS Ready Formula Search"
+  },
+  {
+    "id": 33,
+    "helpPosition": "right",
+    "helpText": "Using a mass (and associated range in Daltons or ppm) molecular formulae are generated and then searched against the database to retrieve chemicals of interest. The elements used in the formula generation are CHNOPS by default but halogens and other elements can be included and their ranges defined using the option settings.",
+    "iconType": "Information",
+    "helpTextId": "AS Generate Mol Formula(e)"
+  },
+  {
+    "id": 34,
+    "helpPosition": "right",
+    "helpText": "Input systematic names, trade names or synonyms, one to each line, before executing the batch search. ",
+    "iconType": "Information",
+    "helpTextId": "BATCH Input chemname"
+  },
+  {
+    "id": 35,
+    "helpPosition": "right",
+    "helpText": "The InChIKey search performs an exact match search based on the InChiKey thereby matching charge, isotopes and stereochemistry explicitly. For a more general search perform an InChIKey skeleton search which will match based on connectivity only,",
+    "iconType": "Information",
+    "helpTextId": "BATCH Input inchikey"
+  },
+  {
+    "id": 36,
+    "helpPosition": "right",
+    "helpText": "OPERA is a suite of property predictions from the National Center for Computational Toxicology at the US Environmental Protection Agency. OPERA was derived from curated data (<a href='https://doi.org/10.1080/1062936X.2016.1253611'target='_blank'>An automated curation procedure for addressing chemical errors and inconsistencies in public datasets used in QSAR modelling</a>).",
+    "iconType": "Information",
+    "helpTextId": "BATCH IntrinsicProp OPERA"
+  },
+  {
+    "id": 37,
+    "helpPosition": "right",
+    "helpText": "The SMILES downloaded with this selection are for the chemical structure associated with the substance displayed in a particular record. They can be considered to be &quot;substance-level SMILES&quot;. Other types of SMILES are available including &quot;QSAR-ready&quot; and &quot;MS-Ready&quot; forms. QSAR-Ready SMILES are those that were used in order to perform the OPERA predictions (processed to desalt, remove stereo and split multi-component chemicals into individual components). MS-Ready SMILES has similar processing but uses a different list of salt components to retain mappings.",
+    "iconType": "Information",
+    "helpTextId": "BATCH Structures smiles"
+  },
+  {
+    "id": 38,
+    "helpPosition": "right",
+    "helpText": "The InChIString can be converted  back to a molfile using software that integrates the InChI processing code. ",
+    "iconType": "Information",
+    "helpTextId": "BATCH Structures inchistring"
+  },
+  {
+    "id": 39,
+    "helpPosition": "right",
+    "helpText": "Enter one or more terms to sift the abstracts with. Entering each term will add a count to the appropriate column and highlight the term(s) in each individual abstract. Click on the relevant column to sort on that term. ",
+    "iconType": "Information",
+    "helpTextId": "SIFT Sift terms"
+  },
+  {
+    "id": 40,
+    "helpPosition": "right",
+    "helpText": "Articles are retrieved using the Query Term, CASRN and Name(s). However, if you wish to more finely tune the query add other filter terms of interest simply by emulating the structure of the query using AND and OR query terms.",
+    "iconType": "Information",
+    "helpTextId": "SIFT Retrieve Articles"
+  },
+  {
+    "id": 41,
+    "helpPosition": "right",
+    "helpText": "A version of the Abstract Sifter for Excel providing many of the capabilities delivered through the web interface (as well as additional functionality)  is available for download simply by clicking this button. For details please read this publication: <a href='https://f1000research.com/articles/6-2164/v1'target='_blank'>Abstract Sifter: a comprehensive front-end system to PubMed</a>",
+    "iconType": "Information",
+    "helpTextId": "SIFT Sifter download"
+  },
+  {
+    "id": 42,
+    "helpPosition": "right",
+    "helpText": "In order to download a list of references identified using the Abstract Sifter simply select those of interest by clicking in the selection box in the first column or by selecting all. The list can then be sent to Excel or exported as a TSV file. For export in other formats such as BibTex use the integration with PubMed to send the list to the relevant PubMed page supporting this function.",
+    "iconType": "Information",
+    "helpTextId": "SIFT Export Excel Pubmed"
+  },
+  {
+    "id": 43,
+    "helpPosition": "right",
+    "helpText": "The PubMed Abstract Sifter functionality should be intuitive to use and starts with choosing a query term of interest and clicking on \"Retrieve Articles\". The Query Term is appended to the CASRN and name(s) in order to query against the PubMed services.",
+    "iconType": "Information",
+    "helpTextId": "SIFT StepOneTwo"
+  },
+  {
+    "id": 44,
+    "helpPosition": "right",
+    "helpText": "The Chemical Abstracts Service Registry Numbers can be input with or without dashes. The search will check the CAS check digit and flag input CASRNs as not matching the appropriate CAS Number format if the check digit fails to pass the test.",
+    "iconType": "Information",
+    "helpTextId": "BATCH ChemIdent casrn"
+  },
+  {
+    "id": 45,
+    "helpPosition": "right",
+    "helpText": "The DTXSID is the DSSTox Substance Identifier, a unique identifier associated with a substance on the dashboard.",
+    "iconType": "Information",
+    "helpTextId": "BATCH ChemIdent DTXSID"
+  },
+  {
+    "id": 46,
+    "helpPosition": "right",
+    "helpText": "Various type of chemical names can be used as inputs for the batch search - systematic names, trivial names, trade names etc. ",
+    "iconType": "Information",
+    "helpTextId": "BATCH ChemIdent chemname"
+  },
+  {
+    "id": 47,
+    "helpPosition": "right",
+    "helpText": "The IUPAC Names are generated using Systematic Naming software.",
+    "iconType": "Information",
+    "helpTextId": "BATCH ChemIdent iupac"
+  },
+  {
+    "id": 48,
+    "helpPosition": "right",
+    "helpText": "The exported InChIKey includes both layers and therefore includes charge, isotopes and stereochemistry",
+    "iconType": "Information",
+    "helpTextId": "BATCH ChemIdent inchikey"
+  },
+  {
+    "id": 49,
+    "helpPosition": "right",
+    "helpText": "TEST predictions are based on the EPA <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test'target='_blank'>Toxicity Estimation Software Tool</a>",
+    "iconType": "Information",
+    "helpTextId": "BATCH IntrinsicProp TESTmodelpred"
+  },
+  {
+    "id": 50,
+    "helpPosition": "right",
+    "helpText": "The average mass is calculated based on the general distribution of atomic weights for the various isotopes. ",
+    "iconType": "Information",
+    "helpTextId": "BATCH IntrinsicProp averagemass"
+  },
+  {
+    "id": 51,
+    "helpPosition": "right",
+    "helpText": "The molecular formula is that associated with a particular substance record.",
+    "iconType": "Information",
+    "helpTextId": "BATCH IntrinsicProp molecularform"
+  },
+  {
+    "id": 52,
+    "helpPosition": "right",
+    "helpText": "The curation level details describe the various levels of data curation that has been performed on an individual substance record. For details you are recommended to read the section with table 1 in the <a href='https://jcheminf.springeropen.com/articles/10.1186/s13321-017-0247-6'target='_blank'>The CompTox Chemistry Dashboard: a community data resource for environmental chemistry</a> paper.",
+    "iconType": "Information",
+    "helpTextId": "BATCH Metadata curationlevel"
+  },
+  {
+    "id": 53,
+    "helpPosition": "right",
+    "helpText": "ToxPrints are described in detail in the publication <a href='http://pubs.acs.org/doi/abs/10.1021/ci500667v/'target='_blank'>Yang C, Tarkhov A, Marusczyk J, et al. &quot;New Publicly Available Chemical Query Language, CSRML, To Support Chemotype Representations for Application to Data Mining and Modeling.&quot; J. Chem. Inf. Model.. 2015;55(3):510-528.</a>. The ToxPrint <a href='https://toxprint.org/'target='_blank'>Source Website</a> provides additional details.\r\n\r\n\r\n\r\n",
+    "iconType": "Information",
+    "helpTextId": "BATCH Metadata TOXPRINT"
+  },
+  {
+    "id": 54,
+    "helpPosition": "right",
+    "helpText": "Selecting this Abstract Sifter output file produces an Excel file to use in the desktop version of the Abstract Sifter.  For details regarding the desktop Abstract Sifter please read this publication: <a href='https://f1000research.com/articles/6-2164/v1'target='_blank'>Abstract Sifter: a comprehensive front-end system to PubMed</a>",
+    "iconType": "Information",
+    "helpTextId": "BATCH Metadata ABSTRACT SIFTER"
+  },
+  {
+    "id": 56,
+    "helpPosition": "right",
+    "helpText": "ToxVal is a toxicity value database containing data aggregated from 18 separate databases. Checking this box includes the availability of data, not the data itself, in the export file. For details you are recommended to read the section with table 1 in the <a href='https://jcheminf.springeropen.com/articles/10.1186/s13321-017-0247-6'target='_blank'>The CompTox Chemistry Dashboard: a community data resource for environmental chemistry</a> paper.",
+    "iconType": "Information",
+    "helpTextId": "BATCH Metadata TOXVAL"
+  },
+  {
+    "id": 58,
+    "helpPosition": "right",
+    "helpText": "The database underlying the chemistry dashboard contains ~900k chemical substances made up of a number of chemical lists, some of these being public <a href='http://comptox.zn.epa.gov/dashboard/chemical_lists'target='_blank'>chemical lists</a>. The number of data sources is a valuable piece of data for helping in the identification of chemicals by non-targeted screening as explained in the paper <a href='https://doi.org/10.1007/s00216-016-0139-z'target='_blank'>Identifying known unknowns using the US EPA’s CompTox Chemistry Dashboard</a>.",
+    "iconType": "Information",
+    "helpTextId": "BATCH Metadata datasources"
+  },
+  {
+    "id": 59,
+    "helpPosition": "right",
+    "helpText": "The Centers for Disease Control (CDC) National Health and Nutrition Examination Survey (NHANES) is a program of studies designed to assess the health and nutritional status of adults and children in the United States (<a href=' http://www.cdc.gov/nchs/nhanes/'target='_blank'>link</a>). As part of the NHANES, the CDC monitors biomarkers of chemical exposure (chiefly metabolites) in the blood and urine to quantify the levels of chemical compounds present in U.S. residents (<a href=' https://www.cdc.gov/exposurereport/' target='_blank'>link</a>). Each two-year study cycle comprises approximately 10,000 individuals, with exposure biomarker data for any given chemical available from only a subset of roughly 1/3 of the individuals in the study. Checking this box includes a flag into the exported file regarding the availability of these data. ",
+    "iconType": "Information",
+    "helpTextId": "BATCH Metadata NHANES"
+  },
+  {
+    "id": 60,
+    "helpPosition": "right",
+    "helpText": "Molfiles are downloaded into the SDF file ONLY when the SDF file form of download is selected.",
+    "iconType": "Information",
+    "helpTextId": "BATCH Structures molfile"
+  },
+  {
+    "id": 61,
+    "helpPosition": "right",
+    "helpText": "The Assay Plots display the number of assays associated with the Endocrine Disruption Screening Program and ToxCast as well as the fraction of assays in which the chemical is active.",
+    "iconType": "Information",
+    "helpTextId": "EXEC Assay Bars"
+  },
+  {
+    "id": 62,
+    "helpPosition": "right",
+    "helpText": "These PhysChem Parameters are those of primary concern for the distribution and bioavailability of chemicals in the environment: logP, Bioconcentration Factor and Vapor Pressure. The color coding illustrates the acceptable ranges. ",
+    "iconType": "Information",
+    "helpTextId": "EXEC PhysChem Parameters"
+  },
+  {
+    "id": 63,
+    "helpPosition": "right",
+    "helpText": "The bioassay data displayed in this panel includes modeled AC50 values from multi-concentration data only. Single concentration data may also be available for some assay technologies.  Single concentration data are included in the list of ‘tested’ assays endpoints if multi-concentration data are unavailable; this can be visualized by searching for a chemical, and clicking “All Tested” in the <a href='https://actorstage.rtpnc.epa.gov/dashboard2/' target='_blank'>Assay pane in the Toxcast Dashboard</a>. Raw, normalized, and interpreted single concentration data from level 0 to level 2 are fully available from the <a href='https://www.epa.gov/chemical-research/toxicity-forecaster-toxcasttm-data' target='_blank'>freely downloadable MySQL database, invitrodb</a>. Internet Explorer may enable the best functionality to view the Toxcast Dashboard.\r\nThe scaled response shown on the graph below is calculated by dividing the response values by the activity cutoff thereby enabling response comparisons across assay endpoints.",
+    "iconType": "Information",
+    "helpTextId": "EXEC ToxCast Data Scatter"
+  },
+  {
+    "id": 64,
+    "helpPosition": "right",
+    "helpText": "Assay Details associated with a particular assay are shown below when a data point is selected in the the chart. A number of these include a hyperlink to complete detailed annotations (associated with the field Assay Description)",
+    "iconType": "Information",
+    "helpTextId": "EXEC ToxCast Assay Details"
+  },
+  {
+    "id": 65,
+    "helpPosition": "right",
+    "helpText": "This view provides a means to identify potential source analogues for a given target chemical, the centroid of the radial plot. The radial plot displays K source analogues (otherwise called nearest neighbours) where K can be set from 5 to 10. Analogues are filtered based on the availability of in vivo toxicity data. Analogues are ordered in decreasing order of similarity in a clockwise manner in the plot, starting with the most similar at the top. The similarity indices are annotated c (for chemistry) or b (for bioactivity) depending on the similarity context selected. Analogues may be identified using chemical descriptors or bioactivity descriptors. There are 3 different types of chemical descriptors included that are fingerprint representations of chemical structure - Morgan fingerprints, torsion fingerprints and chemotypes. Bioactivity descriptors make reference to a fingerprint representation of hitcalls from the ToxCast or Tox21 assays. For more details watch the video <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/TCg387LhVpY?rel=0&amp;start=246\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+    "iconType": "Information",
+    "helpTextId": "GENRA Analog Identification"
+  },
+  {
+    "id": 68,
+    "helpPosition": "right",
+    "helpText": "This data matrix view provides a means of performing a data gap analysis of the target chemical and the toxicity outcome for each source analogue represented as red and blue boxes to indicate presence and absence of effects. The view also provides information of the doses at which toxicity effects were observed by hovering over the boxes, which provide a means of assessing the validity of the analogues to determine which should be included in any read-across prediction. The data displayed can be filtered by specific effects or by setting thresholds for number of positives and negatives to be included in any prediction derived. The GenRA prediction is derived by clicking on the Run read-across button. Predictions and their associated confidence scores expressed as AUC values and their p-values can be displayed by hovering and the predictions are coloured coded in the same way as experimental results but by degrees of opacity. The opacity corresponds to how much confidence is associated with a prediction. The data matrix view and any generated predictions can be exported as a tsv or excel file by clicking on the export button. For more details watch the video <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/TCg387LhVpY?rel=0&amp;start=559\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+    "iconType": "Information",
+    "helpTextId": "GENRA Run GenRA Prediction"
+  },
+  {
+    "id": 69,
+    "helpPosition": "right",
+    "helpText": "This figure provides a summary representation of the data availability associated with the target chemical and its identified source analogues. The quantity of data associated with a given chemical is indicated by the number of records and the darkness of the associated box. The representation provides a summary overview of the data quantity and coverage for the target and source analogues. This starts to provide a perspective to inform data gaps. For more details watch the video <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/TCg387LhVpY?rel=0&amp;start=408\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+    "iconType": "Information",
+    "helpTextId": "GENRA Summary Data Gap Analysis"
+  },
+  {
+    "id": 70,
+    "helpPosition": "right",
+    "helpText": "This grouping by toxicity data as arising from ToxRefDB and across the Tox fingerprint which provides a representation of the data quantity across different toxicity effects for the source analogues selected. This informs the data gap analysis step of the workflow. Clicking on Generate data matrix launches the final window in the grid view to display a data matrix overview of the target chemical and its source analogues. Selecting the similarity weight on the top bar provides a visual cue of the similarity by adjusting the size of the experimental data box for a given analogue. For more details watch the video <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/TCg387LhVpY?rel=0&amp;start=483\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+    "iconType": "Information",
+    "helpTextId": "GENRA Generate Data Matrix"
+  },
+  {
+    "id": 71,
+    "helpPosition": "right",
+    "helpText": "The publications associated with the ToxCast Pathway Models are: 1) ESTROGEN: As described in Browne, et al (2015) DOI: <a href='https://doi.org/10.1021/acs.est.5b02641'target='_blank'>10.1021/acs.est.5b02641</a> and presented to December 2014 FIFRA SAP under <a href='https://www.regulations.gov/docket?D=EPA-HQ-OPP-2014-0614'target='_blank'> EPA-HQ-OPP-2014-0614</a>.  2) ANDROGEN: As described in Kleinstreuer et al (2017) <a href='https://pubs.acs.org/doi/10.1021/acs.chemrestox.6b00347'target='_blank'>10.1021/acs.chemrestox.6b00347</a> and presented to November 2017 FIFRA SAP under <a href='https://www.regulations.gov/docket?D=EPA-HQ-OPP-2017-0214'target='_blank'> EPA-HQ-OPP-2017-0214</a>.  ",
+    "iconType": "Information",
+    "helpTextId": "SR ToxCast Model Predictions"
+  },
+  {
+    "id": 72,
+    "helpPosition": "right",
+    "helpText": "As described in Mansouri, et al (2016) DOI: <a href='https://doi.org/10.1289/ehp.1510267'target='_blank'>10.1289/ehp.1510267</a>.",
+    "iconType": "Information",
+    "helpTextId": "SR ToxCast Model Predictions CERAPP"
+  },
+  {
+    "id": 73,
+    "helpPosition": "right",
+    "helpText": "MS-Ready SMILES are the SMILES representations of the desalted, de-isotoped, stereo-neutral forms of chemical structures associated with particular chemical substances. One MS-Ready SMILES can map to multiple individual chemical substances.",
+    "iconType": "Information",
+    "helpTextId": "BATCH Structures MS-Ready smiles"
+  },
+  {
+    "id": 74,
+    "helpPosition": "right",
+    "helpText": "QSAR-Ready SMILES are the SMILES representations of the desalted, de-isotoped, stereo-neutral forms of chemical structures associated with particular chemical substances. One QSAR-Ready SMILES can map to multiple individual chemical substances. They differ from MS-Ready SMILES based on a more restricted set of salt counterions primarily.",
+    "iconType": "Information",
+    "helpTextId": "BATCH Structures QSAR-Ready smiles"
+  },
+  {
+    "id": 75,
+    "helpPosition": "right",
+    "helpText": "Selecting IRIS will provide a link to the EPA Integrated Risk Information System report that exists for those chemicals where it is available.",
+    "iconType": "Information",
+    "helpTextId": "BATCH Metadata IRIS"
+  },
+  {
+    "id": 76,
+    "helpPosition": "right",
+    "helpText": "Selecting PPRTV will provide a link to the EPA Provisional Peer Reviewed Toxicity Values for Superfund reports that exists for those chemicals where it is available.",
+    "iconType": "Information",
+    "helpTextId": "BATCH Metadata PPRTV"
+  },
+  {
+    "id": 78,
+    "helpPosition": "right",
+    "helpText": "MetFrag is a freely available software for the annotation of high precision tandem mass spectra of structures which is a first and critical step for the identification of a molecule's structure. Candidate molecules of different databases are fragmented in silico and matched against mass to charge values. The output file can be used as input into the MetFrag program (http://c-ruttkies.github.io/MetFrag/)",
+    "iconType": "Information",
+    "helpTextId": "BATCH Metadata MetFrag"
+  },
+  {
+    "id": 80,
+    "helpPosition": "right",
+    "helpText": "This search is based on what we refer to as \"Mass Spec (MS) Ready\" structures. All chemicals within the database are treated in a manner such that all are desalted, mixtures are separated, and stereochemistry is removed as Mass Spectrometry detects the major components of a salt or mixture and is insensitive to stereochemistry. As an example, a search for the monoisotopic mass of phenol will return phenol, sodium phenolate and calcium phenoxide.  See the publication for more details: <a href='https://doi.org/10.1186/s13321-018-0299-2' target='_blank'>https://doi.org/10.1186/s13321-018-0299-2</a>.",
+    "iconType": "Information",
+    "helpTextId": "BATCH Monoisotopic Mass Search"
+  },
+  {
+    "id": 81,
+    "helpPosition": "right",
+    "helpText": "CoMPARA is a larger scale collaboration between 35 international groups, using QSAR models to predict androgen receptor activity using a common training set of 1746 compounds provided by U.S. EPA. A key result is a consensus model of AR agonist and antagonist activity that is run against the DSSTox chemical library. These results are intended to be used in prioritization for compounds for follow-up testing. More details about the project are available on <a href='https://www.researchgate.net/publication/316606155_CoMPARA_Collaborative_Modeling_Project_for_Androgen_Receptor_Activity'target='_blank'>ResearchGate</a>.",
+    "iconType": "Information",
+    "helpTextId": "SR ToxCast Model Predictions COMPARA"
+  },
+  {
+    "id": 83,
+    "helpPosition": "right",
+    "helpText": "The DTXCID is the DSSTox Chemical Identifier, a unique identifier associated with a chemical structure on the dashboard.",
+    "iconType": "Information",
+    "helpTextId": "BATCH ChemIdent DTXCID"
+  },
+  {
+    "id": 84,
+    "helpPosition": "right",
+    "helpText": "The DTXCID is the DSSTox Chemical Identifier, a unique identifier associated with a chemical structure on the dashboard.",
+    "iconType": "Information",
+    "helpTextId": "BATCH Input dtxcid"
+  },
+  {
+    "id": 85,
+    "helpPosition": "right",
+    "helpText": "For further info, see:  <a href='https://toxprint.org/' target='_blank'>https://toxprint.org/</a>;  Main citation: Yang C, Tarkhov A, Marusczyk J, et al. &quot;New Publicly Available Chemical Query Language, CSRML, To Support Chemotype Representations for Application to Data Mining and Modeling.&quot; J. Chem. Inf. Model.. 2015;55(3):510-528.  \r\n\r\n\r\n",
+    "iconType": "Information",
+    "helpTextId": "BATCH Enhanced Data Sheets TOXPRINT ChemoTyper format"
+  },
+  {
+    "id": 86,
+    "helpPosition": "right",
+    "helpText": "For further info, see:  https://toxprint.org/;  Main citation: Yang C, Tarkhov A, Marusczyk J, et al. &quot;New Publicly Available Chemical Query Language, CSRML, To Support Chemotype Representations for Application to Data Mining and Modeling.&quot; J. Chem. Inf. Model.. 2015;55(3):510-528.  ",
+    "iconType": "Information",
+    "helpTextId": "BATCH Metadata TOXPRINT"
+  },
+  {
+    "id": 87,
+    "helpPosition": "right",
+    "helpText": "Selecting this checkbox provides a separate Excel worksheet with input chemicals listed (as columns) and all assays that those chemicals have been examined in. The cells are color-coded as red for ACTIVE and blue as INACTIVE. For a thorough understanding of all parameters reported in the Excel spreadsheet the user is referenced to various documentation including 1) an article entitled \"<a href='https://doi.org/10.1093/bioinformatics/btw680'target='_blank'>tcpl: the ToxCast pipeline for high-throughput screening data</a>\" and 2) <a href='https://cran.r-project.org/web/packages/tcpl/index.html'target='_blank'>documentation regarding tcpl</a> on the Comprehensive R Archive Network (cran). Attention is specifically directed to the <a href='https://cran.r-project.org/web/packages/tcpl/vignettes/Introduction_Appendices.html#introduction'target='_blank'>Introduction vignette providing vignette an overview of the tcpl package</a>.",
+    "iconType": "Information",
+    "helpTextId": "BATCH Enhanced Data Sheets Associated ToxCast Assays"
+  },
+  {
+    "id": 88,
+    "helpPosition": "right",
+    "helpText": "Selecting this checkbox provides a separate Excel worksheet containing synonyms and identifiers for the chemicals listed in the input.",
+    "iconType": "Information",
+    "helpTextId": "BATCH Enhanced Data Sheets Synonym Identifiers"
+  },
+  {
+    "id": 89,
+    "helpPosition": "right",
+    "helpText": "Selecting this checkbox provides a separate Excel worksheet containing the relationship between two chemicals. The output file includes the DTXSIDs and names/CASRNs between the input list and the related chemical. Relationships include, for example, polymer, components, salt form, transformation product and other relationships.",
+    "iconType": "Information",
+    "helpTextId": "BATCH Enhanced Data Sheets Related Substance relationships"
+  },
+  {
+    "id": 90,
+    "helpPosition": "right",
+    "helpText": "Checking this Assay Hit Count box inserts the number of assays that the chemical is tested in as well as the percent of assays for which the chemical is active.",
+    "iconType": "Information",
+    "helpTextId": "BATCH Metadata assayhit"
+  },
+  {
+    "id": 91,
+    "helpPosition": "right",
+    "helpText": "Clicking on QC Notes will include manual annotation notes added to a record during the chemical registration process.",
+    "iconType": "Information",
+    "helpTextId": "BATCH ChemIdent qcnotes"
+  },
+  {
+    "id": 92,
+    "helpPosition": "right",
+    "helpText": "The Production Volume data is sourced from the  <a href='https://www.epa.gov/chemical-data-reporting' target='_blank'>Chemical Data Reporting (2014)</a> (CDR) data submitted to US-EPA. The Chemical Data Reporting (CDR) Rule, issued under the Toxic Substances Control Act (TSCA), requires manufacturers (including importers) to give EPA information on the chemicals they produce domestically or import into the United States. EPA uses the data to help assess the potential human health and environmental effects of these chemicals and makes the non-confidential business information it receives available to the public. ",
+    "iconType": "Information",
+    "helpTextId": "SR Exposure Production Volume"
+  },
+  {
+    "id": 94,
+    "helpPosition": "left",
+    "helpText": "Regional Screening Levels (RSLs) are developed using risk assessment guidance from the EPA Superfund program and can be used for Superfund sites. They are risk-based concentrations derived from standardized equations combining exposure information assumptions with EPA toxicity data. RSLs are considered by the Agency to be protective for humans (including sensitive groups) over a lifetime; however, RSLs are not always applicable to a particular site and do not address non-human health endpoints, such as ecological impacts. They are used for site &quot;screening&quot; and as initial cleanup goals, if applicable. RSLs are not de facto cleanup standards and should not be applied as such. The RSL's role in site &quot;screening&quot; is to help identify areas, contaminants, and conditions that require further federal attention at a particular site. For more details see <a href='https://www.epa.gov/risk/regional-screening-levels-rsls' target='_blank'>https://www.epa.gov/risk/regional-screening-levels-rsls</a> and for Frequently Asked Questions see <a href='https://www.epa.gov/risk/regional-screening-levels-frequent-questions' target='_blank'>https://www.epa.gov/risk/regional-screening-levels-frequent-questions</a>.\r\n\r\n\r\n",
+    "iconType": "Information",
+    "helpTextId": "EXEC Regional Screening"
+  },
+  {
+    "id": 96,
+    "helpPosition": "right",
+    "helpText": "The related substances tab displays chemicals related to the searched chemical. This includes, for example, transformation products (metabolites and environmental degradants) and monomer to polymer relationships. The related substances tab does not includes chemicals for the same class of chemicals, for example lists of dioxins (LINK TO https://comptox.epa.gov/dashboard/chemical_lists/DIOXINS*) or list of pyrethroids (https://comptox.epa.gov/dashboard/chemical_lists/PYRETHROIDS*)",
+    "iconType": "Information",
+    "helpTextId": "Related Substances Header"
+  },
+  { 
+    "id": 95,
+    "helpPosition": "right",
+    "helpText": "The information here describes toxicokinetics in humans. Values are 1) measured either in vitro or in vivo, 2) predicted from chemical properties using in silico tools, or 3) computed with mathematical models simulating toxicokinetics. The in vitro measured values reflect the value curated for the open source R package “httk”. The computed values are generated with httk using the reported in vitro values. https://CRAN.R-project.org/package=httk",
+    "iconType": "Information",
+    "helpTextId": "ADME IVIVE Header"
+  }
+]

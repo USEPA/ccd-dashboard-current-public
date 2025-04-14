@@ -1,0 +1,73 @@
+{
+  "data": {
+    "assaySources": [
+      {
+        "vendorShort": "ACEA",
+        "vendorFull": "ACEA Biosciences"
+      },
+      {
+        "vendorShort": "APR",
+        "vendorFull": "Apredica"
+      },
+      {
+        "vendorShort": "ATG",
+        "vendorFull": "Attagene"
+      },
+      {
+        "vendorShort": "BSK",
+        "vendorFull": "Bioseek"
+      },
+      {
+        "vendorShort": "NVS",
+        "vendorFull": "Novascreen"
+      },
+      {
+        "vendorShort": "OT",
+        "vendorFull": "Odyssey Thera"
+      },
+      {
+        "vendorShort": "TOX21",
+        "vendorFull": "Tox21/NCGC"
+      },
+      {
+        "vendorShort": "CEETOX",
+        "vendorFull": "Ceetox/OpAns"
+      },{
+        "vendorShort": "LTEA",
+        "vendorFull": "LifeTech/Expression Analysis"
+      },
+      {
+        "vendorShort": "CLD",
+        "vendorFull": "CellzDirect"
+      },
+      {
+        "vendorShort": "NHEERL_PADILLA",
+        "vendorFull": "NHEERL Padilla Lab"
+      },
+      {
+        "vendorShort": "NCCT",
+        "vendorFull": "NCCT Simmons Lab"
+      },
+      {
+        "vendorShort": "TANGUAY",
+        "vendorFull": "Tanguay Lab"
+      },
+      {
+        "vendorShort": "STM",
+        "vendorFull": "Stemina Biomarker Discovery"
+      },
+      {
+        "vendorShort": "NHEERL_NIS",
+        "vendorFull": "NHEERL Stoker and Laws Laboratories"
+      },
+      {
+        "vendorShort": "NHEERL_MED",
+        "vendorFull": "NHEERL Mid-Continent Ecology Division"
+      },
+      {
+        "vendorShort": "UPITT",
+        "vendorFull": "University of Pittsburgh Johnston Lab"
+      }
+    ]
+  }
+}

@@ -1,0 +1,848 @@
+[{
+	"label": "General ",
+	"links": [{
+		"name": "EPA Substance Registry Service",
+		"description": "Substance Registry Services (SRS) is the Environmental Protection Agency's (EPA) central system for information about substances that are tracked or regulated by EPA or other sources. It is the authoritative resource for basic information about chemicals, biological organisms, and other substances of interest to EPA and its state and tribal partners.",
+		"no_results_response": "No substance was found matching the specified criteria",
+		"url": "https://iaspub.epa.gov/sor_internet/registry/substreg/searchandretrieve/advancedsearch/externalSearch.do?p_type=CASNO&p_value=51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/9/epa_logo.png"
+		}
+	}, {
+		"name": "Household Products Database",
+		"description": "This database links over 15,000 consumer brands to health effects from Material Safety Data Sheets (MSDS) provided by manufacturers and allows scientists and consumers to research products based on chemical ingredients.",
+		"no_results_response": "0 record(s) found",
+		"url": "https://hpd.nlm.nih.gov/cgi-bin/household/search?tbl=TblChemicals&queryx=51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/14/hhs.png"
+		}
+	}, {
+		"name": "Chemical Entities of Biological Interest (ChEBI)",
+		"description": "Chemical Entities of Biological Interest (ChEBI) is a freely available dictionary of molecular entities focused on ‘small’ chemical compounds. ",
+		"no_results_response": "We seem to have experienced a problem",
+		"url": null,
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/7/ebi.png"
+		}
+	}, {
+		"name": "PubChem",
+		"description": "PubChem, released in 2004, provides information on the biological activities of small molecules. PubChem is organized as three linked databases within the NCBI's Entrez information retrieval system. These are PubChem Substance, PubChem Compound, and PubChem BioAssay. PubChem also provides a fast chemical structure similarity search tool. More information about using each component database may be found using the links in the homepage.",
+		"no_results_response": "No items found",
+		"url": "https://pubchem.ncbi.nlm.nih.gov/compound/1493",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/52/Pubchem.png"
+		}
+	}, {
+		"name": "Chemspider",
+		"description": "ChemSpider is a free chemical structure database providing fast text and structure search access to over 35 million structures from hundreds of data sources.",
+		"no_results_response": "N/A",
+		"url": "http://www.chemspider.com/Chemical-Structure.1448.html",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/3/chemspider.png"
+		}
+	}, {
+		"name": "CPCat",
+		"description": "CPCat (Chemical and Product Categories) is a database containing information mapping >43,000 chemicals to a set of terms categorizing their usage or function.",
+		"no_results_response": "No records found",
+		"url": "http://actor.epa.gov/cpcat/faces/chemicalUse.xhtml?casrn=51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/9/epa_logo.png"
+		}
+	}, {
+		"name": "DrugBank",
+		"description": "The DrugBank database is a unique bioinformatics and cheminformatics resource that combines detailed drug (i.e. chemical, pharmacological and pharmaceutical) data with comprehensive drug target (i.e. sequence, structure, and pathway) information. The database contains 8312 drug entries including 2036 FDA-approved small molecule drugs, 233 FDA-approved biotech (protein/peptide) drugs, 93 nutraceuticals and over 6000 experimental drugs. Additionally, 4317 non-redundant protein (i.e. drug target/enzyme/transporter/carrier) sequences are linked to these drug entries. Each DrugCard entry contains more than 200 data fields with half of the information being devoted to drug/chemical data and the other half devoted to drug target or protein data. ",
+		"no_results_response": "That page doesn't exist",
+		"url": "http://www.drugbank.ca/drugs/DB04528",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/5/drugbank.png"
+		}
+	}, {
+		"name": "HMDB",
+		"description": "The Human Metabolome Database (HMDB) is a freely available electronic database containing detailed information about small molecule metabolites found in the human body.",
+		"no_results_response": "N/A",
+		"url": null,
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/15/hmdb.png"
+		}
+	}, {
+		"name": "Wikipedia",
+		"description": "Wikipedia is a multilingual, web-based, free-content encylopedia project supported by the Wikimedia Foundation and based on a model of openly editable content.",
+		"no_results_response": "Wikipedia does not have an article with this exact name.",
+		"url": "https://en.wikipedia.org/wiki/2,3-Dinitrophenol",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/24/wikipedia.ico"
+		}
+	}, {
+		"name": "MSDS Lookup",
+		"description": "The MSDS look-up search is provided via the Cheminfo.org service kindly provided by Luc Patiny and collaborators. ",
+		"no_results_response": "N/A",
+		"url": "http://www.cheminfo.org/Chemistry/MSDS_lookup/index.html?rn=51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/1/search.png"
+		}
+	}, {
+		"name": "ChEMBL",
+		"description": "ChEMBL or ChEMBLdb is a manually curated chemical database of bioactive molecules with drug-like properties.[1] It is maintained by the European Bioinformatics Institute (EBI), of the European Molecular Biology Laboratory (EMBL), based at the Wellcome Trust Genome Campus, Hinxton, UK.",
+		"no_results_response": "N/A",
+		"url": "https://www.ebi.ac.uk/chembl/compound/inspect/CHEMBL273386",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/7/ebi.png"
+		}
+	}, {
+		"name": "Chemical Vendors",
+		"description": "The chemical Book website aggregates data about chemical vendors from various sites.",
+		"no_results_response": "N/A",
+		"url": "http://www.chemicalbook.com/Search_EN.aspx?keyword=51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/1/search.png"
+		}
+	}, {
+		"name": "CalEPA OEHHA",
+		"description": "The OEHHA Chemical Database is a compilation of health hazard information including reference exposure levels, California public health goals, child-specific reference doses, Propos. 65 safe harbor numbers, soil-screening levels, and fish advisories",
+		"no_results_response": "N/A",
+		"url": null,
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/58/CalEPA.png"
+		}
+	}, {
+		"name": "NIOSH Chemical Safety Cards",
+		"description": "The International Chemical Safety Cards (ICSC) summarize essential health and safety information on chemicals for their use at the \"shop floor\" level by workers and employers in factories, agriculture, construction and other work places. ICSC summarize health and safety information collected, verified, and peer reviewed by internationally recognized experts, taking into account advice from manufacturers and Poison Control Centres.",
+		"no_results_response": "N/A",
+		"url": "https://www.ilo.org/dyn/icsc/showcard.display?p_lang=en&p_card_id=0464&p_version=2",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/33/CDC.png"
+		}
+	}, {
+		"name": "ToxPlanet",
+		"description": "Founded in 2015, ToxPlanet™ is focused on software as a service (SaaS) analytical, intelligence, regulatory, and decision-support solutions designed to address the spectrum of information and decision-support needs for toxicology, product stewardship, and chemical safety professionals",
+		"no_results_response": "N/A",
+		"url": "http://search.toxplanet.com/categorysearch.aspx?cas_no=51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/26/tox_planet.png"
+		}
+	}, {
+		"name": "ACS Reagent Chemicals",
+		"description": "The ACS Committee on Analytical Reagents sets purity specifications for almost 500 reagent chemicals and over 500 standard-grade reference materials. These specifications have become the de facto standards for chemicals used in many high-purity applications.",
+		"no_results_response": "N/A",
+		"url": null,
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/34/ACS.png"
+		}
+	}, {
+		"name": "Wikidata",
+		"description": "Chemical information in the Wikidata database",
+		"no_results_response": "N/A",
+		"url": "https://www.wikidata.org/wiki/Q209226",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/56/Wikidata-favicon.png"
+		}
+	}, {
+		"name": "ChemHat: Hazards and Alternatives Toolbox",
+		"description": "ChemHAT, the Chemical Hazard and Alternatives Toolbox, is a new internet database designed to offer up easy to use information that we can use to protect ourselves, our families and our co-workers against the harm that chemicals can cause.\r\n\r\nChemHAT is based on the simple idea that when we know how a chemical can hurt us we can take protective action. There are solutions at the bottom of the hierarchy of controls. Sometimes that action is using the chemical wearing gloves or with extra ventilation. ChemHAT was designed to let us ask and answer a different question. Instead of what engineering controls and personal protective equipment do I need to lower the levels of exposure to a “safe” level, ChemHAT is being designed to answer the question, “Is there a way to get this job done without using dangerous chemicals? We know from stories of substitution and elimination that already exist, that the answer can be yes.",
+		"no_results_response": "N/A",
+		"url": "http://chemhat.org/en/chemical-finder/51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/35/chemhat.png"
+		}
+	}, {
+		"name": "Wolfram Alpha",
+		"description": "Wolfram|Alpha's long-term goal is to make all systematic knowledge immediately computable and accessible to everyone.",
+		"no_results_response": "N/A",
+		"url": "http://www.wolframalpha.com/input/?i=2,4-Dinitrophenol",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/36/wolfram.png"
+		}
+	}, {
+		"name": "ScrubChem",
+		"description": "ScrubChem is a digital curation of PubChem Bioassay, designed to build datasets and enhance research.",
+		"no_results_response": "N/A",
+		"url": "https://www.scrubchem.org/Home/Results?CIDs=1493",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/9/epa_logo.png"
+		}
+	}, {
+		"name": "ECHA Brief Profile",
+		"description": "The Brief Profile summarizes the non-confidential data on substances as it is held in the databases of the European Chemicals Agency (ECHA), including data provided by third parties. The Brief Profile is automatically generated; information requirements under different legislative frameworks may therefore not be fully up to date or complete. For accuracy reasons, substance manufacturers and imports have the responsibility to consult official sources, e.g. the electronic edition of the Official Journal of the European Union.",
+		"no_results_response": "N/A",
+		"url": "https://echa.europa.eu/brief-profile/-/briefprofile/100.000.080",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/39/echa.png"
+		}
+	}, {
+		"name": "ECHA Infocard",
+		"description": "In accordance with ECHA’s legal obligations to make (non-confidential)information on chemicals publicly available, the InfoCard functions as a ‘first tier’ in disseminating information from ECHA’s databases. The InfoCard serves as a high-level summary for a broad public, consisting of information that is most relevant to an audience of consumers, downstream users and professionals active in the chemical industry. ",
+		"no_results_response": "N/A",
+		"url": "https://echa.europa.eu/substance-information/-/substanceinfo/100.000.080",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/39/echa.png"
+		}
+	}, {
+		"name": "ChemAgora",
+		"description": "ChemAgora provides functionalities to search into heterogeneous publicly available databases containing chemical, physical and toxicological information.\r\nData provided by ChemAgora through third-party resources have not undergone any evaluation by the Joint Research Centre. Furthermore, portal users need to be aware that if one or more of the external services used by ChemAgora to translate chemical identifiers are temporarily not available or overloaded, the search functionalities of the portal will not be fully operating.",
+		"no_results_response": "N/A",
+		"url": "http://chemagora.jrc.ec.europa.eu/chemagora/casrn/51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/46/European_Commission.png"
+		}
+	}, {
+		"name": "Consumer Product Information Database",
+		"description": "This Consumer Product Information Database (cpid) that currently links over 15,000 consumer brands to health effects has been designed to educate consumers about chemical ingredients of household products.",
+		"no_results_response": "N/A",
+		"url": "https://www.whatsinproducts.com/chemicals/index/Chemical.search:searchKeyword/Chemical.lang_id:1/Chemical.chemical_keyword:51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/47/CPID.png"
+		}
+	}, {
+		"name": "ChEBI",
+		"description": "Chemical Entities of Biological Interest (ChEBI) is a freely available dictionary of molecular entities focused on ‘small’ chemical compounds. ",
+		"no_results_response": "N/A",
+		"url": "http://www.ebi.ac.uk/chebi/advancedSearchFT.do?searchString=UFBJCMHMOXMLKC-UHFFFAOYSA-N",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/7/ebi.png"
+		}
+	}, {
+		"name": "Sigma-Aldrich Chemicals",
+		"description": "The Sigma-Aldrich website providing access to details for almost 300,000 products",
+		"no_results_response": "N/A",
+		"url": "https://www.sigmaaldrich.com/catalog/search?term=51-28-5&interface=CAS%20No.",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/51/aldrich.png"
+		}
+	}, {
+		"name": "NIST Chemistry Webbook",
+		"description": "The NIST Chemistry WebBook provides access to data compiled and distributed by NIST under the Standard Reference Data Program. ",
+		"no_results_response": "N/A",
+		"url": "http://webbook.nist.gov/cgi/cbook.cgi?ID=51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/23/webbook.png"
+		}
+	}, {
+		"name": "Wikidata",
+		"description": "Chemical information in the Wikidata database",
+		"no_results_response": "N/A",
+		"url": "https://www.wikidata.org/wiki/Q209226",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/56/Wikidata-favicon.png"
+		}
+	}, {
+		"name": "WEBWISER",
+		"description": "WISER is a system designed to assist emergency responders in hazardous material incidents. WISER provides a wide range of information on hazardous substances, including substance identification support, physical characteristics, human health information, and containment and suppression advice.",
+		"no_results_response": "N/A",
+		"url": "https://webwiser.nlm.nih.gov/knownSubstanceSearch.do?method=search&currentSearchText=51-28-5&currentSearchBy=&goToItem=1&currentPageSize=50&groupBySelect=0&searchText=51-28-5&Search=Search",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/59/webwiser.png"
+		}
+	}, {
+		"name": "PubChem Safety Sheet",
+		"description": "PubChem Laboratory Chemical Safety Sheet",
+		"no_results_response": "N/A",
+		"url": "https://pubchem.ncbi.nlm.nih.gov/compound/1493#section=GHS-Classification&fullscreen=true",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/52/Pubchem.png"
+		}
+	}, {
+		"name": "NIOSH Chemical Safety Cards",
+		"description": "The International Chemical Safety Cards (ICSC) summarize essential health and safety information on chemicals for their use at the \"shop floor\" level by workers and employers in factories, agriculture, construction and other work places. ICSC summarize health and safety information collected, verified, and peer reviewed by internationally recognized experts, taking into account advice from manufacturers and Poison Control Centres.",
+		"no_results_response": "N/A",
+		"url": "https://www.ilo.org/dyn/icsc/showcard.display?p_lang=en&p_card_id=0464&p_version=2",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/33/CDC.png"
+		}
+	}, {
+		"name": "ECHA Brief Profile",
+		"description": "The Brief Profile summarizes the non-confidential data on substances as it is held in the databases of the European Chemicals Agency (ECHA), including data provided by third parties. The Brief Profile is automatically generated; information requirements under different legislative frameworks may therefore not be fully up to date or complete. For accuracy reasons, substance manufacturers and imports have the responsibility to consult official sources, e.g. the electronic edition of the Official Journal of the European Union.",
+		"no_results_response": "N/A",
+		"url": "https://echa.europa.eu/brief-profile/-/briefprofile/100.000.080",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/39/echa.png"
+		}
+	}, {
+		"name": "Consumer Product Information Database",
+		"description": "This Consumer Product Information Database (cpid) that currently links over 15,000 consumer brands to health effects has been designed to educate consumers about chemical ingredients of household products.",
+		"no_results_response": "N/A",
+		"url": "https://www.whatsinproducts.com/chemicals/index/Chemical.search:searchKeyword/Chemical.lang_id:1/Chemical.chemical_keyword:51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/47/CPID.png"
+		}
+	}, {
+		"name": "HMDB",
+		"description": "The Human Metabolome Database (HMDB) is a freely available electronic database containing detailed information about small molecule metabolites found in the human body.",
+		"no_results_response": "N/A",
+		"url": null,
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/15/hmdb.png"
+		}
+	}, {
+		"name": "CalEPA OEHHA",
+		"description": "The OEHHA Chemical Database is a compilation of health hazard information including reference exposure levels, California public health goals, child-specific reference doses, Propos. 65 safe harbor numbers, soil-screening levels, and fish advisories",
+		"no_results_response": "N/A",
+		"url": null,
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/58/CalEPA.png"
+		}
+	}, {
+		"name": "Sigma-Aldrich Chemicals",
+		"description": "The Sigma-Aldrich website providing access to details for almost 300,000 products",
+		"no_results_response": "N/A",
+		"url": "https://www.sigmaaldrich.com/catalog/search?term=51-28-5&interface=CAS%20No.",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/51/aldrich.png"
+		}
+	}, {
+		"name": "PubChem: Chemical Vendors",
+		"description": "The lost of chemicals vendors associated with a PubChem Record",
+		"no_results_response": "N/A",
+		"url": "https://pubchem.ncbi.nlm.nih.gov/compound/51-28-5#section=Chemical-Vendors&fullscreen=true",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/52/Pubchem.png"
+		}
+	}, {
+		"name": "CAMEO Chemicals",
+		"description": "CAMEO Chemicals is a database of hazardous chemical datasheets that emergency responders and planners can use to get response recommendations and predict hazardssuch as explosions or toxic fumes. ",
+		"no_results_response": "N/A",
+		"url": "https://cameochemicals.noaa.gov/search/aloha?cas=51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/11/generic_link.png"
+		}
+	}]
+}, {
+	"label": "Toxicology",
+	"links": [{
+		"name": "ACToR",
+		"description": "ACToR (Aggregated Computational Toxicology Resource) is EPA's online warehouse of all publicly available chemical toxicity data and can be used to find all publicly available data about potential chemical risks to human health and the environment. ACToR aggregates data from over 1,000 public sources on over 500,000 chemicals and is searchable by chemical name and other identifiers.",
+		"no_results_response": "Sorry, your CASRN was not found",
+		"url": "http://actor.epa.gov/actor/chemical.xhtml?casrn=51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/9/epa_logo.png"
+		}
+	}, {
+		"name": "DrugPortal",
+		"description": "The NLM Drug Information Portal gives users a gateway to selected drug information from the U.S. National Library of Medicine and other key U.S. Government agencies.  Resources include the NLM search systems useful in searching for a drug, NLM research resources, resources organized by audience and class, and other NIH and government resources such as FDA and CDC.",
+		"no_results_response": "0 <span style=&quot;font-size:0.9em&quot;>results",
+		"url": "http://druginfo.nlm.nih.gov/drugportal/dpdirect.jsp?regno=51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/6/druginfo.png"
+		}
+	}, {
+		"name": "CCRIS",
+		"description": "CCRIS is a scientifically evaluated and fully referenced data bank, developed and maintained by the National Cancer Institute (NCI). It contains over 9,000 chemical records with carcinogenicity, mutagenicity, tumor promotion, and tumor inhibition test results. Data are derived from studies cited in primary journals, current awareness tools, NCI reports, and other special sources. Test results have been reviewed by experts in carcinogenesis and mutagenesis.",
+		"no_results_response": "No records were found for the search.",
+		"url": "https://toxnet.nlm.nih.gov/cgi-bin/sis/search2/r?dbs+ccris:@term+@rn++@rel+51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/21/toxnet.png"
+		}
+	}, {
+		"name": "ChemView",
+		"description": "Use this database to get information on chemical health and safety data received by EPA and EPA's assessments and regulatory actions for specific chemicals under the Toxic Substances Control Act (TSCA).",
+		"no_results_response": "N/A",
+		"url": "http://chemview.epa.gov/chemview?tf=0&ch=51-28-5&su=2-5-6-7&as=3-10-9-8&ac=1-16-6378999&ma=4-11-1981377&tds=0&tdl=10&tas1=1&tas2=asc&tas3=undefined&tss=&modal=detail&modalId=94117&modalSrc=2-5-6-10-9-4-11-1981377",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/9/epa_logo.png"
+		}
+	}, {
+		"name": "CTD",
+		"description": "Comparative Toxicogenomics Database is a robust, publicly available database that aims to advance understanding about how environmental exposures affect human health.",
+		"no_results_response": "N/A",
+		"url": "http://ctdbase.org/detail.go?type=chem&acc=D019297",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/4/ctdbase.png"
+		}
+	}, {
+		"name": "eChemPortal",
+		"description": "eChemPortal provides free public access to information on properties of chemicals.  Direct links to collections of chemical hazard and risk information prepared for government chemical review programmes at national, regional and international levels are obtained.",
+		"no_results_response": "The search returned no results",
+		"url": "http://www.echemportal.org/echemportal/substancesearch/substancesearch_execute.action?numberType=CAS&number=51-28-5&allParticipants=true",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/8/echemportal.png"
+		}
+	}, {
+		"name": "Gene-Tox",
+		"description": "GENE-TOX provides genetic toxicology (mutagenicity) test data from expert peer review of open scientific literature for more than 3,000 chemicals from the United States Environmental Protection Agency (EPA). GENE-TOX was established to select assay systems for evaluation, review data in the scientific literature, and recommend proper testing protocols and evaluation procedures for these systems. Years covered and Updates: GENE-TOX covers the years 1991 - 1998. It is no longer updated.",
+		"no_results_response": "No records were found for the search.",
+		"url": "https://toxnet.nlm.nih.gov/cgi-bin/sis/search2/r?dbs+genetox:@term+@rn+@rel+51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/21/toxnet.png"
+		}
+	}, {
+		"name": "HSDB",
+		"description": "Hazardous Substances Data Bank is a toxicology database that focuses on the toxicology of potentially hazardous chemicals. It provides information on human exposure, industrial hygiene, emergency handling procedures, environmental fate, regulatory requirements, nanomaterials, and related areas. The information in HSDB has been assessed by a Scientific Review Panel. ",
+		"no_results_response": "No records were found for the search.",
+		"url": "https://toxnet.nlm.nih.gov/cgi-bin/sis/search2/r?dbs+hsdb:@term+@rn+@rel+51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/21/toxnet.png"
+		}
+	}, {
+		"name": "ToxCast Dashboard 2",
+		"description": "ACToR (Aggregated Computational Toxicology Resource) is EPA's online warehouse of all publicly available chemical toxicity data and can be used to find all publicly available data about potential chemical risks to human health and the environment. ACToR aggregates data from over 1,000 public sources on over 500,000 chemicals and is searchable by chemical name and other identifiers.",
+		"no_results_response": "N/A",
+		"url": "http://actor.epa.gov/dashboard2/#chemical/51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/9/epa_logo.png"
+		}
+	}, {
+		"name": "LactMed",
+		"description": "LactMed is a database of drugs and other chemicals to which breastfeeding mothers may be exposed. It includes information on the levels of such substances in breast milk and infant blood, and the possible adverse effects in the nursing infant. Suggested therapeutic alternatives to those drugs are provided, where appropriate. All data are derived from the scientific literature and fully referenced. Data are organized into substance-specific records, which provide a summary of the pertinent reported information and include links to other NLM databases.",
+		"no_results_response": "N/A",
+		"url": "https://www.ncbi.nlm.nih.gov/books/NBK501922/?term=51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/21/toxnet.png"
+		}
+	}, {
+		"name": "International Toxicity Estimates for Risk",
+		"description": "ITER contains data in support of human health risk assessments. It is compiled by Toxicology Excellence for Risk Assessment (TERA) and contains over 650 chemical records with key data from the Agency for Toxic Substances & Disease Registry (ATSDR), Health Canada, National Institute of Public Health & the Environment (RIVM) - The Netherlands, U.S. Environmental Protection Agency (EPA), the International Agency for Research on Cancer (IARC) (in progress), NSF International, and independent parties whose risk values have undergone peer review. ITER provides a comparison of international risk assessment information in a side-by-side format and explains differences in risk values derived by different organizations. ITER data, focusing on hazard identification and dose-response assessment, is extracted from each agency’s assessment and contains links to the source documentation. Among the key data provided in ITER are ATSDR’s minimal risk levels; Health Canada’s tolerable intakes/concentrations and tumorigenic doses/concentrations; EPA’s carcinogen classifications, unit risks, slope factors, oral reference doses, and inhalation reference concentrations; RIVM’s maximum permissible risk levels; NSF International's reference doses and carcinogen risk levels, IARC's cancer classifications, and noncancer and/or cancer risk values (that have undergone peer review) derived by independent parties.",
+		"no_results_response": "No records were found for the search.",
+		"url": "https://iter.ctc.com/publicURL/p_report_view_list.cfm?crn=51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/21/toxnet.png"
+		}
+	}, {
+		"name": "ATSDR Toxic Substances Portal",
+		"description": "The Agency for Toxic Substances and Disease Registry (ATSDR)is a federal public health agency of the U.S. Department of Health and Human Services. This list provides direct access to the ATSDR Toxic Substances Portal.",
+		"no_results_response": "N/A",
+		"url": null,
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/11/generic_link.png"
+		}
+	}, {
+		"name": "Superfund Chemical Data matrix",
+		"description": "The Superfund Chemical Data Matrix (SCDM) generates a list of the corresponding Hazard Ranking System (HRS) factor values, benchmarks, and data elements for a chemical.",
+		"no_results_response": "N/A",
+		"url": null,
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/9/epa_logo.png"
+		}
+	}, {
+		"name": "NIOSH IDLH Values",
+		"description": "The immediately dangerous to life or health (IDLH) values are used by the National Institute for Occupational Safety and Health (NIOSH) as respirator selection criteria.",
+		"no_results_response": "N/A",
+		"url": null,
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/33/CDC.png"
+		}
+	}, {
+		"name": "ACToR PDF Report",
+		"description": "This link will create a report containing ACToR data including synonyms, data collection contents including hazard, production and release etc. ",
+		"no_results_response": "N/A",
+		"url": "https://actorws.epa.gov/actorws/actor/2015q3/chemicalPdfExport.pdf?casrn=51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/9/epa_logo.png"
+		}
+	}, {
+		"name": "Toxics Release Inventory",
+		"description": "In general chemicals covered by the TRI Program are those that cause one or more of the following 1) Cancer or other chronic human health effects; 2) Significant adverse acute human health effects and 3) Significant adverse environmental effects\r\n",
+		"no_results_response": "N/A",
+		"url": null,
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/9/epa_logo.png"
+		}
+	}, {
+		"name": "CREST",
+		"description": "CREST: A database integrating Chemical attributes, Regulatory approaches and Experimental STudies from a mixture toxicology perspective",
+		"no_results_response": "N/A",
+		"url": "http://www.rmeonline.net/CREST/r1/chemical_browser.php?stdinchikey=UFBJCMHMOXMLKC-UHFFFAOYSA-N#datasets",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/50/CREST.png"
+		}
+	}, {
+		"name": "National Air Toxics Assessment",
+		"description": "The National-Scale Air Toxics Assessment (NATA) is EPA's ongoing comprehensive evaluation of air toxics in the United States. EPA developed the NATA as a state-of-the-science screening tool for State/Local/Tribal Agencies to prioritize pollutants, emission sources and locations of interest for further study in order to gain a better understanding of risks. ",
+		"no_results_response": "N/A",
+		"url": "https://www.epa.gov/sites/production/files/2015-12/2_4-dinitrophenol.zip",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/9/epa_logo.png"
+		}
+	}, {
+		"name": "Superfund Chemical Data matrix",
+		"description": "The Superfund Chemical Data Matrix (SCDM) generates a list of the corresponding Hazard Ranking System (HRS) factor values, benchmarks, and data elements for a chemical.",
+		"no_results_response": "N/A",
+		"url": null,
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/9/epa_logo.png"
+		}
+	}, {
+		"name": "ECOTOX",
+		"description": "The ECOTOXicology knowledgebase (ECOTOX) is a comprehensive, publicly available knowledgebase providing single chemical environmental toxicity data on aquatic life, terrestrial plants and wildlife.",
+		"no_results_response": "N/A",
+		"url": "https://cfpub.epa.gov/ecotox/explore.cfm?cas=51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/9/epa_logo.png"
+		}
+	}, {
+		"name": "NIOSH IDLH Values",
+		"description": "The immediately dangerous to life or health (IDLH) values are used by the National Institute for Occupational Safety and Health (NIOSH) as respirator selection criteria.",
+		"no_results_response": "N/A",
+		"url": null,
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/33/CDC.png"
+		}
+	}, {
+		"name": "International Toxicity Estimates for Risk ",
+		"description": "ITER contains data in support of human health risk assessments. It is compiled by Toxicology Excellence for Risk Assessment (TERA) and contains data from CDC/ATSDR, Health Canada, RIVM, U.S. EPA, IARC, NSF International and independent parties offering peer-reviewed risk values. ITER provides comparison charts of international risk assessment information and explains differences in risk values derived by different organizations.",
+		"no_results_response": "N/A",
+		"url": "https://toxnet.nlm.nih.gov/cgi-bin/sis/search2/r?dbs+iter:@term+@rn++@rel+51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/21/toxnet.png"
+		}
+	}, {
+		"name": "ChemView",
+		"description": "Use this database to get information on chemical health and safety data received by EPA and EPA's assessments and regulatory actions for specific chemicals under the Toxic Substances Control Act (TSCA).",
+		"no_results_response": "N/A",
+		"url": "http://chemview.epa.gov/chemview?tf=0&ch=51-28-5&su=2-5-6-7&as=3-10-9-8&ac=1-16-6378999&ma=4-11-1981377&tds=0&tdl=10&tas1=1&tas2=asc&tas3=undefined&tss=&modal=detail&modalId=94117&modalSrc=2-5-6-10-9-4-11-1981377",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/9/epa_logo.png"
+		}
+	}, {
+		"name": "LactMed",
+		"description": "LactMed is a database of drugs and other chemicals to which breastfeeding mothers may be exposed. It includes information on the levels of such substances in breast milk and infant blood, and the possible adverse effects in the nursing infant. Suggested therapeutic alternatives to those drugs are provided, where appropriate. All data are derived from the scientific literature and fully referenced. Data are organized into substance-specific records, which provide a summary of the pertinent reported information and include links to other NLM databases.",
+		"no_results_response": "N/A",
+		"url": "https://www.ncbi.nlm.nih.gov/books/NBK501922/?term=51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/21/toxnet.png"
+		}
+	}, {
+		"name": "Chemical Checker",
+		"description": "The Chemical Checker is a resource of chemical and biological small molecule similarities. Molecules are compared from multiple viewpoints relevant to the drug discovery pipeline, from the chemical properties to the clinical outcomes.",
+		"no_results_response": "N/A",
+		"url": "https://chemicalchecker.org/explore/UFBJCMHMOXMLKC-UHFFFAOYSA-N",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/11/generic_link.png"
+		}
+	}, {
+		"name": "BindingDB",
+		"description": "BindingDB is a public, web-accessible database of measured binding affinities, focusing chiefly on the interactions of protein considered to be drug-targets with small, drug-like molecules",
+		"no_results_response": "N/A",
+		"url": "https://www.bindingdb.org/bind/searchby_smiles.jsp?submit=Search&startPg=0&Increment=15&SearchType=4&smilesStr=OC1=C(C=C(C=C1)[N+]([O-])=O)[N+]([O-])=O",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/11/generic_link.png"
+		}
+	}]
+}, {
+	"label": "Publications",
+	"links": [{
+		"name": "Toxline",
+		"description": "TOXLINE is a bibliographic database with an assortment of citations from specialized journals and other sources. It provides references covering the biochemical, pharmacological, physiological, and toxicological effects of drugs and other chemicals. Most of TOXLINE's bibliographic citations contain abstracts and/or indexing terms and Chemical Abstract Service (CAS) Registry Numbers.",
+		"no_results_response": "No records were found for the search.",
+		"url": "https://toxnet.nlm.nih.gov/cgi-bin/sis/search2/r?dbs+toxline:@term+@rn+51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/21/toxnet.png"
+		}
+	}, {
+		"name": "Environmental Health Perspectives",
+		"description": "Environmental Health Perspectives (ISSN-L 0091-6765) is a monthly peer-reviewed journal of research and news published with support from the National Institute of Environmental Health Sciences (NIEHS), National Institutes of Health, U.S. Department of Health and Human Services. The mission of EHP is to serve as a forum for the discussion of the interrelationships between the environment and human health by publishing high-quality research and news of the field. With an impact factor of 7.98, EHP is ranked 2nd of 87 journals in Toxicology, 3rd of 162 journals in Public, Environmental and Occupational Health, and 4th of 221 journals in Environmental Sciences.",
+		"no_results_response": "Your search did not match any documents",
+		"url": "http://seek.niehs.nih.gov/texis/search/?mode=&opts=&pr=internet-all&dropXSL=html&sq=&prox=page&rorder=750&rprox=750&rdfreq=0&rwfreq=0&rlead=1000&rdepth=31&sufs=1&order=r&query=51-28-5&mu=Environmental+Health+Perspectives",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/18/nih.png"
+		}
+	}, {
+		"name": "NIEHS",
+		"description": "The National Institute of Environmental Health Sciences (NIEHS), located in Research Triangle Park, North Carolina, is one of 27 research institutes and centers that comprise the National Institutes of Health (NIH),  U.S. Department of Health and Human Services (DHHS). The mission of the NIEHS is to discover how the environment affects people in order to promote healthier lives.",
+		"no_results_response": "Your search did not match any documents",
+		"url": "http://seek.niehs.nih.gov/texis/search/?mode=&opts=&pr=internet-all&dropXSL=html&sq=&prox=page&rorder=750&rprox=750&rdfreq=0&rwfreq=0&rlead=1000&rdepth=31&sufs=1&order=r&query=51-28-5&mu=National+Institute+of+Environmental+Health+Sciences",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/18/nih.png"
+		}
+	}, {
+		"name": "National Toxicology Program",
+		"description": "NTP is an interagency program whose mission is to evaluate agents of public health concern by developing and applying tools of modern toxicology and molecular biology. The program maintains an objective, science-based approach in dealing with critical issues in toxicology and is committed to using the best science available to prioritize, design, conduct, and interpret its studies. To that end, NTP is continually evolving to remain at the cutting edge of scientific research and to develop and apply new technologies.",
+		"no_results_response": "Your search did not match any documents",
+		"url": "http://seek.niehs.nih.gov/texis/search/?mode=&opts=&pr=internet-all&dropXSL=html&sq=&prox=page&rorder=750&rprox=750&rdfreq=0&rwfreq=0&rlead=1000&rdepth=31&sufs=1&order=r&query=51-28-5&mu=National+Toxicology+Program",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/18/nih.png"
+		}
+	}, {
+		"name": "Google Books",
+		"description": "Google Books provides searching services specific to books, magazines, articles, and popular publications. Find something interesting and buy the book or borrow from the library with ease.",
+		"no_results_response": "did not match any book results",
+		"url": "https://www.google.com/search?tbm=bks&q=\"\" AND \"2,4-Dinitrophenol\" OR \"Phenol, 2,4-dinitro-\" OR \"2,4-DNP\" OR \"2-Nitro-4-nitrophenol\" OR \"UN 1320 (DOT)\" OR \"UN 1599 (DOT)\" OR \"UN 76\" OR \"EINECS No.: 200-087-7\" OR \"2,4-dinitrofenol\" OR \"Aldifen\" OR \"Dinitrophenol\"",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/12/google.png"
+		}
+	}, {
+		"name": "Google Scholar",
+		"description": "Google Scholar provides a simple way to broadly search for scholarly literature. From one place, you can search across many disciplines and sources: articles, theses, books, abstracts and court opinions, from academic publishers, professional societies, online repositories, universities and other web sites. Google Scholar helps you find relevant work across the world of scholarly research.",
+		"no_results_response": "did not match any articles",
+		"url": "https://scholar.google.com/scholar?hl=en&q=\"\" AND \"2,4-Dinitrophenol\" OR \"Phenol, 2,4-dinitro-\" OR \"2,4-DNP\" OR \"2-Nitro-4-nitrophenol\" OR \"UN 1320 (DOT)\" OR \"UN 1599 (DOT)\" OR \"UN 76\" OR \"EINECS No.: 200-087-7\" OR \"2,4-dinitrofenol\" OR \"Aldifen\" OR \"Dinitrophenol\"",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/12/google.png"
+		}
+	}, {
+		"name": "Google Patents",
+		"description": "Google Patents includes patent applications and grants from the USPTO, EPO, JPO, SIPO, WIPO, DPMA, and CIPO. Patents without English full text are machine-translated to English, so you can search foreign patent documents using only English keywords",
+		"no_results_response": "N/A",
+		"url": "https://patents.google.com/?q=51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/12/google.png"
+		}
+	}, {
+		"name": "PPRTVWEB",
+		"description": "Coming soon!",
+		"no_results_response": "PPRTV does not have a document available.",
+		"url": "https://hhpprtv.ornl.gov/issue_papers/Dinitrophenol24.pdf",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/9/epa_logo.png"
+		}
+	}, {
+		"name": "PubMed",
+		"description": "PubMed comprises more than 25 million citations for biomedical literature from MEDLINE, life science journals, and online books. Citations may include links to full-text content from PubMed Central and publisher web sites.",
+		"no_results_response": "The following term was not found in PubMed",
+		"url": "http://www.ncbi.nlm.nih.gov/pubmed/?term=51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/18/nih.png"
+		}
+	}, {
+		"name": "IRIS Assessments",
+		"description": "EPA’s mission is to protect human health and the environment. EPA’s IRIS Program supports this mission by identifying and characterizing the health hazards of chemicals found in the environment. Each IRIS assessment can cover a chemical, a group of related chemicals, or a complex mixture.",
+		"no_results_response": "N/A",
+		"url": "https://cfpub.epa.gov/ncea/iris2/chemicalLanding.cfm?substance_nmbr=152",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/9/epa_logo.png"
+		}
+	}, {
+		"name": "EPA HERO",
+		"description": "The Health and Environmental Research Online is a database of scientific studies and other references used to develop EPA's risk assessments aimed at understanding the health and environmental effects of pollutants and chemicals. It is developed and managed in EPA's Office of Research and Development (ORD) by the National Center for Environmental Assessment (NCEA).",
+		"no_results_response": "N/A",
+		"url": "https://hero.epa.gov/heronet/index.cfm/project/page/project_id/2013",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/9/epa_logo.png"
+		}
+	}, {
+		"name": "NIOSH Skin Notation Profiles",
+		"description": "The Skin Notation Profile for a chemical will provide information supplemental to the skin notation, including a summary of all relevant data used to aid in determining the hazards associated with skin exposures .",
+		"no_results_response": "N/A",
+		"url": null,
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/33/CDC.png"
+		}
+	}, {
+		"name": "NIOSH Pocket Guide",
+		"description": "The NIOSH Pocket Guide to Chemical Hazards (NPG) informs workers, employers, and occupational health professionals about workplace chemicals and their hazards.",
+		"no_results_response": "N/A",
+		"url": null,
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/33/CDC.png"
+		}
+	}, {
+		"name": "RSC Publications",
+		"description": "With over 54,000 members and an international publishing and knowledge business RSC is the UK’s professional body for chemical scientists.",
+		"no_results_response": "N/A",
+		"url": "http://pubs.rsc.org/en/results?SearchText=51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/37/RSC.png"
+		}
+	}, {
+		"name": "BioCaddie DataMed",
+		"description": "DataMed is a prototype biomedical data search engine. Its goal is to discover data sets across data repositories or data aggregators. In the future it will allow searching outside these boundaries. DataMed supports the NIH-endorsed FAIR principles of Findability, Accessibility, Interoperability and Reusability of datasets with current functionality assisting in finding datasets and providing access information about them.",
+		"no_results_response": "N/A",
+		"url": "https://datamed.org/search.php?query=2,4-Dinitrophenol&searchtype=data",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/32/bio_caddie.png"
+		}
+	}, {
+		"name": "Springer Materials",
+		"description": "Providing access to numerical and graphical data on the properties of materials",
+		"no_results_response": "N/A",
+		"url": "http://materials.springer.com/search?searchTerm=UFBJCMHMOXMLKC-UHFFFAOYSA-N&propertyFacet=",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/30/springer.png"
+		}
+	}, {
+		"name": "Federal Register",
+		"description": "The Office of the Federal Register (OFR) of the National Archives and Records Administration (NARA), and the U.S. Government Printing Office (GPO) jointly administer the FederalRegister.gov website.",
+		"no_results_response": "N/A",
+		"url": "https://www.federalregister.gov/articles/search?conditions%5Bterm%5D=2,4-Dinitrophenol ",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/41/federal_register.png"
+		}
+	}, {
+		"name": "Regulations.gov",
+		"description": "SEARCH for: Rules, Comments, Adjudications or Supporting Documents:",
+		"no_results_response": "N/A",
+		"url": "http://www.regulations.gov/searchResults?rpp=25&po=0&s=2,4-Dinitrophenol&fp=true&ns=true",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/41/federal_register.png"
+		}
+	}, {
+		"name": "Bielefeld Academic Search Engine",
+		"description": "BASE is one of the world's most voluminous search engines especially for academic web resources. BASE provides more than 100 million documents from more than 4,000 sources. You can access the full texts of about 60% of the indexed documents for free (Open Access). BASE is operated by Bielefeld University Library.",
+		"no_results_response": "N/A",
+		"url": "https://www.base-search.net/Search/Results?lookfor=2,4-Dinitrophenol&type=tit&oaboost=1&ling=1&name=&thes=&refid=dcresen&newsearch=1",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/42/Bielfield.png"
+		}
+	}, {
+		"name": "CORE Literature Search",
+		"description": "CORE’s mission is to aggregate all open access research outputs from repositories and journals worldwide and make them available to the public. In this way CORE facilitates free unrestricted access to research for all.",
+		"no_results_response": "N/A",
+		"url": "https://core.ac.uk/search?q=2,4-Dinitrophenol",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/48/CORE.png"
+		}
+	}]
+}, {
+	"label": "Analytical",
+	"links": [{
+		"name": "FOR-IDENT",
+		"description": "Improvement in the identification of organic trace substances: merging of resources and standardization of suspected- and non-target analysis",
+		"no_results_response": "N/A",
+		"url": null,
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/11/generic_link.png"
+		}
+	}, {
+		"name": "NEMI: National Environmental Methods Index",
+		"description": "First launched in 2002, the National Environment Methods Index (NEMI) is a searchable database of environmental methods, protocols, statistical and analytical methods, and procedures that allows scientists and managers to find and compare methods for all stages of the monitoring process. ",
+		"no_results_response": "N/A",
+		"url": "https://www.nemi.gov/methods/analyte_results/?media_name=&source=&instrumentation=&analyte_code=51-28-5&category=",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/17/nemi.png"
+		}
+	}, {
+		"name": "RSC Analytical Abstracts",
+		"description": "Analytical Abstracts is a literature updating service keeping you informed of the latest developments in analytical science. Covering a wide range of literature sources from 1980 to the present day, Analytical Abstracts includes details of the most relevant literature presented as individual records that are easily searchable by analyte, matrix, technique and subject area. ",
+		"no_results_response": "N/A",
+		"url": "http://pubs.rsc.org/en/results?SearchText=51-28-5#Databases",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/37/RSC.png"
+		}
+	}, {
+		"name": "Tox21 Analytical Data",
+		"description": "Toxicology in the 21st Century (Tox21) is a federal collaboration among EPA, NIH, including National Center for Advancing Translational Sciences and the National Toxicology Program at the National Institute of Environmental Health Sciences, and the Food and Drug Administration. Tox21 researchers aim to develop better toxicity assessment methods to quickly and efficiently test whether certain chemical compounds have the potential to disrupt processes in the human body that may lead to negative health effects.",
+		"no_results_response": "N/A",
+		"url": "https://tripod.nih.gov/tox21/samples/51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/38/tox21.png"
+		}
+	}, {
+		"name": "MONA: MassBank North America",
+		"description": "MassBank of America (MoNA) is a metadata-centric, auto-curating repository designed for efficient storage and querying of mass spectral records. It intends to serve as a the framework for a centralized, collaborative database of metabolite mass spectra, metadata and associated compounds. MoNA currently contains over 200,000 mass spectral records from experimental and in-silico libraries as well as from user contributions.",
+		"no_results_response": "N/A",
+		"url": "http://mona.fiehnlab.ucdavis.edu/spectra/browse?inchikey=UFBJCMHMOXMLKC-UHFFFAOYSA-N",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/44/MONA.png"
+		}
+	}, {
+		"name": "mzCloud",
+		"description": "mzCloud is a state of the art mass spectral database that assists analysts in identifying compounds in areas such as life sciences, metabolomics, pharmaceutical research, toxicology, forensic investigations, environmental analysis, food control and various industrial applications.",
+		"no_results_response": "N/A",
+		"url": "https://www.mzcloud.org/compound/Reference/3097",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/16/mzcloud.png"
+		}
+	}, {
+		"name": "NIST IR Spectrum",
+		"description": "The NIST Webbook site provides thermochemical, thermophysical, and ion energetics data compiled by NIST under the Standard Reference Data Program.",
+		"no_results_response": "N/A",
+		"url": "http://webbook.nist.gov/cgi/cbook.cgi?ID=C51-28-5&Type=IR-SPEC&Index=0#IR-SPEC",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/19/nist.png"
+		}
+	}, {
+		"name": "NIST MS Spectrum",
+		"description": "The NIST Webbook site provides thermochemical, thermophysical, and ion energetics data compiled by NIST under the Standard Reference Data Program. ",
+		"no_results_response": "N/A",
+		"url": "http://webbook.nist.gov/cgi/cbook.cgi?ID=C51-28-5&Mask=200#Mass-Spec",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/19/nist.png"
+		}
+	}, {
+		"name": "ECOTOX",
+		"description": "The ECOTOXicology knowledgebase (ECOTOX) is a comprehensive, publicly available knowledgebase providing single chemical environmental toxicity data on aquatic life, terrestrial plants and wildlife.",
+		"no_results_response": "N/A",
+		"url": "https://cfpub.epa.gov/ecotox/explore.cfm?cas=51-28-5",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/9/epa_logo.png"
+		}
+	}, {
+		"name": "MassBank",
+		"description": "European MassBank server. The website is maintained and hosted by the Helmholtz Centre for Environmental Research (Leipzig, Germany)",
+		"no_results_response": "N/A",
+		"url": "https://massbank.eu/MassBank/Result.jsp?inchikey=UFBJCMHMOXMLKC-UHFFFAOYSA-N",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/57/Massbank%20logo.png"
+		}
+	}, {
+		"name": "NEMI: National Environmental Methods Index",
+		"description": "First launched in 2002, the National Environment Methods Index (NEMI) is a searchable database of environmental methods, protocols, statistical and analytical methods, and procedures that allows scientists and managers to find and compare methods for all stages of the monitoring process. ",
+		"no_results_response": "N/A",
+		"url": "https://www.nemi.gov/methods/analyte_results/?media_name=&source=&instrumentation=&analyte_code=51-28-5&category=",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/17/nemi.png"
+		}
+	}, {
+		"name": "NIST Antoine Constants",
+		"description": "NIST Antoine Constants",
+		"no_results_response": "N/A",
+		"url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C51-28-5&Mask=4&Type=ANTOINE&Plot=on#ANTOINE",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/19/nist.png"
+		}
+	}, {
+		"name": "IR Spectra on PubChem",
+		"description": "Infrared spectroscopy (IR spectroscopy) is the spectroscopy that deals with the infrared region of the electromagnetic spectrum. This links to IR spectra that are available on PubChem.",
+		"no_results_response": "N/A",
+		"url": "https://pubchem.ncbi.nlm.nih.gov/compound/1493#section=FTIR-Spectra",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/52/Pubchem.png"
+		}
+	}, {
+		"name": "NIST Kovats Index values",
+		"description": "Kovats Retention Index values as listed on the NIST webbook ",
+		"no_results_response": "N/A",
+		"url": "https://webbook.nist.gov/cgi/cbook.cgi?ID=C51-28-5&Mask=2000#Gas-Chrom",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/19/nist.png"
+		}
+	}, {
+		"name": "Protein DataBank",
+		"description": "Perform a ligand search on the Protein Data Bank  (PDB) Ligand Expo search using the InChIKey to query",
+		"no_results_response": "N/A",
+		"url": "http://ligand-expo.rcsb.org/pyapps/ldHandler.py?formid=cc-index-search&target=UFBJCMHMOXMLKC-UHFFFAOYSA-N&operation=inchikey-substring",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/11/generic_link.png"
+		}
+	}]
+}, {
+	"label": "Prediction",
+	"links": [{
+		"name": "2D NMR HSQC/HMBC Prediction",
+		"description": "2D NMR predictions provided by NMRShiftDB.org",
+		"no_results_response": "N/A",
+		"url": "http://www.nmrdb.org/service.php?name=hmbc-prediction&smiles=OC1=C(C=C(C=C1)[N+]([O-])=O)[N+]([O-])=O",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/43/NMRPredict.png"
+		}
+	}, {
+		"name": "Carbon-13 NMR Prediction",
+		"description": "C13 NMR prediction service provided by NMRShiftDB.org",
+		"no_results_response": "N/A",
+		"url": "http://www.nmrdb.org/service.php?name=nmr-13c-prediction&smiles=OC1=C(C=C(C=C1)[N+]([O-])=O)[N+]([O-])=O",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/43/NMRPredict.png"
+		}
+	}, {
+		"name": "Proton NMR Prediction",
+		"description": "Using the NMDB.org website. 1H NMR prediction was possible thanks to the tool of the FCT-Universidade NOVA de Lisboa developped by Yuri Binev and Joao Aires-de-Sousa. Y. Binev, M.M. Marques, J. Aires-de-Sousa, Prediction of 1H NMR coupling constants with associative neural networks trained for chemical shifts J. Chem. Inf. Model. 2007, 47/(6), 2089-2097.",
+		"no_results_response": "N/A",
+		"url": "http://www.nmrdb.org/service.php?name=nmr-1h-prediction&smiles=OC1=C(C=C(C=C1)[N+]([O-])=O)[N+]([O-])=O",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/43/NMRPredict.png"
+		}
+	}, {
+		"name": "ChemRTP Predictor",
+		"description": "MOL-Instincts is a database containing property data and molecular information of chemical compounds for industrial applications. It is also meant to be used for research and development in the many fields of science and engineering.Our database includes thermodynamic properties, physico-chemical properties, transport properties, quantum-related information, molecular descriptors, drug-related properties, spectra information, optimized 3D structure, and orbital information.",
+		"no_results_response": "N/A",
+		"url": "http://realtime.molinstincts.com/chemical-info.ce?ID=UFBJCMHMOXMLKC-UHFFFAOYSA-N",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/45/ChemRTP.png"
+		}
+	}, {
+		"name": "LSERD",
+		"description": "LSERD is a free online platform, which enables the prediction of partition coefficients based on the linear solvation energy relationship approach.",
+		"no_results_response": "N/A",
+		"url": "http://www.ufz.de/index.php?en=31698&contentonly=1&m=0&lserd_data[mvc]=Public/start&lserd_data[comptox][calculated]=1&lserd_data[comptox][query]=OC1=C(C=C(C=C1)[N+]([O-])=O)[N+]([O-])=O",
+		"icon_url": {
+			"url": "/uploads/uploaded_image/image/55/logo_LSERD_15_pixels.jpg"
+		}
+	}]
+}]

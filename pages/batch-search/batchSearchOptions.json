@@ -1,0 +1,613 @@
+[
+  {
+    "Chemical Identifiers": [
+      {
+        "value": "DTXSID",
+        "label": "DTXSID",
+        "default": {
+          "excel": true,
+          "csv": true,
+          "sdf": true
+        },
+        "enabled": {
+          "excel": true,
+          "csv": true,
+          "sdf": true
+        },
+        "help": "BATCH ChemIdent DTXSID"
+      },
+      {
+        "value": "PREFERRED_NAME",
+        "label": "Chemical Name",
+        "default": {
+          "excel": true,
+          "csv": true,
+          "sdf": true
+        },
+        "enabled": {
+          "excel": true,
+          "csv": true,
+          "sdf": true
+        },
+        "help": "BATCH ChemIdent chemname"
+      },
+      {
+        "value": "DTXCID",
+        "label": "DTXCID",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": true,
+          "sdf": true
+        },
+        "dsstox_compound_id": {
+          "default": {
+            "excel": true,
+            "csv": true,
+            "sdf": true
+          }
+        },
+        "help": "BATCH ChemIdent DTXCID"
+      },
+      {
+        "value": "CASRN",
+        "label": "CAS-RN",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": true,
+          "sdf": true
+        },
+        "ms_ready_formula": {
+          "default": {
+            "excel": true,
+            "csv": true,
+            "sdf": true
+          }
+        },
+        "ms_ready_monoisotopic_mass": {
+          "default": {
+            "excel": true,
+            "csv": true,
+            "sdf": true
+          }
+        },
+        "help": "BATCH ChemIdent casrn"
+      },
+      {
+        "value": "INCHIKEY",
+        "label": "InChIKey",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": true,
+          "sdf": true
+        },
+        "inchikey_skeleton": {
+          "default": {
+            "excel": true,
+            "csv": true,
+            "sdf": true
+          }
+        },
+        "help": "BATCH ChemIdent inchikey"
+      },
+      {
+        "value": "IUPAC_NAME",
+        "label": "IUPAC Name",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": true,
+          "sdf": true
+        },
+        "dsstox_compound_id": {
+          "default": {
+            "excel": true,
+            "csv": true,
+            "sdf": true
+          }
+        },
+        "help": "BATCH ChemIdent iupac"
+      }
+    ],
+    "Structures": [
+      {
+        "value": "MOL_FILE",
+        "label": "Mol File",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": true
+        },
+        "enabled": {
+          "excel": false,
+          "csv": false,
+          "sdf": true
+        },
+        "help": "BATCH Structures molfile"
+      },
+      {
+        "value": "SMILES",
+        "label": "SMILES",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": true,
+          "sdf": true
+        },
+        "help": "BATCH Structures smiles"
+      },
+      {
+        "value": "INCHI_STRING",
+        "label": "InChI String",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": true,
+          "sdf": true
+        },
+        "help": "BATCH Structures inchistring"
+      },
+      {
+        "value": "MS_READY_SMILES",
+        "label": "MS-Ready SMILES",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": true,
+          "sdf": true
+        },
+        "help": "BATCH Structures MS-Ready smiles",
+        "disabled": false
+      },
+      {
+        "value": "QSAR_READY_SMILES",
+        "label": "QSAR-Ready SMILES",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": true,
+          "sdf": true
+        },
+        "help": "BATCH Structures QSAR-Ready smiles",
+        "disabled": false
+      }
+    ],
+    "Intrinsic and Predicted Properties": [
+      {
+        "value": "MOLECULAR_FORMULA",
+        "label": "Molecular Formula",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": true,
+          "sdf": true
+        },
+        "help": "BATCH IntrinsicProp molecularform"
+      },
+      {
+        "value": "AVERAGE_MASS",
+        "label": "Average Mass",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": true,
+          "sdf": true
+        },
+        "help": "BATCH IntrinsicProp averagemass"
+      },
+      {
+        "value": "MONOISOTOPIC_MASS",
+        "label": "Monoisotopic Mass",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": true,
+          "sdf": true
+        },
+        "help": "BATCH IntrinsicProp monoisotopicmass"
+      },
+      {
+        "value": "TEST",
+        "label": "TEST Model Predictions",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": true,
+          "sdf": true
+        },
+        "help": "BATCH IntrinsicProp TESTmodelpred"
+      },
+      {
+        "value": "OPERA",
+        "label": "OPERA Model Predictions",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": true,
+          "sdf": true
+        },
+        "help": "BATCH IntrinsicProp OPERA"
+      },
+      {
+        "value": "TOXPRINTS_CHEMOTYPER",
+        "label": "ToxPrint fingerprints (separate columns)",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": true,
+          "sdf": false
+        },
+        "disableSelectAll": false,
+        "help": "BATCH Enhanced Data Sheets TOXPRINT ChemoTyper format",
+        "disabled": false
+      },
+      {
+        "value": "TOXPRINTS_FINGERPRINT",
+        "label": "ToxPrint fingerprints (tab delimited string)",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": true,
+          "sdf": false
+        },
+        "disableSelectAll": false,
+        "help": "BATCH Enhanced Data Sheets TOXPRINT ChemoTyper format",
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "Metadata": [
+      {
+        "value": "QC_LEVEL",
+        "label": "Curation Level Details",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": true,
+          "sdf": true
+        },
+        "help": "BATCH Metadata curationlevel"
+      },
+      {
+        "value": "SAFETY_DATA",
+        "label": "Safety Data",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": true,
+          "sdf": true
+        },
+        "help": "BATCH Metadata Safety Data"
+      },
+      {
+        "value": "EXPOCAST",
+        "label": "NHANES/Predicted Exposure",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": true,
+          "sdf": true
+        },
+        "help": "BATCH Metadata NHANES"
+      },
+      {
+        "value": "DATA_SOURCES",
+        "label": "Data Sources",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": true,
+          "sdf": true
+        },
+        "help": "BATCH Metadata datasources"
+      },
+      {
+        "value": "TOXVAL_DATA",
+        "label": "Include ToxVal Data Availability",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": true,
+          "sdf": true
+        },
+        "help": "BATCH Metadata TOXVAL"
+      },
+      {
+        "value": "TOXVALCOUNT",
+        "label": "Assay Hit Count",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": true,
+          "sdf": true
+        },
+        "help": "BATCH Metadata assayhit"
+      },
+      {
+        "value": "IRIS_LINK",
+        "label": "IRIS",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": true,
+          "sdf": true
+        },
+        "help": "BATCH Metadata IRIS"
+      },
+      {
+        "value": "PPRTV_LINK",
+        "label": "PPRTV",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": true,
+          "sdf": true
+        },
+        "help": "BATCH Metadata PPRTV"
+      },
+      {
+        "value": "WIKIPEDIA_ARTICLE",
+        "label": "Wikipedia Article",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": true,
+          "sdf": true
+        },
+        "help": "BATCH Metadata Wikipedia Article"
+      },
+      {
+        "value": "QC_NOTES",
+        "label": "QC Notes",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": true,
+          "sdf": true
+        },
+        "help": "BATCH ChemIdent qcnotes"
+      }
+    ],
+    "Enhanced Data Sheets": [
+      {
+        "value": "METFRAG",
+        "label": "MetFrag Input File (Beta)",
+        "disabled": true,
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "ms_ready_formula": {
+          "enabled": {
+            "excel": true,
+            "csv": true,
+            "sdf": true
+          }
+        },
+        "disableSelectAll": true,
+        "help": "BATCH Metadata MetFrag"
+      },
+      {
+        "value": "ABSTRACT_SHIFTER",
+        "label": "Abstract Sifter Input File",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": false,
+          "sdf": false
+        },
+        "disableSelectAll": true,
+        "help": "BATCH Metadata ABSTRACT SIFTER"
+      },
+      {
+        "value": "SYNONYM_IDENTIFIER",
+        "label": "Synonyms and Identifiers",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": false,
+          "sdf": false
+        },
+        "disableSelectAll": true,
+        "help": "BATCH Enhanced Data Sheets Synonym Identifiers"
+      },
+      {
+        "value": "RELATED_RELATIONSHIP",
+        "label": "Related Substance relationships",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": false,
+          "sdf": false
+        },
+        "disableSelectAll": true,
+        "help": "BATCH Enhanced Data Sheets Related Substance relationships"
+      },
+      {
+        "value": "ASSOCIATED_TOXCAST_ASSAYS",
+        "label": "ToxCast Assays: AC50",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": false,
+          "sdf": false
+        },
+        "disableSelectAll": true,
+        "help": "BATCH Enhanced Data Sheets Associated ToxCast Assays"
+      },
+      {
+        "value": "TOXVAL_DETAILS",
+        "label": "ToxValDB Details",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": false,
+          "sdf": false
+        },
+        "disableSelectAll": true,
+        "help": "BATCH Toxval Details"
+      },
+      {
+        "value": "TOXREF_DETAILS",
+        "label": "ToxRefDB Details",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": false,
+          "sdf": false
+        },
+        "disableSelectAll": true,
+        "help": "BATCH Toxref Details"
+      },
+      {
+        "value": "CHEMICAL_PROPERTIES_DETAILS",
+        "label": "Physicochemical Property Values",
+        "default": {
+          "excel": false,
+          "csv": false,
+          "sdf": false
+        },
+        "enabled": {
+          "excel": true,
+          "csv": false,
+          "sdf": false
+        },
+        "disableSelectAll": true,
+        "help": "BATCH Chemical Properties Details"
+      }
+    ]
+  }
+]

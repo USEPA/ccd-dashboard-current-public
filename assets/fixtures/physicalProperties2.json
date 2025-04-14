@@ -1,0 +1,1362 @@
+[
+  {
+    "unit": null,
+    "code": "logkow",
+    "name": "LogKow: Octanol-Water",
+    "predicted": {
+      "rawData": [
+        {
+          "value": 3.64,
+          "min_value": null,
+          "max_value": null,
+          "source": "EPISUITE",
+          "description": "<a href='https://www.epa.gov/tsca-screening-tools/epi-suitetm-estimation-program-interface' target='_blank'>EPISUITE Estimation Programs Interface Suite™</a> is a Windows®-based suite of physical/chemical property and environmental fate estimation programs developed by EPA’s and Syracuse Research Corp.",
+          "model_name": "EPISUITE_LOGP",
+          "model_id": 35,
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 2.39964,
+          "min_value": null,
+          "max_value": null,
+          "source": "NICEATM",
+          "description": "The NICEATM workflow is a program which provides QSAR/QSPR model predictions and assessment of applicability domains. The models are built on curated data from the public domain as described in our publication (<a href='http://pubs.acs.org/doi/abs/10.1021/acs.jcim.6b00625' target='_blank'>http://pubs.acs.org/doi/abs/10.1021/acs.jcim.6b00625</a>). Molecular descriptors were calculated using PaDEL software and a variety of machine learning algorithms were used to model the data. Winning models were chosen based on accuracy against external test sets.",
+          "model_name": "NICEATM_LogP",
+          "model_id": 114,
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": true
+        },
+        {
+          "value": 3.35075,
+          "min_value": null,
+          "max_value": null,
+          "source": "OPERA",
+          "description": "OPERA is a free and open source/open data suite of QSAR Models providing predictions and additional information including applicability domain and accuracy assessment, as described in the publication <a href='http://dx.doi.org/10.1186/s13321-018-0263-1'target='_blank'>OPERA models for predicting physicochemical properties and environmental fate endpoints</a>. All models were built on curated data and standardized chemical structures as described in the publication <a href='http://dx.doi.org/10.1080/1062936X.2016.1253611'target='_blank'>An automated curation procedure for addressing chemical errors and inconsistencies in public datasets used in QSAR modelling</a>. All OPERA properties are predicted under ambient conditions of 760mm of Hg at 25 degrees Celsius.",
+          "model_name": "OPERA_LogP",
+          "model_id": 22,
+          "has_opera": true,
+          "global_applicability": 1,
+          "has_qmrf_pdf": true
+        },
+        {
+          "value": 3.627,
+          "min_value": null,
+          "max_value": null,
+          "source": "ACD/Labs Consensus",
+          "description": "ACD/Labs physicochemical properties are predicted by the <a href='http://www.acdlabs.com/products/percepta/' target='_blank'>ACD/Labs Percepta Platform</a>. ",
+          "model_name": "ACD_LogP_v_LogP_Consensus",
+          "model_id": 136,
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 3.431,
+          "min_value": null,
+          "max_value": null,
+          "source": "ACD/Labs",
+          "description": "ACD/Labs physicochemical properties are predicted by the <a href='http://www.acdlabs.com/products/percepta/' target='_blank'>ACD/Labs Percepta Platform</a>. ",
+          "model_name": "ACD_LogP_v_LogP_Classic",
+          "model_id": 125,
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 3.32044,
+          "min_value": null,
+          "max_value": null,
+          "source": "OPERA2",
+          "description": "OPERA is a free and open source/open data suite of QSAR Models providing predictions and additional information including applicability domain and accuracy assessment, as described in the publication <a href='http://dx.doi.org/10.1186/s13321-018-0263-1'target='_blank'>OPERA models for predicting physicochemical properties and environmental fate endpoints</a>. All models were built on curated data and standardized chemical structures as described in the publication <a href='http://dx.doi.org/10.1080/1062936X.2016.1253611'target='_blank'>An automated curation procedure for addressing chemical errors and inconsistencies in public datasets used in QSAR modelling</a>. All OPERA properties are predicted under ambient conditions of 760mm of Hg at 25 degrees Celsius.",
+          "model_name": "OPERA_LogP2",
+          "model_id": 145,
+          "has_opera": false,
+          "global_applicability": 1,
+          "has_qmrf_pdf": false
+        }
+      ],
+      "count": 6,
+      "mean": 3.294805,
+      "min": 2.39964,
+      "max": 3.64,
+      "range": [2.39964, 3.64],
+      "median": 3.3908750000000003
+    },
+    "experimental": {
+      "rawData": [
+        {
+          "value": 3.32,
+          "min_value": null,
+          "max_value": null,
+          "source": "PhysPropNCCT",
+          "description": "The PHYSPROP data sets are the publicly available data files underpinning the EPISuiteTM prediction models.  The data were curated by NCCT using a combination of manual and automated processing routines with only the highest quality data reported.",
+          "experimental_details": []
+        }
+      ],
+      "count": 1,
+      "mean": 3.32,
+      "min": 3.32,
+      "max": 3.32,
+      "range": [3.32]
+    }
+  },
+  {
+    "unit": "°C",
+    "name": "Melting Point",
+    "predicted": {
+      "rawData": [
+        {
+          "value": 124.909,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_MP",
+          "model_id": 8,
+          "test_report_extension": "DTXCID30182-TEST_MP.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false,
+          "details": "Not Available",
+          "qmrf": "Not Available"
+        },
+        {
+          "value": 131.76,
+          "min_value": null,
+          "max_value": null,
+          "source": "EPISUITE",
+          "description": "<a href='https://www.epa.gov/tsca-screening-tools/epi-suitetm-estimation-program-interface' target='_blank'>EPISUITE Estimation Programs Interface Suite™</a> is a Windows®-based suite of physical/chemical property and environmental fate estimation programs developed by EPA’s and Syracuse Research Corp.",
+          "model_name": "EPISUITE_MP",
+          "model_id": 33,
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 156.574,
+          "min_value": null,
+          "max_value": null,
+          "source": "NICEATM",
+          "description": "The NICEATM workflow is a program which provides QSAR/QSPR model predictions and assessment of applicability domains. The models are built on curated data from the public domain as described in our publication (<a href='http://pubs.acs.org/doi/abs/10.1021/acs.jcim.6b00625' target='_blank'>http://pubs.acs.org/doi/abs/10.1021/acs.jcim.6b00625</a>). Molecular descriptors were calculated using PaDEL software and a variety of machine learning algorithms were used to model the data. Winning models were chosen based on accuracy against external test sets.",
+          "model_name": "NICEATM_MP",
+          "model_id": 116,
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": true
+        },
+        {
+          "value": 124.909,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_MP",
+          "model_id": 8,
+          "test_report_extension": "DTXCID30182-TEST_MP.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 143.846,
+          "min_value": null,
+          "max_value": null,
+          "source": "OPERA",
+          "description": "OPERA is a free and open source/open data suite of QSAR Models providing predictions and additional information including applicability domain and accuracy assessment, as described in the publication <a href='http://dx.doi.org/10.1186/s13321-018-0263-1'target='_blank'>OPERA models for predicting physicochemical properties and environmental fate endpoints</a>. All models were built on curated data and standardized chemical structures as described in the publication <a href='http://dx.doi.org/10.1080/1062936X.2016.1253611'target='_blank'>An automated curation procedure for addressing chemical errors and inconsistencies in public datasets used in QSAR modelling</a>. All OPERA properties are predicted under ambient conditions of 760mm of Hg at 25 degrees Celsius. All OPERA properties are predicted under ambient conditions of 760mm of Hg at 25 degrees Celsius.",
+          "model_name": "OPERA_MP",
+          "model_id": 18,
+          "has_opera": true,
+          "global_applicability": 1,
+          "has_qmrf_pdf": true
+        },
+        {
+          "value": 152.696,
+          "min_value": null,
+          "max_value": null,
+          "source": "OPERA2",
+          "description": "OPERA is a free and open source/open data suite of QSAR Models providing predictions and additional information including applicability domain and accuracy assessment, as described in the publication <a href='http://dx.doi.org/10.1186/s13321-018-0263-1'target='_blank'>OPERA models for predicting physicochemical properties and environmental fate endpoints</a>. All models were built on curated data and standardized chemical structures as described in the publication <a href='http://dx.doi.org/10.1080/1062936X.2016.1253611'target='_blank'>An automated curation procedure for addressing chemical errors and inconsistencies in public datasets used in QSAR modelling</a>. All OPERA properties are predicted under ambient conditions of 760mm of Hg at 25 degrees Celsius. All OPERA properties are predicted under ambient conditions of 760mm of Hg at 25 degrees Celsius.",
+          "model_name": "OPERA_MP2",
+          "model_id": 142,
+          "has_opera": false,
+          "global_applicability": 1,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 126.5,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_MP",
+          "model_id": 8,
+          "test_report_extension": "DTXCID30182-TEST_MP.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 126.5,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_MP",
+          "model_id": 8,
+          "test_report_extension": "DTXCID30182-TEST_MP.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 126.5,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_MP",
+          "model_id": 8,
+          "test_report_extension": "DTXCID30182-TEST_MP.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 126.5,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_MP",
+          "model_id": 8,
+          "test_report_extension": "DTXCID30182-TEST_MP.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        }
+      ],
+      "count": 9,
+      "mean": 135.08722222222224,
+      "min": 124.909,
+      "max": 156.574,
+      "range": [124.909, 156.574],
+      "median": 126.5
+    },
+    "experimental": {
+      "rawData": [
+        {
+          "value": 153,
+          "min_value": null,
+          "max_value": null,
+          "source": "PhysPropNCCT",
+          "description": "The PHYSPROP data sets are the publicly available data files underpinning the EPISuiteTM prediction models.  The data were curated by NCCT using a combination of manual and automated processing routines with only the highest quality data reported.",
+          "experimental_details": []
+        },
+        {
+          "value": 153,
+          "min_value": 153,
+          "max_value": 153,
+          "source": "Jean-Claude Bradley Open Melting Point Dataset",
+          "description": "Jean-Claude Bradley's Legacy Dataset of Open Melting Points. Website: <a href='http://dx.doi.org/10.6084/m9.figshare.1031637' target='_blank'>http://dx.doi.org/10.6084/m9.figshare.1031637</a>",
+          "experimental_details": []
+        },
+        {
+          "value": 156,
+          "min_value": 156,
+          "max_value": 156,
+          "source": "Jean-Claude Bradley Open Melting Point Dataset",
+          "description": "Jean-Claude Bradley's Legacy Dataset of Open Melting Points. Website: <a href='http://dx.doi.org/10.6084/m9.figshare.1031637' target='_blank'>http://dx.doi.org/10.6084/m9.figshare.1031637</a>",
+          "experimental_details": []
+        },
+        {
+          "value": 156,
+          "min_value": 156,
+          "max_value": 156,
+          "source": "Tokyo Chemical Industry (Chemical company)",
+          "description": "Tokyo Chemical Industry Co. Ltd. (TCI) is a manufacturer of research chemicals and produces more than 23,000 mainly organic  chemicals. Company website: <a href=\"http://www.tcichemicals.com/\" target=\"_blank\">http://www.tcichemicals.com/</a>",
+          "experimental_details": []
+        },
+        {
+          "value": 155.5,
+          "min_value": 154,
+          "max_value": 157,
+          "source": "Merck Millipore (Chemical company)",
+          "description": "Merck Millipore Merck Millipore offers tools and technologies to support the research, development and production of biotechnology and pharmaceutical drug therapies.Company website: <a href=\"http://www.merckmillipore.com/\" target=\"_blank\">http://www.merckmillipore.com/</a>",
+          "experimental_details": []
+        },
+        {
+          "value": 155.5,
+          "min_value": 153,
+          "max_value": 158,
+          "source": "Alfa Aesar (Chemical company)",
+          "description": "Alfa Aesar is a leading international manufacturer, supplier and distributor of fine chemicals, metals, and materials. Company website: <a href=\"https://www.alfa.com/\" target=\"_blank\">https://www.alfa.com/</a>",
+          "experimental_details": []
+        },
+        {
+          "value": 155.5,
+          "min_value": 153,
+          "max_value": 158,
+          "source": "Alfa Aesar (Chemical company)",
+          "description": "Alfa Aesar is a leading international manufacturer, supplier and distributor of fine chemicals, metals, and materials. Company website: <a href=\"https://www.alfa.com/\" target=\"_blank\">https://www.alfa.com/</a>",
+          "experimental_details": []
+        }
+      ],
+      "count": 7,
+      "mean": 154.92857142857142,
+      "min": 153,
+      "max": 156,
+      "range": [153, 156],
+      "median": 155.5
+    }
+  },
+  {
+    "unit": "°C",
+    "name": "Boiling Point",
+    "predicted": {
+      "rawData": [
+        {
+          "value": 363.54,
+          "min_value": null,
+          "max_value": null,
+          "source": "EPISUITE",
+          "description": "<a href='https://www.epa.gov/tsca-screening-tools/epi-suitetm-estimation-program-interface' target='_blank'>EPISUITE Estimation Programs Interface Suite™</a> is a Windows®-based suite of physical/chemical property and environmental fate estimation programs developed by EPA’s and Syracuse Research Corp.",
+          "model_name": "EPISUITE_BP",
+          "model_id": 34,
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 349.838,
+          "min_value": null,
+          "max_value": null,
+          "source": "NICEATM",
+          "description": "The NICEATM workflow is a program which provides QSAR/QSPR model predictions and assessment of applicability domains. The models are built on curated data from the public domain as described in our publication (<a href='http://pubs.acs.org/doi/abs/10.1021/acs.jcim.6b00625' target='_blank'>http://pubs.acs.org/doi/abs/10.1021/acs.jcim.6b00625</a>). Molecular descriptors were calculated using PaDEL software and a variety of machine learning algorithms were used to model the data. Winning models were chosen based on accuracy against external test sets.",
+          "model_name": "NICEATM_BP",
+          "model_id": 113,
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": true
+        },
+        {
+          "value": 359.933,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_BP",
+          "model_id": 10,
+          "test_report_extension": "DTXCID30182-TEST_BP.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 343.216,
+          "min_value": null,
+          "max_value": null,
+          "source": "OPERA",
+          "description": "OPERA is a free and open source/open data suite of QSAR Models providing predictions and additional information including applicability domain and accuracy assessment, as described in the publication <a href='http://dx.doi.org/10.1186/s13321-018-0263-1'target='_blank'>OPERA models for predicting physicochemical properties and environmental fate endpoints</a>. All models were built on curated data and standardized chemical structures as described in the publication <a href='http://dx.doi.org/10.1080/1062936X.2016.1253611'target='_blank'>An automated curation procedure for addressing chemical errors and inconsistencies in public datasets used in QSAR modelling</a>. All OPERA properties are predicted under ambient conditions of 760mm of Hg at 25 degrees Celsius.",
+          "model_name": "OPERA_BP",
+          "model_id": 27,
+          "has_opera": true,
+          "global_applicability": 1,
+          "has_qmrf_pdf": true
+        },
+        {
+          "value": 400.837,
+          "min_value": null,
+          "max_value": null,
+          "source": "ACD/Labs",
+          "description": "ACD/Labs physicochemical properties are predicted by the <a href='http://www.acdlabs.com/products/percepta/' target='_blank'>ACD/Labs Percepta Platform</a>. ",
+          "model_name": "ACD_BP",
+          "model_id": 135,
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 343.191,
+          "min_value": null,
+          "max_value": null,
+          "source": "OPERA2",
+          "description": "OPERA is a free and open source/open data suite of QSAR Models providing predictions and additional information including applicability domain and accuracy assessment, as described in the publication <a href='http://dx.doi.org/10.1186/s13321-018-0263-1'target='_blank'>OPERA models for predicting physicochemical properties and environmental fate endpoints</a>. All models were built on curated data and standardized chemical structures as described in the publication <a href='http://dx.doi.org/10.1080/1062936X.2016.1253611'target='_blank'>An automated curation procedure for addressing chemical errors and inconsistencies in public datasets used in QSAR modelling</a>. All OPERA properties are predicted under ambient conditions of 760mm of Hg at 25 degrees Celsius.",
+          "model_name": "OPERA_BP2",
+          "model_id": 150,
+          "has_opera": false,
+          "global_applicability": 1,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 359.9,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_BP",
+          "model_id": 10,
+          "test_report_extension": "DTXCID30182-TEST_BP.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 359.9,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_BP",
+          "model_id": 10,
+          "test_report_extension": "DTXCID30182-TEST_BP.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 359.9,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_BP",
+          "model_id": 10,
+          "test_report_extension": "DTXCID30182-TEST_BP.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 359.9,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_BP",
+          "model_id": 10,
+          "test_report_extension": "DTXCID30182-TEST_BP.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        }
+      ],
+      "count": 10,
+      "mean": 360.01550000000003,
+      "min": 343.191,
+      "max": 400.837,
+      "range": [343.191, 400.837],
+      "median": 359.9
+    },
+    "experimental": {
+      "rawData": [
+        {
+          "value": 200,
+          "min_value": 200,
+          "max_value": 200,
+          "source": "Alfa Aesar (Chemical company)",
+          "description": "Alfa Aesar is a leading international manufacturer, supplier and distributor of fine chemicals, metals, and materials. Company website: <a href=\"https://www.alfa.com/\" target=\"_blank\">https://www.alfa.com/</a>",
+          "experimental_details": []
+        }
+      ],
+      "count": 1,
+      "mean": 200,
+      "min": 200,
+      "max": 200,
+      "range": [200]
+    }
+  },
+  {
+    "unit": "mol/L",
+    "name": "Water Solubility",
+    "predicted": {
+      "rawData": [
+        {
+          "value": 0.000756491,
+          "min_value": null,
+          "max_value": null,
+          "source": "EPISUITE",
+          "description": "<a href='https://www.epa.gov/tsca-screening-tools/epi-suitetm-estimation-program-interface' target='_blank'>EPISUITE Estimation Programs Interface Suite™</a> is a Windows®-based suite of physical/chemical property and environmental fate estimation programs developed by EPA’s and Syracuse Research Corp.",
+          "model_name": "EPISUITE_WS",
+          "model_id": 31,
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 0.00131222,
+          "min_value": null,
+          "max_value": null,
+          "source": "NICEATM",
+          "description": "The NICEATM workflow is a program which provides QSAR/QSPR model predictions and assessment of applicability domains. The models are built on curated data from the public domain as described in our publication (<a href='http://pubs.acs.org/doi/abs/10.1021/acs.jcim.6b00625' target='_blank'>http://pubs.acs.org/doi/abs/10.1021/acs.jcim.6b00625</a>). Molecular descriptors were calculated using PaDEL software and a variety of machine learning algorithms were used to model the data. Winning models were chosen based on accuracy against external test sets.",
+          "model_name": "NICEATM_LogS",
+          "model_id": 115,
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": true
+        },
+        {
+          "value": 0.00124451,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_Water_Solubility",
+          "model_id": 1,
+          "test_report_extension": "DTXCID30182-TEST_Water_Solubility.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 0.000543695,
+          "min_value": null,
+          "max_value": null,
+          "source": "OPERA",
+          "description": "OPERA is a free and open source/open data suite of QSAR Models providing predictions and additional information including applicability domain and accuracy assessment, as described in the publication <a href='http://dx.doi.org/10.1186/s13321-018-0263-1'target='_blank'>OPERA models for predicting physicochemical properties and environmental fate endpoints</a>. All models were built on curated data and standardized chemical structures as described in the publication <a href='http://dx.doi.org/10.1080/1062936X.2016.1253611'target='_blank'>An automated curation procedure for addressing chemical errors and inconsistencies in public datasets used in QSAR modelling</a>. All OPERA properties are predicted under ambient conditions of 760mm of Hg at 25 degrees Celsius.",
+          "model_name": "OPERA_WS",
+          "model_id": 24,
+          "has_opera": true,
+          "global_applicability": 1,
+          "has_qmrf_pdf": true
+        },
+        {
+          "value": 6.764,
+          "min_value": null,
+          "max_value": null,
+          "source": "ACD/Labs",
+          "description": "ACD/Labs physicochemical properties are predicted by the <a href='http://www.acdlabs.com/products/percepta/' target='_blank'>ACD/Labs Percepta Platform</a>. ",
+          "model_name": "ACD_Sol",
+          "model_id": 126,
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 0.000745153,
+          "min_value": null,
+          "max_value": null,
+          "source": "OPERA2",
+          "description": "OPERA is a free and open source/open data suite of QSAR Models providing predictions and additional information including applicability domain and accuracy assessment, as described in the publication <a href='http://dx.doi.org/10.1186/s13321-018-0263-1'target='_blank'>OPERA models for predicting physicochemical properties and environmental fate endpoints</a>. All models were built on curated data and standardized chemical structures as described in the publication <a href='http://dx.doi.org/10.1080/1062936X.2016.1253611'target='_blank'>An automated curation procedure for addressing chemical errors and inconsistencies in public datasets used in QSAR modelling</a>. All OPERA properties are predicted under ambient conditions of 760mm of Hg at 25 degrees Celsius.",
+          "model_name": "OPERA_WS2",
+          "model_id": 147,
+          "has_opera": false,
+          "global_applicability": 1,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 0.00128529,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_Water_Solubility",
+          "model_id": 1,
+          "test_report_extension": "DTXCID30182-TEST_Water_Solubility.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 0.00128529,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_Water_Solubility",
+          "model_id": 1,
+          "test_report_extension": "DTXCID30182-TEST_Water_Solubility.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 0.00128529,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_Water_Solubility",
+          "model_id": 1,
+          "test_report_extension": "DTXCID30182-TEST_Water_Solubility.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 0.00128529,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_Water_Solubility",
+          "model_id": 1,
+          "test_report_extension": "DTXCID30182-TEST_Water_Solubility.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 0.00128529,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_Water_Solubility",
+          "model_id": 1,
+          "test_report_extension": "DTXCID30182-TEST_Water_Solubility.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 0.00128529,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_Water_Solubility",
+          "model_id": 1,
+          "test_report_extension": "DTXCID30182-TEST_Water_Solubility.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        }
+      ],
+      "count": 12,
+      "mean": 0.5646928174166667,
+      "min": 0.000543695,
+      "max": 6.764,
+      "range": [0.000543695, 6.764],
+      "median": 0.00128529
+    },
+    "experimental": {
+      "rawData": [
+        {
+          "value": 0.000525654,
+          "min_value": null,
+          "max_value": null,
+          "source": "PhysPropNCCT",
+          "description": "The PHYSPROP data sets are the publicly available data files underpinning the EPISuiteTM prediction models.  The data were curated by NCCT using a combination of manual and automated processing routines with only the highest quality data reported.",
+          "experimental_details": []
+        },
+        {
+          "value": 0.00151356,
+          "min_value": null,
+          "max_value": null,
+          "source": "Tetko et al. J. Chem. Inf. and Comp. Sci. 41.6 (2001): 1488-1493",
+          "description": "Tetko, Igor V., et al. \"Estimation of aqueous solubility of chemical compounds using E-state indices.\" . <a href='https://pubs.acs.org/doi/10.1021/ci000392t'target='_blank'>J. Chem. Inf. and Comp. Sci. 41.6 (2001): 1488-1493</a>\r\n\r\n\r\n",
+          "experimental_details": []
+        },
+        {
+          "value": 0.000525,
+          "min_value": null,
+          "max_value": null,
+          "source": "Kovdienko, et. al. Molecular informatics 29.5 (2010): 394-406.",
+          "description": "Kovdienko, Nikolay A., et al. \"Application of random forest and multiple linear regression techniques to QSPR prediction of an aqueous solubility for military compounds.\" <a href='https://onlinelibrary.wiley.com/doi/full/10.1002/minf.201000001'target='_blank'>Molecular informatics 29.5 (2010): 394-406. </a>",
+          "experimental_details": []
+        }
+      ],
+      "count": 3,
+      "mean": 0.0008547379999999999,
+      "min": 0.000525,
+      "max": 0.00151356,
+      "range": [0.000525, 0.00151356],
+      "median": 0.000525654
+    }
+  },
+  {
+    "unit": "mmHg",
+    "name": "Vapor Pressure",
+    "predicted": {
+      "rawData": [
+        {
+          "value": 1.51382e-7,
+          "min_value": null,
+          "max_value": null,
+          "source": "NICEATM",
+          "description": "The NICEATM workflow is a program which provides QSAR/QSPR model predictions and assessment of applicability domains. The models are built on curated data from the public domain as described in our publication (<a href='http://pubs.acs.org/doi/abs/10.1021/acs.jcim.6b00625' target='_blank'>http://pubs.acs.org/doi/abs/10.1021/acs.jcim.6b00625</a>). Molecular descriptors were calculated using PaDEL software and a variety of machine learning algorithms were used to model the data. Winning models were chosen based on accuracy against external test sets.",
+          "model_name": "NICEATM_VP",
+          "model_id": 117,
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": true
+        },
+        {
+          "value": 0.00000259418,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_VP",
+          "model_id": 15,
+          "test_report_extension": "DTXCID30182-TEST_VP.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 6.82763e-8,
+          "min_value": null,
+          "max_value": null,
+          "source": "OPERA",
+          "description": "OPERA is a free and open source/open data suite of QSAR Models providing predictions and additional information including applicability domain and accuracy assessment, as described in the publication <a href='http://dx.doi.org/10.1186/s13321-018-0263-1'target='_blank'>OPERA models for predicting physicochemical properties and environmental fate endpoints</a>. All models were built on curated data and standardized chemical structures as described in the publication <a href='http://dx.doi.org/10.1080/1062936X.2016.1253611'target='_blank'>An automated curation procedure for addressing chemical errors and inconsistencies in public datasets used in QSAR modelling</a>. All OPERA properties are predicted under ambient conditions of 760mm of Hg at 25 degrees Celsius.",
+          "model_name": "OPERA_VP",
+          "model_id": 30,
+          "has_opera": true,
+          "global_applicability": 1,
+          "has_qmrf_pdf": true
+        },
+        {
+          "value": 5.34e-7,
+          "min_value": null,
+          "max_value": null,
+          "source": "ACD/Labs",
+          "description": "ACD/Labs physicochemical properties are predicted by the <a href='http://www.acdlabs.com/products/percepta/' target='_blank'>ACD/Labs Percepta Platform</a>. ",
+          "model_name": "ACD_VP",
+          "model_id": 124,
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 6.77917e-8,
+          "min_value": null,
+          "max_value": null,
+          "source": "OPERA2",
+          "description": "OPERA is a free and open source/open data suite of QSAR Models providing predictions and additional information including applicability domain and accuracy assessment, as described in the publication <a href='http://dx.doi.org/10.1186/s13321-018-0263-1'target='_blank'>OPERA models for predicting physicochemical properties and environmental fate endpoints</a>. All models were built on curated data and standardized chemical structures as described in the publication <a href='http://dx.doi.org/10.1080/1062936X.2016.1253611'target='_blank'>An automated curation procedure for addressing chemical errors and inconsistencies in public datasets used in QSAR modelling</a>. All OPERA properties are predicted under ambient conditions of 760mm of Hg at 25 degrees Celsius.",
+          "model_name": "OPERA_VP2",
+          "model_id": 153,
+          "has_opera": false,
+          "global_applicability": 1,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 0.000002593,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_VP",
+          "model_id": 15,
+          "test_report_extension": "DTXCID30182-TEST_VP.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 0.000002593,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_VP",
+          "model_id": 15,
+          "test_report_extension": "DTXCID30182-TEST_VP.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 0.000002593,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_VP",
+          "model_id": 15,
+          "test_report_extension": "DTXCID30182-TEST_VP.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 0.000002593,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_VP",
+          "model_id": 15,
+          "test_report_extension": "DTXCID30182-TEST_VP.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        }
+      ],
+      "count": 9,
+      "mean": 0.000001531958888888889,
+      "min": 6.77917e-8,
+      "max": 0.00000259418,
+      "range": [6.77917e-8, 0.00000259418],
+      "median": 0.000002593
+    }
+  },
+  {
+    "unit": "°C",
+    "name": "Flash Point",
+    "predicted": {
+      "rawData": [
+        {
+          "value": 188.141,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_FP",
+          "model_id": 7,
+          "test_report_extension": "DTXCID30182-TEST_FP.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 192.423,
+          "min_value": null,
+          "max_value": null,
+          "source": "ACD/Labs",
+          "description": "ACD/Labs physicochemical properties are predicted by the <a href='http://www.acdlabs.com/products/percepta/' target='_blank'>ACD/Labs Percepta Platform</a>. ",
+          "model_name": "ACD_FP",
+          "model_id": 134,
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 191.9,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_FP",
+          "model_id": 7,
+          "test_report_extension": "DTXCID30182-TEST_FP.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 191.9,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_FP",
+          "model_id": 7,
+          "test_report_extension": "DTXCID30182-TEST_FP.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 191.9,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_FP",
+          "model_id": 7,
+          "test_report_extension": "DTXCID30182-TEST_FP.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 191.9,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_FP",
+          "model_id": 7,
+          "test_report_extension": "DTXCID30182-TEST_FP.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        }
+      ],
+      "count": 6,
+      "mean": 191.36066666666667,
+      "min": 188.141,
+      "max": 192.423,
+      "range": [188.141, 192.423],
+      "median": 191.9
+    }
+  },
+  {
+    "unit": "mW/(m*K)",
+    "name": "Thermal Conductivity",
+    "predicted": {
+      "rawData": [
+        {
+          "value": 150.389,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_Thermal_Conductivity",
+          "model_id": 14,
+          "test_report_extension": "DTXCID30182-TEST_Thermal_Conductivity.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 150.389,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_Thermal_Conductivity",
+          "model_id": 14,
+          "test_report_extension": "DTXCID30182-TEST_Thermal_Conductivity.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 150.389,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_Thermal_Conductivity",
+          "model_id": 14,
+          "test_report_extension": "DTXCID30182-TEST_Thermal_Conductivity.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 150.389,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_Thermal_Conductivity",
+          "model_id": 14,
+          "test_report_extension": "DTXCID30182-TEST_Thermal_Conductivity.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 150.389,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_Thermal_Conductivity",
+          "model_id": 14,
+          "test_report_extension": "DTXCID30182-TEST_Thermal_Conductivity.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        }
+      ],
+      "count": 5,
+      "mean": 150.389,
+      "min": 150.389,
+      "max": 150.389,
+      "range": [150.389],
+      "median": 150.389
+    }
+  },
+  {
+    "unit": "g/cm^3",
+    "name": "Density",
+    "predicted": {
+      "rawData": [
+        {
+          "value": 1.195,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_Density",
+          "model_id": 4,
+          "test_report_extension": "DTXCID30182-TEST_Density.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 1.144,
+          "min_value": null,
+          "max_value": null,
+          "source": "ACD/Labs",
+          "description": "ACD/Labs physicochemical properties are predicted by the <a href='http://www.acdlabs.com/products/percepta/' target='_blank'>ACD/Labs Percepta Platform</a>. ",
+          "model_name": "ACD_Prop_Density",
+          "model_id": 118,
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 1.189,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_Density",
+          "model_id": 4,
+          "test_report_extension": "DTXCID30182-TEST_Density.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 1.189,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_Density",
+          "model_id": 4,
+          "test_report_extension": "DTXCID30182-TEST_Density.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 1.189,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_Density",
+          "model_id": 4,
+          "test_report_extension": "DTXCID30182-TEST_Density.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 1.189,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_Density",
+          "model_id": 4,
+          "test_report_extension": "DTXCID30182-TEST_Density.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        }
+      ],
+      "count": 6,
+      "mean": 1.1825,
+      "min": 1.144,
+      "max": 1.195,
+      "range": [1.144, 1.195],
+      "median": 1.189
+    }
+  },
+  {
+    "unit": "cP",
+    "name": "Viscosity",
+    "predicted": {
+      "rawData": [
+        {
+          "value": 9.66051,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_Viscosity",
+          "model_id": 16,
+          "test_report_extension": "DTXCID30182-TEST_Viscosity.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 9.669,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_Viscosity",
+          "model_id": 16,
+          "test_report_extension": "DTXCID30182-TEST_Viscosity.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 9.669,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_Viscosity",
+          "model_id": 16,
+          "test_report_extension": "DTXCID30182-TEST_Viscosity.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 9.669,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_Viscosity",
+          "model_id": 16,
+          "test_report_extension": "DTXCID30182-TEST_Viscosity.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        },
+        {
+          "value": 9.669,
+          "min_value": null,
+          "max_value": null,
+          "source": "TEST",
+          "description": "The <a href='https://www.epa.gov/chemical-research/toxicity-estimation-software-tool-test' target='_blank'>Toxicity Estimation Software Tool (TEST)</a> is an EPA software application developed to allow users to easily estimate the toxicity of chemicals using Quantitative Structure Activity Relationships (QSARs) methodologies.",
+          "model_name": "TEST_Viscosity",
+          "model_id": 16,
+          "test_report_extension": "DTXCID30182-TEST_Viscosity.html",
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        }
+      ],
+      "count": 5,
+      "mean": 9.667302000000001,
+      "min": 9.66051,
+      "max": 9.669,
+      "range": [9.66051, 9.669],
+      "median": 9.669
+    }
+  },
+  {
+    "unit": "atm-m3/mole",
+    "name": "Henry's Law",
+    "predicted": {
+      "rawData": [
+        {
+          "value": 1.25713e-7,
+          "min_value": null,
+          "max_value": null,
+          "source": "OPERA",
+          "description": "OPERA is a free and open source/open data suite of QSAR Models providing predictions and additional information including applicability domain and accuracy assessment, as described in the publication <a href='http://dx.doi.org/10.1186/s13321-018-0263-1'target='_blank'>OPERA models for predicting physicochemical properties and environmental fate endpoints</a>. All models were built on curated data and standardized chemical structures as described in the publication <a href='http://dx.doi.org/10.1080/1062936X.2016.1253611'target='_blank'>An automated curation procedure for addressing chemical errors and inconsistencies in public datasets used in QSAR modelling</a>. All OPERA properties are predicted under ambient conditions of 760mm of Hg at 25 degrees Celsius.",
+          "model_name": "OPERA_HL",
+          "model_id": 19,
+          "has_opera": true,
+          "global_applicability": 1,
+          "has_qmrf_pdf": true
+        },
+        {
+          "value": 1.25155e-7,
+          "min_value": null,
+          "max_value": null,
+          "source": "OPERA2",
+          "description": "OPERA is a free and open source/open data suite of QSAR Models providing predictions and additional information including applicability domain and accuracy assessment, as described in the publication <a href='http://dx.doi.org/10.1186/s13321-018-0263-1'target='_blank'>OPERA models for predicting physicochemical properties and environmental fate endpoints</a>. All models were built on curated data and standardized chemical structures as described in the publication <a href='http://dx.doi.org/10.1080/1062936X.2016.1253611'target='_blank'>An automated curation procedure for addressing chemical errors and inconsistencies in public datasets used in QSAR modelling</a>. All OPERA properties are predicted under ambient conditions of 760mm of Hg at 25 degrees Celsius.",
+          "model_name": "OPERA_HL2",
+          "model_id": 143,
+          "has_opera": false,
+          "global_applicability": 1,
+          "has_qmrf_pdf": false
+        }
+      ],
+      "count": 2,
+      "mean": 1.25434e-7,
+      "min": 1.25155e-7,
+      "max": 1.25713e-7,
+      "range": [1.25155e-7, 1.25713e-7],
+      "median": 1.25434e-7
+    }
+  },
+  {
+    "unit": null,
+    "name": "LogKoa: Octanol-Air",
+    "predicted": {
+      "rawData": [
+        {
+          "value": 8.38007,
+          "min_value": null,
+          "max_value": null,
+          "source": "OPERA",
+          "description": "OPERA is a free and open source/open data suite of QSAR Models providing predictions and additional information including applicability domain and accuracy assessment, as described in the publication <a href='http://dx.doi.org/10.1186/s13321-018-0263-1'target='_blank'>OPERA models for predicting physicochemical properties and environmental fate endpoints</a>. All models were built on curated data and standardized chemical structures as described in the publication <a href='http://dx.doi.org/10.1080/1062936X.2016.1253611'target='_blank'>An automated curation procedure for addressing chemical errors and inconsistencies in public datasets used in QSAR modelling</a>. All OPERA properties are predicted under ambient conditions of 760mm of Hg at 25 degrees Celsius.",
+          "model_name": "OPERA_KOA",
+          "model_id": 26,
+          "has_opera": true,
+          "global_applicability": 0,
+          "has_qmrf_pdf": true
+        },
+        {
+          "value": 8.38031,
+          "min_value": null,
+          "max_value": null,
+          "source": "OPERA2",
+          "description": "OPERA is a free and open source/open data suite of QSAR Models providing predictions and additional information including applicability domain and accuracy assessment, as described in the publication <a href='http://dx.doi.org/10.1186/s13321-018-0263-1'target='_blank'>OPERA models for predicting physicochemical properties and environmental fate endpoints</a>. All models were built on curated data and standardized chemical structures as described in the publication <a href='http://dx.doi.org/10.1080/1062936X.2016.1253611'target='_blank'>An automated curation procedure for addressing chemical errors and inconsistencies in public datasets used in QSAR modelling</a>. All OPERA properties are predicted under ambient conditions of 760mm of Hg at 25 degrees Celsius.",
+          "model_name": "OPERA_KOA2",
+          "model_id": 149,
+          "has_opera": false,
+          "global_applicability": 0,
+          "has_qmrf_pdf": false
+        }
+      ],
+      "count": 2,
+      "mean": 8.380189999999999,
+      "min": 8.38007,
+      "max": 8.38031,
+      "range": [8.38007, 8.38031],
+      "median": 8.380189999999999
+    }
+  },
+  {
+    "unit": "dyn/cm",
+    "name": "Surface Tension",
+    "predicted": {
+      "rawData": [
+        {
+          "value": 46.024,
+          "min_value": null,
+          "max_value": null,
+          "source": "ACD/Labs",
+          "description": "ACD/Labs physicochemical properties are predicted by the <a href='http://www.acdlabs.com/products/percepta/' target='_blank'>ACD/Labs Percepta Platform</a>. ",
+          "model_name": "ACD_Prop_Surface_Tension",
+          "model_id": 123,
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        }
+      ],
+      "count": 1,
+      "mean": 46.024,
+      "min": 46.024,
+      "max": 46.024,
+      "range": [46.024]
+    }
+  },
+  {
+    "unit": null,
+    "name": "Index of Refraction",
+    "predicted": {
+      "rawData": [
+        {
+          "value": 1.599,
+          "min_value": null,
+          "max_value": null,
+          "source": "ACD/Labs",
+          "description": "ACD/Labs physicochemical properties are predicted by the <a href='http://www.acdlabs.com/products/percepta/' target='_blank'>ACD/Labs Percepta Platform</a>. ",
+          "model_name": "ACD_Prop_Index_Of_Refraction",
+          "model_id": 119,
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        }
+      ],
+      "count": 1,
+      "mean": 1.599,
+      "min": 1.599,
+      "max": 1.599,
+      "range": [1.599]
+    }
+  },
+  {
+    "unit": "cm^3",
+    "name": "Molar Refractivity",
+    "predicted": {
+      "rawData": [
+        {
+          "value": 68.168,
+          "min_value": null,
+          "max_value": null,
+          "source": "ACD/Labs",
+          "description": "ACD/Labs physicochemical properties are predicted by the <a href='http://www.acdlabs.com/products/percepta/' target='_blank'>ACD/Labs Percepta Platform</a>. ",
+          "model_name": "ACD_Prop_Molar_Refractivity",
+          "model_id": 121,
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        }
+      ],
+      "count": 1,
+      "mean": 68.168,
+      "min": 68.168,
+      "max": 68.168,
+      "range": [68.168]
+    }
+  },
+  {
+    "unit": "Å^3",
+    "name": "Polarizability",
+    "predicted": {
+      "rawData": [
+        {
+          "value": 27.024,
+          "min_value": null,
+          "max_value": null,
+          "source": "ACD/Labs",
+          "description": "ACD/Labs physicochemical properties are predicted by the <a href='http://www.acdlabs.com/products/percepta/' target='_blank'>ACD/Labs Percepta Platform</a>. ",
+          "model_name": "ACD_Prop_Polarizability",
+          "model_id": 122,
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        }
+      ],
+      "count": 1,
+      "mean": 27.024,
+      "min": 27.024,
+      "max": 27.024,
+      "range": [27.024]
+    }
+  },
+  {
+    "unit": "cm^3",
+    "name": "Molar Volume",
+    "predicted": {
+      "rawData": [
+        {
+          "value": 199.565,
+          "min_value": null,
+          "max_value": null,
+          "source": "ACD/Labs",
+          "description": "ACD/Labs physicochemical properties are predicted by the <a href='http://www.acdlabs.com/products/percepta/' target='_blank'>ACD/Labs Percepta Platform</a>. ",
+          "model_name": "ACD_Prop_Molar_Volume",
+          "model_id": 120,
+          "has_opera": false,
+          "global_applicability": null,
+          "has_qmrf_pdf": false
+        }
+      ],
+      "count": 1,
+      "mean": 199.565,
+      "min": 199.565,
+      "max": 199.565,
+      "range": [199.565]
+    }
+  },
+  {
+    "unit": null,
+    "name": "pKa Acidic Apparent",
+    "predicted": {
+      "rawData": [
+        {
+          "value": 9.46122,
+          "min_value": null,
+          "max_value": null,
+          "source": "OPERA2",
+          "description": "OPERA is a free and open source/open data suite of QSAR Models providing predictions and additional information including applicability domain and accuracy assessment, as described in the publication <a href='http://dx.doi.org/10.1186/s13321-018-0263-1'target='_blank'>OPERA models for predicting physicochemical properties and environmental fate endpoints</a>. All models were built on curated data and standardized chemical structures as described in the publication <a href='http://dx.doi.org/10.1080/1062936X.2016.1253611'target='_blank'>An automated curation procedure for addressing chemical errors and inconsistencies in public datasets used in QSAR modelling</a>. All OPERA properties are predicted under ambient conditions of 760mm of Hg at 25 degrees Celsius.",
+          "model_name": "OPERA_PKAA",
+          "model_id": 154,
+          "has_opera": false,
+          "global_applicability": 1,
+          "has_qmrf_pdf": false
+        }
+      ],
+      "count": 1,
+      "mean": 9.46122,
+      "min": 9.46122,
+      "max": 9.46122,
+      "range": [9.46122]
+    }
+  }
+]

@@ -1,0 +1,32 @@
+stages:
+  - build
+  - image-scan
+
+Build Container:
+  stage: build
+  tags:
+    - devsecops-instance
+  image:
+    name: gcr.io/kaniko-project/executor:debug
+    entrypoint: [""]
+  script:
+    - mkdir -p /kaniko/.docker
+    - echo "{\"auths\":{\"$CI_REGISTRY\":{\"username\":\"$CI_REGISTRY_USER\",\"password\":\"$CI_REGISTRY_PASSWORD\"}}}" > /kaniko/.docker/config.json
+    - /kaniko/executor --context $CI_PROJECT_DIR --dockerfile $CI_PROJECT_DIR/Dockerfile --destination $CI_REGISTRY_IMAGE:$CI_COMMIT_SHORT_SHA
+
+prisma:
+  stage: image-scan
+  tags:
+    - twistcli
+  variables:
+    IMAGE_TAG: $CI_REGISTRY_IMAGE:latest
+    GIT_STRATEGY: none
+  script:
+    - 'export PRISMA_CI_TOKEN=$(curl -kH "Content-Type: application/json" -d "{\"username\":\"$PRISMA_CI_USERNAME\", \"password\":\"$PRISMA_CI_PASSWORD\"}" https://prismacloud.epa.gov/api/v32.01/authenticate | jq -r .token)'
+    - 'curl --progress-bar -L -k --header "Authorization: Bearer $PRISMA_CI_TOKEN" https://prismacloud.epa.gov/api/v1/util/twistcli > twistcli; chmod a+x twistcli;'
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker pull $IMAGE_TAG
+    - ./twistcli images scan --address=https://prismacloud.epa.gov --details --token=$PRISMA_CI_TOKEN $IMAGE_TAG
+  after_script:
+    # Cleanup the above space use on Runner.
+    - rm -rf $CI_PROJECT_DIR

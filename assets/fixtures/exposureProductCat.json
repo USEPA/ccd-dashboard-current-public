@@ -1,0 +1,21 @@
+{
+  "dtxsid": "DTXSID9022528", 
+  "data":[ 
+    {
+    "displayPuc": "Inside the home: cleaning products: floor cleaner",
+    "genenralCategory": "Not Yet Categorized",
+    "productType": "",
+    "productFamily": "",
+    "pucDescription": "Not yet Categorized",
+    "categorizationSubtype":"PUC",
+    "productCount": 22
+  }, {
+    "displayPuc": "Personal care products: make-up and related: lip gloss",
+    "genenralCategory": "make-up and related",
+    "productType": "lip gloss ",
+    "productFamily": "",
+    "pucDescription": "gloss lib products",
+    "categorizationSubtype":"PUC",
+    "productCount": 10
+  }]
+}
