@@ -49,7 +49,7 @@ $ yarn generate
 For detailed Architecture Decision records pertaining to this application, checkout [Architecture Knowledge Management / UI-Components](https://ncct-bitbucket.epa.gov/projects/AKM/repos/ui-components/browse).
 
 # trigger tests in a separate repository ccd-cypress using slash command and pass the results back in ccd-dashboard-ui.
-
+```
 # Disclaimer:
 The United States Environmental Protection Agency (EPA) GitHub project code is provided on an "as is" basis and the user assumes responsibility for its use.
 EPA has relinquished control of the information and no longer has responsibility to protect the integrity, confidentiality, or availability of the information.
